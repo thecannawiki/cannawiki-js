@@ -31,7 +31,7 @@ const App = () => {
 
   const markdownPaneStyle = {
     marginLeft: menuopen? "300px": "60px",
-    maxWidth: "1000px"
+    maxWidth: isPortrait ?"100%" : "1000px" 
   }
 
   return (

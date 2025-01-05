@@ -16,10 +16,8 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
     }
 
  
-
     const [files, setFiles] = useState<fileList[]>([]);
   
-
     
 
     useEffect(() => {
@@ -40,7 +38,7 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         top: 0,
         left: 0,
         lineHeight: 1.6,
-        height: "100vh",
+        height: "98vh",
         width: isMenuOpen ? "280px" : "0px",
         // overflowY: "scroll",
         display: "flex",
