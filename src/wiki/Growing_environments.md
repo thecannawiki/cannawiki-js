@@ -29,9 +29,9 @@ To increase Co<sub>2</sub> concentration to a high level in the grow environment
 
 ## Example indoor environments ##
 
-###Tents###
+### Tents###
 
-###Cabinet###
+### Cabinet###
 
 ###Spacebucket###
 An ultra simplistic design often utilizing plastic buckets.

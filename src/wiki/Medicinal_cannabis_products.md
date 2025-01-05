@@ -7,16 +7,16 @@ The most simple form of Cannabis. Buds are harvested from a mature plant and the
 
 ## Extracts ##
 
-###Vapourisable extract###
+### Vapourisable extract###
 
-###Rosin###
+### Rosin###
 ### Cannabis oil###
 ### Rick simpson oil (RSO)###
-###Hash###
+### Hash###
 
-###Pure crystal###
+### Pure crystal###
 
-##Edibles##
+## Edibles##
 
 ### Cannabutter ###
 ### Cannamilk ###

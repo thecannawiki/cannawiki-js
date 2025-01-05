@@ -3,7 +3,7 @@ There are many diseases and other ailments that can affect cannabis plants. Most
 ## Mold & fungus ##
 Along with providing an environment conducive to transpiration, mold is another key reason humidity must be kept within reasonable limits. If foliage becomes too dense mold and fungus can spread on the plant while it is still growing. After harvesting and trimming, buds must be kept in a good environment to prevent mold growth.
 
-###Root rot###
+### Root rot###
 If roots are exposed to too high humidity they can begin to rot and become damaged. This can ultimately kill a plant.
 
 ### Powdery mildew ###

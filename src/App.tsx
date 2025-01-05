@@ -1,46 +1,58 @@
-
 import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-dom";
 import MarkdownLoader from "./components/MarkdownLoader"
 import Navmenu from "./Navmenu"
+import { useOrientation } from "./providers/OrientationProvider";
+import { useState } from "react";
 
 
-const mainContentStyle = {
-  marginLeft:"300px",
-  maxWidth: "50%"
-}
 
 
-const WikiPage = () => {
-  const { page } = useParams();
-  const filePath = `./wiki/${page || "Main_Page"}.md`;
-  return( 
-    <div style={mainContentStyle}>
-      <h1>{page?.replaceAll("_", " ")}</h1>
-      <MarkdownLoader filePath={filePath} />
-    </div>
-  );
-};
+
 
 const App = () => {
 
+  const WikiPage = () => {
+    const { page } = useParams();
+    const page_name = page?.replaceAll("/wiki/index.php","")
+    console.log(page_name)
+    const filePath = `/wiki/${page_name || "Main_Page"}.md`;
+    return( 
+      <div style={markdownPaneStyle}>
+        <h1>{page_name?.replaceAll("_", " ")}</h1>
+        <MarkdownLoader filePath={filePath} />
+      </div>
+    );
+  };
+
+  const isPortrait = useOrientation();
+
+  const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait);
 
 
-
-
-
-
+  const markdownPaneStyle = {
+    marginLeft: menuopen? "300px": "60px",
+    maxWidth: "1000px"
+  }
 
   return (
-    <Router>
-      <nav>
-        <Navmenu />
+    
+      <Router>
         
-      </nav>
-      <Routes>
-        <Route path="/" element={<WikiPage />} />
-        <Route path="/:page" element={<WikiPage />} />
-      </Routes>
-    </Router>
+        <div style={{display:"flex"}}>
+          <nav>
+            <Navmenu isMenuOpen={menuopen} setMenuOpen={setMenuOpen} />  
+          </nav>
+
+
+          <Routes>
+            <Route path="/" element={<WikiPage />} />
+            <Route path="/:page" element={<WikiPage />} />
+            <Route path="/wiki/index.php/:page" element={<WikiPage />} />
+          </Routes>
+        </div>
+
+      </Router>
+
   );
 };
 

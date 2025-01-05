@@ -1,7 +1,7 @@
 A lot of beginners struggle with under/overwatering, and to add to the confusion, in both cases the plant will wilt. Plants should be watered until there is some drainage from the pot to remove old salts (nutrients) and stagnant air from the soil and ensure the plant is sufficiently watered. Consider using a plant pot saucer or drip tray to easily collect the drained water. Fabric pots provide the best drainage as the fabric is very porous.
 
 
-##Under/over watering symptoms##
+## Under/over watering symptoms##
 Under-watering causes leaves to wilt due to a loss in rigidity as there is low moisture content. They will feel very thin as a result. Over-watering causes leaves to wilt due to the weight of excess moisture content. Feeling the texture, thickness, weight, and flexibility of the [[Anatomy of Cannabis#Petiole|petiole]] will help you determine if the plant is over or under watered. An under-watered plant will display a complete lack of rigidity in the petiole.
 <div align#'center'><ul> 
 <li style#"display: inline-block;"> [[File:Over-watered.jpg|thumb|none|300px|alt#|Over watered plant]] </li>
@@ -23,7 +23,7 @@ Some growers don't have access to pure water and use water filtered by reverse o
 
 ISBN 13: 9781937866358</ref>. This technique of filtering removes almost all contaminants and other particles larger than 0.001 microns. In other words, this removes almost all nutrients from the water. RO water can be purchased or created using specialist hardware.
 
-##Wet-Dry Cycle ##
+## Wet-Dry Cycle ##
 When growing in soil, the soil should be left to dry before watering. Allowing the soil to dry encourages roots to grow as they search for water and also reduces the chance of [[Diseases|root rot]].
 ## Water stakes ##
 [[File:WaterStake.jpg|thumb|282x282px]]

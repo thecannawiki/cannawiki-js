@@ -12,6 +12,8 @@ New to growing [Start Here](/Growing_101)
 <br>
 <span style#"font-size:18px;;">[[Light]]</span>
 
+:myTag[fdsf]{to="My custom tag"}
+
 ### Useful links
 
 [Discord](https://discord.gg/gnuNQPZrcV)

@@ -3,7 +3,6 @@
 Cannabis seeds are generally a only few millimeters wide and can contain a wide range of genetic information making up the many strains available today. Seeds are generally feminized and remain the most common way to acquire genetics from a breeder.
 
 
-
 ## Sex ##
 Seeds that are not already feminized can be either male or female and it's not possible to tell just from their outer appearance. A few weeks into the [[Life Stages#Vegatitive|vegetative phase]] plants will start to exhibit physical expressions of sex. Growers who are trying to produce buds need to grow female plants, male cannabis plants are generally reserved for breeding purposes. If a plant is stressed it may display physical characteristics of both male and female plants, this is known as a hermaphrodite.   
 [[File:Cannabis sex organs.png|center|frameless|thumb|none|From top to bottom: Male organs, female organs]]   

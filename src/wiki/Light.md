@@ -1,22 +1,22 @@
 In ideal conditions, cannabis can absorb 1500 - 2000 μmol/s. For context, in California, the sun can emit up to 2000 μmol/s around midday. This means that the light source should ideally be powerful enough to deliver this intensity over the area the canopy will occupy. Equipped with a powerful and efficient grow light, you may be tempted to use as much power as you can afford, to increase yield - but this is often not the best strategy; leaves can be damaged by overexposure to light (and heat) which will decrease yield. To avoid this, slowly increase the intensity of your light over several days, by increasing power draw by 5-10 watts per day, and observing the leaves regularly. Any yellowing leaves can be a sign of light stress. This may be accompanied by curling leaves which are a sign of heat stress, often caused by lights being too intense. Note also that seedlings require and are less able to make use of light than flowering plants.
 
-## Horticultural light metrics ##
+## Horticultural light metrics 
 There are many different metrics that can be used to measure the intensity and quality of light for photosynthesis in the cultivar. These metrics are important for assessing if a source is sufficient but especially notable when comparing two different lights.
 
-### Intensity ###
+### Intensity 
 unit: μmol/s
 
-Light intensity is quantified by the number of photons produced per second. Because the number of photons is so large they are measured in micro-moles (µmol). One µmol is actually 602 quadrillion photons. See: [[Light#Measuring light intensity|Measuring light intensity]]
+Light intensity is quantified by the number of photons produced per second. Because the number of photons is so large they are measured in micro-moles (µmol). One µmol is actually 602 quadrillion photons. See: [Measuring light intensity](/Light#measuring_light_intensity)
 
-### Photosynthetic Photon Flux Density (PPFD) ###
+### Photosynthetic Photon Flux Density (PPFD)
 unit: μmol/m<sup>2</sup>/s. 
 
-A measure of light intensity within the [[Light#PAR|PAR range]] over an area. The maximum PPFD a grow light can produce is important to know as well as the size of the area it can deliver that PPFD.
+A measure of light intensity within the [PAR range](/Light#par) over an area. The maximum PPFD a grow light can produce is important to know as well as the size of the area it can deliver that PPFD.
 
 ### Efficiency ###
 unit: μmol/J
 
-The light intensity a horticultural light produces per Joule of power it uses. At the time of writing, the most efficient LED package available is the [https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/ LM301H] by Samsung. It achieves 3.10 μmol/J @ 65 mA, 25°C. The efficiency of all LEDs will change slightly depending on the temperature and current supplied.
+The light intensity a horticultural light produces per Joule of power it uses. At the time of writing, the most efficient LED package available is the [LM301H](https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/) by Samsung. It achieves 3.10 μmol/J @ 65 mA, 25°C. The efficiency of all LEDs will change slightly depending on the temperature and current supplied.
 ### DLI (Daily light Integral) ###
 unit: mols/m<sup>2</sup>
 
@@ -28,14 +28,16 @@ Full light intensity from the sun in summer reaches around 60 DLI<ref>https://ww
 
 ## Horticulural light terms ##
 ### PAR ###
-[[File:PAR range.png|thumb]]
+<img src="/images/PAR_range.png" width=100%/>
+
+
 PAR stands for Photosynthetic Active Radiation: light within the range of 400 to 700 nanometers that drives photosynthesis. For reference, the human eye can see light between 380 to 750 nm.
 
-##Types of lighting ##
+## Types of lighting 
 There are several light technologies that have differing efficiencies, spectrums, and form factors.
-###CFL - Compact fluorescent lamp###
-###HID - High-density discharge###
-###LED - Light emitting diode###
+### CFL - Compact fluorescent lamp
+### HID - High-density discharge
+### LED - Light emitting diode
 LEDs are the most compact and efficient light source but can be more costly than other means and require a driver.
 
 #### LED Drivers ####
@@ -49,7 +51,7 @@ Auto flowers can be grown with lights on 24 hours a day (24/0), but constant lig
 
 https://www.youtube.com/watch?v#u8XNN4V7qsU</ref>. It is a good idea to match the light schedule with the cultivar's [[Plant_processes#Circadian_rhythm|circadian rhythm]];  Many growers recommend 20/4 or 22/2.
 
-## Ideal light conditions ##
+## Ideal light conditions
 Cannabis can tolerate an extreme light intensity. Many growers limit light levels early in the plants life but this is not nessesary<ref>Best Grow Lighting for Cannabis with Dr Bruce Bugbee | Far red ePAR - https://youtu.be/VvBTsl_gScw?si#4kS8z9cSu9hprAMu&t#2771</ref>. 
 
 Ideal intensity is around 1000 - 2000 μmol/s. 40 DLI is a good target although it is possible to go higher. 

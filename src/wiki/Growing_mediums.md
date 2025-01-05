@@ -16,7 +16,7 @@ The amount of water a subtrate holds when fully drained. In practice, with prope
 The traditional growth medium. Easily available, the pH is mostly determined by the water applied, although soil provides a buffer. This is the most simple growth medium, good for beginners.
 More advanced growers may wish to create a type of organic  "living soil" via methods such as [https://en.wikipedia.org/wiki/Bokashi_(horticulture) Bokashi]
 
-###Additives###
+### Additives###
 #### Coco Coir ####
 Coco coir is a subtrate derrived from dried coconut husk. It can be used alone or mixed with soil, coco coir provides less of a pH buffer than soil however. Its also notable that coco coir is inert and provides no nutrients itself, meaning that nutrients must be added via additives. Coco coir also has excellent water rentention capabilities similar to vermiculite and can hold 10x its weight in water. 
 ####Vermiculite####
@@ -33,5 +33,3 @@ Transplanting is the process of transfering the cultivar from one subtrate to an
 * [https://en.wikipedia.org/wiki/Hydroponics Hydroponics]
 
 * [https://en.wikipedia.org/wiki/Aeroponics Aeroponics]
-
-##References##

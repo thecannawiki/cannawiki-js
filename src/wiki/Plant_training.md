@@ -27,30 +27,30 @@ Fluxxing is a method of using metal wire (or paper clips) to pin the stem down a
 </ul>
 </div>
 
-###Ponytailing ###
+### Ponytailing ###
 Ponytailing is the process of tying leaves up in a bunch together to remove the shade they create. This also leads to the ponytailed stem receiving less light and stretching more as a result. This can be done with small cable ties or paper clips at any point in the plant's life.
 
-###Defoliating###
+### Defoliating###
 Defoliating is simply the process of removing excess leaves. If there are too many leaves, the humidity can become too high and fan leaves that do not create buds can shade other branches that will bear buds. Defoliation is necessary for maximizing yields and should mostly take place in the vegetative stage. Take care not to prune excessively once the plant is a few weeks into flowering, as the leaves will not regrow, negatively impacting yield.
 
-###Lollipopping###
+### Lollipopping###
 This is the process of stripping all small buds and leaves from a branch except those at the top so that the branch resembles a lollipop. The idea is that the plant will spend more resources on the cola at the top of the stem, as less is wasted on small buds (sometimes referred to as "popcorn" buds) that are in the shade of the main canopy. This technique is more suited to photo-flowering strains, as they have more time to recover from the process before flowering. As an alternative to lollipopping, smaller buds can be left to continue growing after an initial harvest of the main colas, until they are mature enough for a second harvest.
 
-###Screen of green (ScrOG)###
+### Screen of green (ScrOG)###
 ScrOG or Screen of Green is a training method where a large trellis (a.k.a mesh, screen, net) is placed over the cultivar so that the branches can be more easily shaped to form a flat canopy. This technique is often paired with mainlining.
 
-###Sea of green (SOG)###
+### Sea of green (SOG)###
 A method of planting a large number of plants so that there is a high density of cultivars under a trellis. A ScrOG with multiple plants.
 
 ## High-Stress Techniques (HST)##
 
-###Topping###
+### Topping###
 Removing the growth at the top of a branch. This can be used to create two new heads at the top of the branch.
 
 ### Fimming ###
 [[File:Fimming topping.jpeg|thumb|Fimming]]
 Similar to topping but the cut is made slightly higher up the stem. This results in 4 branches growing from the cut.
 
-###Mainlining ###
+### Mainlining ###
 By topping the main stem, one can create a manifold ('Y' shaped stem). This forces the plant to split resources between the remaining branches, creating a more even canopy. This should be done when the plant a) has at least three nodes, b) when it is healthy and c) while it is still vegetating. After creating a manifold, LST should be applied to maintain the shape of the plant.[[File:Tall fluxing.jpg|thumb|421x421px|This example shows a manifold in the centre and the stem being kept parallel to the soil by garden wire|alt#|center]]
 ## References ##

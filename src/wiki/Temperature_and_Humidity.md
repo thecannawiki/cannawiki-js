@@ -2,10 +2,10 @@ Temperature and humidity share a single article as they are so closely linked. G
 
 In fact, this is the principle that freeze-drying relies on. Temperature and humidity can also be used to calculate the Vapour pressure deficit (VPD) which provides an indication of the cultivar's capacity for [[Plant processes#Respiration|Respiration]] and [[Plant processes#Transpiration|transpiration]].
 
-##Ventilation ##
+## Ventilation ##
 In Indoor grows, ventilation is the most effective way of influencing the temp and humidity of the environment. As the plant expels water vapour via [[Plant processes#Transpiration|transpiration]] the air becomes more humid and this excess water vapour must be removed from the growing environment. In other words, a fan to remove humid air is crucial. Blower (centrifugal fans) should be used for this type of ventilation<ref>Centrifugal Fan vs Axial Fan | Industrial Accessories Company - https://www.youtube.com/watch?v#gYxLbBP3evM </ref>. To control the smell emitted from the plant, [[Carbon filter|carbon filters]] are often implemented as part of the exhaust of the ventilation.
 
-##Vapour pressure deficit (VPD)##
+## Vapour pressure deficit (VPD)##
 VPD is a metric (unit kPa) used to measure the difference (deficit) between how much water there is in the air (AVP) and the maximum amount of water the air can currently hold (SVP). It is a more accurate way of measuring the "dryness" of air that takes into account air temperature, leaf temperature and air humidity. VPD directly correlates to rate of [[Plant processes#Transpiration|transpiration]]. Cannabis should be exposed to between 0.5 and 1.6kPa. Fluctuations in VPD over 0.5kPa can decrease yields by up to 20%. <ref>Minimizing VPD Fluctuations Maintains Higher Stomatal Conductance and Photosynthesis, Resulting in Improvement of Plant Growth in Lettuce, 2021 Inoue - https://doi.org/10.3389/fpls.2021.646144</ref>
 
 An excellent VPD calculator and chart of ideal VPD for each [[Life Stages|life stage]] can be found at [https://www.dimluxlighting.com/knowledge/vapor-pressure-deficit-vpd-calculator/ dimluxlighting.com]
