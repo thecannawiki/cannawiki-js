@@ -3,7 +3,7 @@ Cannabis buds can be smoked as soon as they are dried, but they can also be used
 ## Buds ##
 [[File:Macro_cannabis_bud.jpg|200px|center]]
 
-The most simple form of Cannabis. Buds are harvested from a mature plant and then [[Harvesting, Drying and Curing|dried and cured]].
+The most simple form of Cannabis. Buds are harvested from a mature plant and then [dried and cured](/harvesting,_drying_and_curing).
 
 ## Extracts ##
 

@@ -24,6 +24,6 @@ A soap that can be used to kill insects. Less aggressive than a pesticide and so
 #### Predator insects ####
 It's possible to add "good" insects that will hunt the insects you want to remove. This is only recommended for outdoor grows.
 
-Some example predators for spider mites are [[wikipedia:Phytoseiulus#:~:text#Phytoseiulus%20is%20a%20genus%20of,crops%20grown%20in%20mild%20environments.|Phytoseiulus persimilis]] and Amblyseius californicus.
+Some example predators for spider mites are Phytoseiulus persimilis and Amblyseius californicus.
 
 For Thrips, you might use Amblyseius cucumeris.

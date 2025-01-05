@@ -1,17 +1,17 @@
 The various "life stages" of a cannabis plant can be used to identify and track the plant's progression towards maturity. At each stage, the plant desires a slightly different environment.
 
 ## Dormant##
-Before a seed is [[Seeds#Germination Methods|germinated]] it is alive but dormant inside its protective shell.
+Before a seed is [germinated](/Seeds#germination_methods) it is alive but dormant inside its protective shell.
 
 ## Vegetative##
-In this stage, the plant grows the most and will be the most resilient to [[Plant training|High and Low-stress training]].
+In this stage, the plant grows the most and will be the most resilient to [High and Low-stress training](/Plant training).
 
-During the vegetative stage, pre-flowers will appear that can be used to identify the sex of the plant. If white pistils are seen emerging from the [[Anatomy of Cannabis#Calyx|calyx]] the plant is female, if the plant develops clusters of balls resembling grapes it is a male.
+During the vegetative stage, pre-flowers will appear that can be used to identify the sex of the plant. If white pistils are seen emerging from the [calyx](/Anatomy_of_Cannabis#calyx) the plant is female, if the plant develops clusters of balls resembling grapes it is a male.
 
 Ideal humidity: 40-70% RH
 
 ## Flowering##
-Once the plant reaches maturity it will stop branching and producing leaves to begin the production of buds. Water consumption will increase at this point. The start of flowering can be identified by the appearance of [[Anatomy of Cannabis#Stigma|stigma]]. At this stage, all plant training to shape the canopy should be complete.
+Once the plant reaches maturity it will stop branching and producing leaves to begin the production of buds. Water consumption will increase at this point. The start of flowering can be identified by the appearance of [stigma](/Anatomy_of_Cannabis#stigma). At this stage, all plant training to shape the canopy should be complete.
 
 Ideal humidity: 40-50% RH
 

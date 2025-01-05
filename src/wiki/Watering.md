@@ -2,7 +2,7 @@ A lot of beginners struggle with under/overwatering, and to add to the confusion
 
 
 ## Under/over watering symptoms##
-Under-watering causes leaves to wilt due to a loss in rigidity as there is low moisture content. They will feel very thin as a result. Over-watering causes leaves to wilt due to the weight of excess moisture content. Feeling the texture, thickness, weight, and flexibility of the [[Anatomy of Cannabis#Petiole|petiole]] will help you determine if the plant is over or under watered. An under-watered plant will display a complete lack of rigidity in the petiole.
+Under-watering causes leaves to wilt due to a loss in rigidity as there is low moisture content. They will feel very thin as a result. Over-watering causes leaves to wilt due to the weight of excess moisture content. Feeling the texture, thickness, weight, and flexibility of the [petiole](Anatomy of Cannabis#Petiole) will help you determine if the plant is over or under watered. An under-watered plant will display a complete lack of rigidity in the petiole.
 <div align#'center'><ul> 
 <li style#"display: inline-block;"> [[File:Over-watered.jpg|thumb|none|300px|alt#|Over watered plant]] </li>
 <li style#"display: inline-block;"> [[File:Under-watered.jpg|thumb|none|333x333px|alt#|Under watered plant]] </li>
@@ -13,7 +13,7 @@ The ideal pH of the water applied should be between 6.2 and 6.7. Note to also me
 
 It's a good idea to check your tap water with a digital pH meter as it will vary depending on your geographical location. If water is too alkaline (pH too high) a few drops of lemon juice can be added. To increase pH you can add dolomite lime.
 
-[[Nutrients#Nutrient lockout|More on nutrient lockout]]
+[More on nutrient lockout](Nutrients#Nutrient lockout)
 
 ## Dissolved solids / Nutrients ##
 Water naturally comes into contact with minerals and metals which leads to some dissolved content. This is typically what affects the pH of the water and is referred to as "soft" or "hard" water. The mineral content of water can affect the growth of the cultivar both positively and negatively, depending on what is present. 
@@ -24,7 +24,7 @@ Some growers don't have access to pure water and use water filtered by reverse o
 ISBN 13: 9781937866358</ref>. This technique of filtering removes almost all contaminants and other particles larger than 0.001 microns. In other words, this removes almost all nutrients from the water. RO water can be purchased or created using specialist hardware.
 
 ## Wet-Dry Cycle ##
-When growing in soil, the soil should be left to dry before watering. Allowing the soil to dry encourages roots to grow as they search for water and also reduces the chance of [[Diseases|root rot]].
+When growing in soil, the soil should be left to dry before watering. Allowing the soil to dry encourages roots to grow as they search for water and also reduces the chance of [root rot](Diseases).
 ## Water stakes ##
 [[File:WaterStake.jpg|thumb|282x282px]]
 A form of automatic watering that allows the plant to “drink” water through a straw. Ideal if you need to leave a plant unattended for a few days.

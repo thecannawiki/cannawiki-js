@@ -30,7 +30,7 @@ The underside of a leaf.
 The outer perimeter or edge of a leaf. Cannabis is well recognized due to the distinctive shape of its leaf margins.
 
 #### Stomata
-Stomata are tiny pores in the plant tissue that allow for [[Plant processes#Gas exchange|gas exchange]]. The majority can be found on the underside of the leaves but they are also found on the surface of leaves and stems.
+Stomata are tiny pores in the plant tissue that allow for [gas exchange](/Plant processes#gas_exchange). The majority can be found on the underside of the leaves but they are also found on the surface of leaves and stems.
 
 ## Buds
 [[File:Bud anatomy.png|thumb|350x350px]]The raceme of the cannabis plant.
@@ -75,7 +75,7 @@ The points on the main stem that lateral branches emerge from. In the vegetative
 ## Plant metrics
 
 ### Transpiration rate 
-The rate at which water is being absorbed by the roots and expelled through the leaves via the stomata. The [[Temperature and Humidity#VPD|VPD]] of the environment a plant is in determines the maximum rate of transpiration.
+The rate at which water is being absorbed by the roots and expelled through the leaves via the stomata. The [VPD](/Temperature and Humidity#vpd) of the environment a plant is in determines the maximum rate of transpiration.
 
 This is a key metric for determining the growth rate of a plant.
 

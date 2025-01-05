@@ -20,7 +20,7 @@ The light intensity a horticultural light produces per Joule of power it uses. A
 ### DLI (Daily light Integral) ###
 unit: mols/m<sup>2</sup>
 
-The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [[Light#Light_schedules|lighting schedule]] that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
+The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [lighting schedule](/Light#light_schedules) that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
 
 Full light intensity from the sun in summer reaches around 60 DLI<ref>https://www.youtube.com/watch?v#ID9rE5JewVg&t#1170s&ab_channel#ApogeeInstrumentsInc. - Bruce Bugee Grow lighting myths</ref>
 [[File:DLI equation.png|center|thumb|349x349px]]
@@ -49,14 +49,14 @@ Common light schedules include 24/0 (24 hours of light a day), 20/4 (20 hours li
 
 Auto flowers can be grown with lights on 24 hours a day (24/0), but constant light can leave the plant with no time to recover from deficiencies or stress in general. The absence of a dark period can also stave the plant's rhizosphere, negatively affecting growth<ref>Karuna Chourey Ph.D. - Shango Los 2019
 
-https://www.youtube.com/watch?v#u8XNN4V7qsU</ref>. It is a good idea to match the light schedule with the cultivar's [[Plant_processes#Circadian_rhythm|circadian rhythm]];  Many growers recommend 20/4 or 22/2.
+https://www.youtube.com/watch?v#u8XNN4V7qsU</ref>. It is a good idea to match the light schedule with the cultivar's [circadian rhythm](/Plant_processes#circadian_rhythm);  Many growers recommend 20/4 or 22/2.
 
 ## Ideal light conditions
 Cannabis can tolerate an extreme light intensity. Many growers limit light levels early in the plants life but this is not nessesary<ref>Best Grow Lighting for Cannabis with Dr Bruce Bugbee | Far red ePAR - https://youtu.be/VvBTsl_gScw?si#4kS8z9cSu9hprAMu&t#2771</ref>. 
 
 Ideal intensity is around 1000 - 2000 μmol/s. 40 DLI is a good target although it is possible to go higher. 
 
-Generally the maximum light intensity a plant can tolerate becomes limited by other conditions such as CO2 level or nutrient deficiency. Note that light intensity is proportional to the rate of [[Plant processes#Transpiration|transpiration]], meaning higher light intensity can raise the [[Temperature and Humidity|humidity]] of the environment as more water exits the plant. This creates another potential limitation to the maximum light that can be applied; the grower's ability to control the temperature and humidity.
+Generally the maximum light intensity a plant can tolerate becomes limited by other conditions such as CO2 level or nutrient deficiency. Note that light intensity is proportional to the rate of [transpiration](/Plant_processes#transpiration), meaning higher light intensity can raise the [humidity](/Temperature_and_Humidity) of the environment as more water exits the plant. This creates another potential limitation to the maximum light that can be applied; the grower's ability to control the temperature and humidity.
 
 ### Optimum light intensity###
 In this instance, "optimum light intensity" refers to the amount of light that provides the maximum yield from the cultivar.
@@ -76,7 +76,7 @@ Meta-analysis of plant morphology to light intensity.<ref>A meta-analysis of pla
 
 ## Measuring light intensity ##
 [[File:Relative Spectral Power Distrobution for color temp.jpg|thumb|310x310px|An SPD chart of common light spectrums]]
-The amount of photosynthetically reactive light ([[Light#PAR|PAR]]) present can be measured using a  dedicated device known as a Quantum sensor. They are very accurate, however, as most smartphones have a lux meter, a much cheaper alternative is to use a "PPFD meter" app. A lux value can be combined with the grow light's spectral power distribution (SPD) to calculate the amount of PAR radiation. This is necessary because lux meters measure light in the frequency relevant to human vision and not photosynthesis.
+The amount of photosynthetically reactive light ([PAR](/Light#par)) present can be measured using a  dedicated device known as a Quantum sensor. They are very accurate, however, as most smartphones have a lux meter, a much cheaper alternative is to use a "PPFD meter" app. A lux value can be combined with the grow light's spectral power distribution (SPD) to calculate the amount of PAR radiation. This is necessary because lux meters measure light in the frequency relevant to human vision and not photosynthesis.
 
 Simply put, these apps use the phone's brightness sensor to find a lux value and ask the user to input the frequency of the grow light they are using. Often 3500K or 4000K for "full-spectrum lights", Samsung produces a number of LEDs in this range.
 

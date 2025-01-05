@@ -1,4 +1,4 @@
-Nutrients can broadly be categorized by micro or macro and in terms of their mobility; either mobile or immobile. Mobile nutrients are those that the plant can move around to where they are most needed while immobile nutrients cannot be relocated. This mobility of the nutrient affects where [[Symptoms of bad health|symptoms of deficiency]] (or excess) can occur on a plant. Mobile nutrient deficiencies will appear on older leaves first and vice versa.
+Nutrients can broadly be categorized by micro or macro and in terms of their mobility; either mobile or immobile. Mobile nutrients are those that the plant can move around to where they are most needed while immobile nutrients cannot be relocated. This mobility of the nutrient affects where [symptoms of deficiency](/Symptoms_of_bad health) (or excess) can occur on a plant. Mobile nutrient deficiencies will appear on older leaves first and vice versa.
 
 ## Buying fertilizer ##
 Most fertilizers on the market come in 2 categories; general nutrients for the vegetative stage and flowering (or bloom) nutrients for the flowering stage of growth. Vegetative nutrients contain large amounts of Nitrogen and flowering nutrients contain mostly Potassium and Phosphorus. There are also solutions that provide micronutrients, sugars, and acids to boost growth even further. 
@@ -45,7 +45,7 @@ Required for the production of most plant cells as well as chlorophyll, used in 
 Essential for the flowering period, Phosphorus strengthens the plant and is used for root development.
 
 #### Potassium ####
-Required for root development. Potassium also regulates the opening and closing of [[Anatomy of Cannabis#Stomata|stomata]] for [[Plant processes#Gas exchange|gas exchange]].
+Required for root development. Potassium also regulates the opening and closing of [stomata](/Anatomy_of_Cannabis#Stomata) for [gas exchange](/Plant_processes#gas_exchange).
 
 
 Cannabis also obtains Oxygen, Carbon, and Hydrogen from water and air.
@@ -57,7 +57,7 @@ Micronutrients are the elements that are needed in much smaller quantities than 
 Silicon dioxide or "Silica" can increase stem diameter and boost chlorophyll production.<ref>https://www.maximumyield.com/simply-silica/2/1077</ref> Found in Diatomaceous earth.
 
 #### Magnesium ####
-A mobile nutrient required for the creation of chlorophyll in a plant, a requirement of [[Plant_processes#Photosynthesis|Photosynthesis]].
+A mobile nutrient required for the creation of chlorophyll in a plant, a requirement of [Photosynthesis](/Plant_processes#photosynthesis).
 
 #### Calcium ####
 An immobile nutrient that is required for the creation of strong cell walls.
@@ -78,10 +78,10 @@ Iron supports the function of chloroplasts.
 #### Molybdenum ####
 
 #### Chloride ####
-Chloride refers to Cl<sup>-</sup>, not to be confused with the toxic form chlorine CI. Essential for the proper function of [[Anatomy of Cannabis#Stomata|stomata]].
+Chloride refers to Cl<sup>-</sup>, not to be confused with the toxic form chlorine CI. Essential for the proper function of [stomata](/Anatomy_of_Cannabis#stomata).
 
 ### Acids ###
-Acids [[Nutrients#Chelation|chelate]] other nutrients making them more water-soluble and thus more available to the plant. Humic acid is commonly used to increase the number of nutrients that the cultivar can absorb.
+Acids [chelate](/Nutrients#chelation) other nutrients making them more water-soluble and thus more available to the plant. Humic acid is commonly used to increase the number of nutrients that the cultivar can absorb.
 
 #### Amino Acids ####
 
@@ -107,7 +107,7 @@ Some fungi can live symbiotically with the plant's root system, they consume som
 ### Sugars and Carbohydrates ###
 
 #### Chitin ####
-A key component of insect exoskeletons, shells of crustaceans, fungi, and components of other invertebrates. In plants, it benefits pest and disease resistance as well as being a strong [[Nutrients#Chelation|chelator]] and increasing the production of secondary metabolites.
+A key component of insect exoskeletons, shells of crustaceans, fungi, and components of other invertebrates. In plants, it benefits pest and disease resistance as well as being a strong [chelator](/Nutrients#chelation) and increasing the production of secondary metabolites.
 
 #### Molasses and oligosaccharides ####
 
@@ -141,12 +141,12 @@ Nutrients can be added to the growing medium before planting if possible, to avo
 Nutrient lockout occurs when the pH is too high or too low for the plant to properly absorb nutrients. This leads to a deficit of necessary nutrients for growth and/or survival. A nutrient lockout can also occur when the grow medium accumulates too much salt or other nutrients.
 
 
-[[Watering#pH|More on ideal pH]]
+[More on ideal pH](/Watering#ph)
 ##Pre-mixing nutrients##
 If you intend to mix nutrients in water in large quantities and leave it to sit for a period of time one should consider the nutrients used and how they may change over time. When mixing organic nutrients in water they will respire aerobically for a period of time, until they run out of oxygen and then begin to respire anaerobically. This destroys some of the bacteria's capabilities and makes for a less effective feed. The water will begin to smell like a pond or an asshole when the bacteria begin to respire anaerobically which is a surefire way to tell. Synthetically derived nutrients may last longer in water but can also become less effective as some nutrients may combine to create less accessible forms of the nutrient for the plant.
 ##Methods of Nutrient delivery ##
 ###Via growing medium### 
-The most simple method of nutrient delivery is by mixing with the water to be used for watering the cultivar. Take note that the [[Growing_mediums|growing medium]] will affect the stability of the pH in the plant's root zone. Organic soils provide more of a pH buffer than hydroponic systems because, in organic soil, there are other organisms that help regulate pH. Even though nutrients have been added to the growing medium they will not be bioavailable to the plant instantly. Other organisms, such as [[Nutrients#Mycorrhizal Fungi|Mycorrhizal Fungi]] and [[Nutrients#Microbes|Microbes]], help in the process of breaking down nutrients so that they are useable by the cultivar.
+The most simple method of nutrient delivery is by mixing with the water to be used for watering the cultivar. Take note that the [growing medium](/Growing_mediums) will affect the stability of the pH in the plant's root zone. Organic soils provide more of a pH buffer than hydroponic systems because, in organic soil, there are other organisms that help regulate pH. Even though nutrients have been added to the growing medium they will not be bioavailable to the plant instantly. Other organisms, such as [Mycorrhizal Fungi](/Nutrients#mycorrhizal_fungi) and [Microbes](/Nutrients#microbes), help in the process of breaking down nutrients so that they are useable by the cultivar.
 
 ###Foliar Spray###
 Nutrients can be delivered to the plant when dissolved in water via a fine mist, this is the fastest route of administration. It has been postulated that the size of the droplets has an effect on the efficacy of foliar spray but some studies seem to contradict this<ref>Influence of Droplet Size of Foliar-Applied Nitrogen on Grain Protein Content of Hard Red Winter Wheat 2017 -https://acsess.onlinelibrary.wiley.com/doi/pdf/10.2134/cftm2016.10.0068</ref>. If possible the spray should be applied to the underside of leaves as this is where most stomata reside. Lights should be turned off before foliar spraying to prevent the light from lensing through droplets and burning the leaf surface.
