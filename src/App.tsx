@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useParams } from "react-router-dom";
+
+import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-dom";
 import MarkdownLoader from "./components/MarkdownLoader"
 import Navmenu from "./Navmenu"
 

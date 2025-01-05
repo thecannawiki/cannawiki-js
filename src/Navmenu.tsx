@@ -1,10 +1,15 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {Link } from "react-router-dom";
 import "./Navmenu.css"
 
 const Navmenu = () => {
 
-    const [files, setFiles] = useState([]);
+    interface fileList {
+        path:string,
+        name:string
+    }
+
+    const [files, setFiles] = useState<fileList[]>([]);
 
     useEffect(() => {
         // Use import.meta.glob to get the file list
@@ -12,13 +17,13 @@ const Navmenu = () => {
         // Convert the keys (file paths) into a usable array
         const fileList = Object.keys(filesGlob).map((filePath) => ({
         path: filePath,
-        name: filePath.split('/').pop(), // Extract file name
+        name: filePath.split('/').pop() || "err", // Extract file name
         }));
         setFiles(fileList);
     }, []);
 
 
-    const menuStyle = {
+    const menuStyle: React.CSSProperties = {
         marginLeft: "8px",
         position: "fixed",
         top: 0,
@@ -36,7 +41,7 @@ const Navmenu = () => {
 return(
     <div style={menuStyle}>
 
-        {files.map((file) => { 
+        {files.map((file: fileList) => { 
             const name = file.name.replaceAll(".md", "");
             return(
             <div >

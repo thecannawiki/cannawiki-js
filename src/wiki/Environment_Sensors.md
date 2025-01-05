@@ -9,7 +9,7 @@ A number of grow controllers based on microcontrollers or linux are available on
 ## Humidity and Temperature ##
 There is a wide range of generic [[Temperature and Humidity|humidity and temperature]] sensors that are cheaply available and provide reasonable accuracy. They generally incorporate a small LCD to display current readings and are widely used during curing as they fit inside most mason jars.  
 <div align#'center'><ul> 
-<li style#"display: inline-block;"> <img src="/public/images/BME280.png"></img> </li>
+<li style#"display: inline-block;"> <img src="/images/BME280.png"></img> </li>
 <li style#"display: inline-block;"> [[File:Square sensor.png|thumb|none|217x217px]] </li>
 <li style#"display: inline-block;"> [[File:Round humidity sensor.png|thumb|none|225x225px]] </li>
 </ul>
