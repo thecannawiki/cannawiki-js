@@ -1,4 +1,4 @@
-A plant's appearance, size, growth rate, and many other characteristics of strain are hard-coded into the plant through its genetics. Over time breeders, have combined desirable genetics to achieve new characteristics, such as auto-flowering. You can explore the huge variety of strains in existence on [https://en.seedfinder.eu/ Seedfinder.] While every strain has its own characteristics how strongly they are expressed differs with every seed and is also affected by the health of the plant. The qualities an individual plant displays are its phenotype.
+A plant's appearance, size, growth rate, and many other characteristics of strain are hard-coded into the plant through its genetics. Over time breeders, have combined desirable genetics to achieve new characteristics, such as auto-flowering. You can explore the huge variety of strains in existence on [Seedfinder](https://en.seedfinder.eu/). While every strain has its own characteristics how strongly they are expressed differs with every seed and is also affected by the health of the plant. The qualities an individual plant displays are its phenotype.
 
 ## Flowering type ##
 Two categories are used to define how cannabis plants enter the flowering stage: Autoflowering plants that "automatically" enter the flowering stage after a period of time, and photo flower plants that enter flowering based on photoperiod (how many hours of light they receive per day). The genetic trait of automatic flowering is made possible by breeding "regular" photo-flowering strains with Cannabis Ruderalis. 
@@ -11,7 +11,7 @@ Photoflowering plants rely on photoperiod indicators to "decide" when to enter f
 ## Cannabinoid content ##
 A plant's genetics also has a huge impact on the cannabinoid content of the mature plant. Different strains have been bred to achieve a high THC content, no THC content, or even a 1:1 ratio of CBD to THC. There are many strains today that exceed 20% as a result of breeding for this characteristic.
 
-* [https://en.seedfinder.eu/database/strains/cbd-rich/same-amount-of-thc-and-cbd/ List of 1:1 strains on seedfinder.eu]
+* [List of 1:1 strains on seedfinder.eu](https://en.seedfinder.eu/database/strains/cbd-rich/same-amount-of-thc-and-cbd/)
 
 ## Aroma and taste ##
 The aroma and taste of Cannabis is created by the composition of terpenes and other aromatic volatile compound<ref>Minor, Nonterpenoid Volatile Compounds Drive the Aroma Differences of Exotic Cannabis - Oswald et al. 2023 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10601067/</ref>. While terpenes are widely known, there is ongoing research to uncover how these compounds define the aroma profile.
@@ -37,7 +37,7 @@ This is an alternate arrangement of branching. In Cannabis, [nodes](/Anatomy_of_
 Often mistaken for Polyploidy. This is the development of flat elongated stems. [Colas](Anatomy_of_Cannabis#cola) with fasciation may have multiple buds at the top. Colas on fasciated stems will have more leaves than regular colas and reduced trichrome count.
 
 ## Notable strains ##
-Modern genetics has given us cannabis with a [https://dutch-passion.com/en/blog/understanding-and-using-cannabis-leaves-n985 wide variety of leaf apperances]
+Modern genetics has given us cannabis with a [wide variety of leaf apperances](https://dutch-passion.com/en/blog/understanding-and-using-cannabis-leaves-n985)
 * Lowryder. The ruderalis strain that all auto-flowering strains descend from.
 * Ducksfoot
 

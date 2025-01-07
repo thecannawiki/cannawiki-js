@@ -120,7 +120,7 @@ A phytohormone found in Alfalfa that acts as a stimulant. It increases the rate 
 ## Chelation ##
 Chelation is the bonding of organic compounds with metal ions, for example, humic acid and iron. When chelated, the organic compound encapsulates the metal (an example of a micronutrient) forming a shield that protects it. This not only increases the solubility of the nutrient, and thus absorption in the plant, but it also prevents the metal from being lost through runoff or from oxidating before it reaches the plant. Chelators can even expand the bioavailability of nutrients beyond the typical pH required for absorption.
 
-More on chelation at Maximum yield: [https://www.maximumyield.com/understanding-chelation-in-plants/2/17808 Understanding Chelation in Plants] and [https://www.maximumyield.com/the-chelation-effect/2/1137 The Chelation Effect: Maximizing Plant Growth].
+More on chelation at Maximum yield: [Understanding Chelation in Plants](https://www.maximumyield.com/understanding-chelation-in-plants/2/17808) and [The Chelation Effect: Maximizing Plant Growth](https://www.maximumyield.com/the-chelation-effect/2/1137).
 
 ## The sequence of nutrition ##
 [[File:The biochemical sequence of nutrition in plants.png|center|499x499px|alt#|frameless]]
@@ -156,7 +156,7 @@ Foliar spray should not be used to provide emergency nutrients to the plant.
 ## Sources of nutrients
 Nutrients can be provided to a cultivar via concentrated liquid solutions, dry amendments, organic materials, and even other organisms living in the growing medium.
 
-If you are trying to provide NPK organically you can check the NPK values of most organic materials at [https://thenutrientcompany.com/blogs/horticulture/npk-value-of-everything-organic-database thenutrientcompany.com]
+If you are trying to provide NPK organically you can check the NPK values of most organic materials at [thenutrientcompany.com](https://thenutrientcompany.com/blogs/horticulture/npk-value-of-everything-organic-database)
 
 ## Flushing ##
 In the last two weeks before harvest, a plant should be fed water with no added nutrients/fertilizer. This is to ensure the cultivar is able to metabolize all nutrients it has absorbed from the soil.<ref>https://www.youtube.com/watch?v#qPh285tuVHw&ab_channel#TheGanjier Simon Hart, The Ganjier @ 13:08</ref> This leads to a smoother smoke containing less damaging compounds. The color of the ash left by burning cannabis can indicate how much fertilizer is present and if the plant was flushed or not. White ash indicates low amounts of excess nutrients left over and black ash indicates high amounts or possibly no flushing period.

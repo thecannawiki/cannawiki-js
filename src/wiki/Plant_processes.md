@@ -1,7 +1,7 @@
 There are many biological processes that occur, mostly simultaneously, in a living plant. Some processes continue even after the cultivar is harvested like in the case of the [curing process](/harvesting,_drying_and_curing).
 
 ## Photosynthesis##
-The Cannabis plant photosynthesizes in the presence of light like most plants, it is categorized as a [https://en.wikipedia.org/wiki/C3_carbon_fixation C3 plant.]
+The Cannabis plant photosynthesizes in the presence of light like most plants, it is categorized as a [C3 plant](https://en.wikipedia.org/wiki/C3_carbon_fixation).
 
 C3 carbon fixation in photosynthesis leads to several characteristics:
 * Thrives where CO<sub>2</sub> concentration is > 200ppm (cannabis specifically thrives in >400ppm CO<sub>2</sub>)
@@ -25,11 +25,8 @@ The rate of transpiration also affects the rate of water uptake through roots, t
 ## Circadian rhythm##
 Like animals, plants also have a Circadian rhythm, a sort of internal biological clock that is programmed by external stimuli. It has been shown that matching a plant's environment to its natural circadian rhythm can increase photosynthesis<ref>https://doi.org/10.1126%2Fscience.1115581 - Plant Circadian Clocks Increase Photosynthesis, Growth, Survival, and Competitive Advantage (2005)</ref><ref>https://doi.org/10.3389/fpls.2015.00245 - Interactions between circadian clocks and photosynthesis for the temporal and spatial coordination of metabolism (2015)</ref><ref>https://doi.org/10.1016/j.scienta.2014.03.014 - Leaf photosynthesis, plant growth, and carbohydrate accumulation of tomato under different photoperiods and diurnal temperature differences</ref>
 
-[http://www.plantcell.org/content/18/4/792 More on circadian rhythm in plants]
+[More on circadian rhythm in plants](http://www.plantcell.org/content/18/4/792)
 
-[https://doi.org/10.1105/tpc.106.040980 Plant Circadian Rhythms - C. Robertson McClung April 2006]
+[Plant Circadian Rhythms - C. Robertson McClung April 2006](https://doi.org/10.1105/tpc.106.040980)
 
-[https://www.researchgate.net/post/Is-there-any-report-on-circadian-rhythm-in-plants-grown-in-hydroponics/54e06adbd685cc12538b464d/citation/download Plant responses to circadian rhythm]
-
-
-##References##
+[Plant responses to circadian rhythm](https://www.researchgate.net/post/Is-there-any-report-on-circadian-rhythm-in-plants-grown-in-hydroponics/54e06adbd685cc12538b464d/citation/download)

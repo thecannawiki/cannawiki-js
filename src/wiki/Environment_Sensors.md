@@ -3,8 +3,8 @@ In order to create the ideal environment for your cultivar, it is essential to b
 ## DIY grow controllers ##
 A number of grow controllers based on microcontrollers or linux are available online.
 
-* [https://github.com/thecannawiki/ESP32EnvironmentController ESP32EnvironmentController] Based on ESP32. Supports humidity, temperature, VPD and Co<sub><big>2</big></sub> 
-* [https://github.com/supergreenlab/SuperGreenOS SupergreenOS] Based on espressif ESP32. No longer maintained 
+* [ESP32EnvironmentController](https://github.com/thecannawiki/ESP32EnvironmentController) Based on ESP32. Supports humidity, temperature, VPD and Co<sub><big>2</big></sub> 
+* [SupergreenOS](https://github.com/supergreenlab/SuperGreenOS) Based on espressif ESP32. No longer maintained 
 
 ## Humidity and Temperature ##
 There is a wide range of generic [humidity and temperature](/Temperature_and_Humidity) sensors that are cheaply available and provide reasonable accuracy. They generally incorporate a small LCD to display current readings and are widely used during curing as they fit inside most mason jars.  

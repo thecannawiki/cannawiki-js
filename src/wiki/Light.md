@@ -24,7 +24,7 @@ The amount of light energy in the PAR range a plant is receiving every 24 hours.
 
 Full light intensity from the sun in summer reaches around 60 DLI<ref>https://www.youtube.com/watch?v#ID9rE5JewVg&t#1170s&ab_channel#ApogeeInstrumentsInc. - Bruce Bugee Grow lighting myths</ref>
 [[File:DLI equation.png|center|thumb|349x349px]]
-[https://www.waveformlighting.com/horticulture/daily-light-integral-dli-calculator DLI calculator]
+[DLI calculator](https://www.waveformlighting.com/horticulture/daily-light-integral-dli-calculator)
 
 ## Horticultural light terms
 ### PAR
@@ -80,12 +80,12 @@ The amount of photosynthetically reactive light ([PAR](/Light#par)) present can 
 
 Simply put, these apps use the phone's brightness sensor to find a lux value and ask the user to input the frequency of the grow light they are using. Often 3500K or 4000K for "full-spectrum lights", Samsung produces a number of LEDs in this range.
 
-Some examples are [https://play.google.com/store/apps/details?id#com.homestudio.ppfdmeter PPFD Meter] on Android or [https://apps.apple.com/us/app/photone-grow-light-meter/id1450079523 Photone] on iPhone (Better implementations may exist).
+Some examples are [PPFD Meter](https://play.google.com/store/apps/details?id#com.homestudio.ppfdmeter) on Android or [Photone](https://apps.apple.com/us/app/photone-grow-light-meter/id1450079523) on iPhone (Better implementations may exist).
 
 A competent online implementation exists at [waveformlighting](https://www.waveformlighting.com/horticulture/convert-lux-to-ppfd-online-calculator).
 
 ## Light spectrum
-The color of light is dependent on the frequency of the light. see also [https://en.wikipedia.org/wiki/Electromagnetic_spectrum Electromagnetic spectrum]. Blue/purple light used to be standard in Cannabis growing but is slowly being replaced by "full-spectrum" lights. The light spectrum applied to a plant can affect its morphology and cannabinoid content. <ref name#":0">Magagnini 2018, The Effect of Light Spectrum on the Morphology and Cannabinoid Content of Cannabis sativa L -http://dx.doi.org/10.1159/000489030</ref>
+The color of light is dependent on the frequency of the light. see also [Electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). Blue/purple light used to be standard in Cannabis growing but is slowly being replaced by "full-spectrum" lights. The light spectrum applied to a plant can affect its morphology and cannabinoid content. <ref name#":0">Magagnini 2018, The Effect of Light Spectrum on the Morphology and Cannabinoid Content of Cannabis sativa L -http://dx.doi.org/10.1159/000489030</ref>
 
 ### High-frequency light
 Approximately 3% of the light radiation from the sun is ultraviolet; in the range of 100-400 nm. The light is the ratio of 1:30 UVB to UVA, and all UVC is absorbed by the atmosphere, particularly the Ozone layer. UV light rays can damage plants and stress them, triggering the creation of more cannabinoids such as THC, CBD, and CBG<ref>What light spectrum does weed need to grow? - Growing Cannabis 201: Advanced Grow Tips | Indica Institute - https://www.youtube.com/watch?v#NY0bB_Jmt5E</ref><ref>Pate, David W. (1983). "Possible role of ultraviolet radiation in evolution of Cannabis chemotypes" doi:10.1007/BF02904200</ref> <ref name#":0" />. It is common to find LED boards that include UV LEDs.

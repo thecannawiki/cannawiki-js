@@ -30,6 +30,6 @@ Transplanting is the process of transferring the cultivar from one substrate to 
 
 ## Others
 
-* [https://en.wikipedia.org/wiki/Hydroponics Hydroponics]
+* [Hydroponics](https://en.wikipedia.org/wiki/Hydroponics)
 
-* [https://en.wikipedia.org/wiki/Aeroponics Aeroponics]
+* [Aeroponics](https://en.wikipedia.org/wiki/Aeroponics)

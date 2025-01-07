@@ -16,4 +16,4 @@ The relationship between [temperature and humidity](/Temperature_and_Humidity)
 [Frequently asked questions](/FAQs)
 
 #### Other links
-[https://youtu.be/ID9rE5JewVg?t#144 "The 9 cardinal parameters of cannabis growth"] by Bruce Bugbee
+["The 9 cardinal parameters of cannabis growth"](https://youtu.be/ID9rE5JewVg?t#144) by Bruce Bugbee
