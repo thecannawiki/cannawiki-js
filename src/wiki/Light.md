@@ -13,11 +13,11 @@ unit: μmol/m<sup>2</sup>/s.
 
 A measure of light intensity within the [PAR range](/Light#par) over an area. The maximum PPFD a grow light can produce is important to know as well as the size of the area it can deliver that PPFD.
 
-### Efficiency ###
+### Efficiency
 unit: μmol/J
 
 The light intensity a horticultural light produces per Joule of power it uses. At the time of writing, the most efficient LED package available is the [LM301H](https://www.samsung.com/led/lighting/mid-power-leds/3030-leds/lm301h/) by Samsung. It achieves 3.10 μmol/J @ 65 mA, 25°C. The efficiency of all LEDs will change slightly depending on the temperature and current supplied.
-### DLI (Daily light Integral) ###
+### DLI (Daily light Integral)
 unit: mols/m<sup>2</sup>
 
 The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [lighting schedule](/Light#light_schedules) that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
@@ -26,8 +26,8 @@ Full light intensity from the sun in summer reaches around 60 DLI<ref>https://ww
 [[File:DLI equation.png|center|thumb|349x349px]]
 [https://www.waveformlighting.com/horticulture/daily-light-integral-dli-calculator DLI calculator]
 
-## Horticulural light terms ##
-### PAR ###
+## Horticultural light terms
+### PAR
 <img src="/images/PAR_range.png" width=100%/>
 
 
@@ -40,10 +40,10 @@ There are several light technologies that have differing efficiencies, spectrums
 ### LED - Light emitting diode
 LEDs are the most compact and efficient light source but can be more costly than other means and require a driver.
 
-#### LED Drivers ####
+#### LED Drivers
 LED drivers can be categorized into constant voltage and constant current, both with dimmable options. If your panel has a recommended voltage, it's best to select a constant voltage driver. Dimmable drivers are more expensive but worth it because your plant requires more light at the flowering stage than at the seedling stage, so you may wish to use less power initially to conserve power. Meanwell drivers are the industry standard for efficiency and lifespan.
 
-## Light schedules ##
+## Light schedules
 This refers to how many hours of light a plant is exposed to in a 24-hour period.
 Common light schedules include 24/0 (24 hours of light a day), 20/4 (20 hours light, 4 hours darkness), 18/6 (18 hours light, 6 hours darkness), and 12/12 (12 hours of light, 12 hours of darkness). Typically 12/12 is used when growing photo-flowers as this is very likely to initiate flowering in all strains, however, the light schedule has other effects on the cultivar. One 2023 paper has found that longer light periods can increase yield but decrease THC content.<ref>Peterswald, T.J.; Mieog, J.C.; Azman Halimi, R.; Magner, N.J.; Trebilco, A.; Kretzschmar, T.; Purdy, S.J. Moving Away from 12:12; the Effect of Different Photoperiods on Biomass Yield and Cannabinoids in Medicinal Cannabis. ''Plants'' 2023, ''12'', 1061. https://doi.org/10.3390/plants12051061 </ref>
 
@@ -67,36 +67,36 @@ Yield appears to be linear with PPFD to around 2000 μmol/s<ref>Cannabis Yield, 
 
 Temperature and light optima for photosynthesis were concluded to be at 25–30 °C and ∼1500 μmol m<sup>2</sup>/s respectively<ref> Photosynthetic response of Cannabis sativa L. to variations in photosynthetic photon flux densities, temperature and CO2 conditions (Chandra, 2008) https://dx.doi.org/10.1007%2Fs12298-008-0027-x</ref>
 
-### Upper limit of light intensity ### 
+### Upper limit of light intensity 
 The theoretical upper limit that a plant can tolerate before experiencing symptoms of poor health. 
 
 The Maximum PPFD cannabis can tolerate is around 2000 - 2500 μmol/s in perfect conditions<ref> Light dependence of photosynthesis and water vapor exchange... (Chandra, 2015)- https://doi.org/10.1016/j.jarmap.2015.03.002</ref><ref> Cannabis business times Oct, 2021 https://www.cannabisbusinesstimes.com/article/growing-under-high-light-intensities-lighting-report/</ref> and a DLI of around 40 - 60 moles.
 
 Meta-analysis of plant morphology to light intensity.<ref>A meta-analysis of plant responses to light intensity for 70 traits ranging from molecules to whole plant performance (Poorter, 2019) https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15754</ref>
 
-## Measuring light intensity ##
-[[File:Relative Spectral Power Distrobution for color temp.jpg|thumb|310x310px|An SPD chart of common light spectrums]]
+## Measuring light intensity
+[[File:Relative Spectral Power Distribution for color temp.jpg|thumb|310x310px|An SPD chart of common light spectrums]]
 The amount of photosynthetically reactive light ([PAR](/Light#par)) present can be measured using a  dedicated device known as a Quantum sensor. They are very accurate, however, as most smartphones have a lux meter, a much cheaper alternative is to use a "PPFD meter" app. A lux value can be combined with the grow light's spectral power distribution (SPD) to calculate the amount of PAR radiation. This is necessary because lux meters measure light in the frequency relevant to human vision and not photosynthesis.
 
 Simply put, these apps use the phone's brightness sensor to find a lux value and ask the user to input the frequency of the grow light they are using. Often 3500K or 4000K for "full-spectrum lights", Samsung produces a number of LEDs in this range.
 
 Some examples are [https://play.google.com/store/apps/details?id#com.homestudio.ppfdmeter PPFD Meter] on Android or [https://apps.apple.com/us/app/photone-grow-light-meter/id1450079523 Photone] on iPhone (Better implementations may exist).
 
-A competent online implementation exists at [https://www.waveformlighting.com/horticulture/convert-lux-to-ppfd-online-calculator waveformlighting].
+A competent online implementation exists at [waveformlighting](https://www.waveformlighting.com/horticulture/convert-lux-to-ppfd-online-calculator).
 
-## Light spectrum ##
+## Light spectrum
 The color of light is dependent on the frequency of the light. see also [https://en.wikipedia.org/wiki/Electromagnetic_spectrum Electromagnetic spectrum]. Blue/purple light used to be standard in Cannabis growing but is slowly being replaced by "full-spectrum" lights. The light spectrum applied to a plant can affect its morphology and cannabinoid content. <ref name#":0">Magagnini 2018, The Effect of Light Spectrum on the Morphology and Cannabinoid Content of Cannabis sativa L -http://dx.doi.org/10.1159/000489030</ref>
 
-### High-frequency light ###
+### High-frequency light
 Approximately 3% of the light radiation from the sun is ultraviolet; in the range of 100-400 nm. The light is the ratio of 1:30 UVB to UVA, and all UVC is absorbed by the atmosphere, particularly the Ozone layer. UV light rays can damage plants and stress them, triggering the creation of more cannabinoids such as THC, CBD, and CBG<ref>What light spectrum does weed need to grow? - Growing Cannabis 201: Advanced Grow Tips | Indica Institute - https://www.youtube.com/watch?v#NY0bB_Jmt5E</ref><ref>Pate, David W. (1983). "Possible role of ultraviolet radiation in evolution of Cannabis chemotypes" doi:10.1007/BF02904200</ref> <ref name#":0" />. It is common to find LED boards that include UV LEDs.
 
-####  UV A (315-400 nm) ####
+####  UV A (315-400 nm)
 
-#### UV B (280-315 nm)####
+#### UV B (280-315 nm)
 
-#### UV C (100-280 nm)####
+#### UV C (100-280 nm)
 
-### Low-frequency light ###
+### Low-frequency light
 Low-frequency light is constituted of red light in the visible spectrum, "far range" and infrared.
 
 Red light promotes cell elongation in plants, in cannabis, this manifests as stretching of the stem. While not visible to the human eye, far-red light is also photosynthetically active<ref>Dr. Bruce Bugbee (2019) - https://www.youtube.com/watch?v#sS7aAcacfgk&ab_channel#ApogeeInstrumentsInc.</ref>

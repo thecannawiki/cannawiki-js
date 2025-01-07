@@ -14,7 +14,8 @@ The largest leaves on the plant dedicated to photosynthesis. In a healthy plant,
 
 ### Parts of the leaf
 #### Petiole
-[[File:Petiole.png|thumb|325x325px]]
+<img src="/images/Petiole.png" width="325px"/>
+
 The stalk connecting the leaf to the stem. Petioles and stems may turn purple due to light exposure. As a result, typically the underside is less purple than the upper side. 
 
 #### Apex
@@ -41,26 +42,25 @@ A cluster of many buds along the stem and its terminal. Colas will appear and be
 #### Trichomes
 Trichomes are resin-filled glands that appear on the sugar leaves and buds of Cannabis in the flowering stage. They contain THC, CBD, and other cannabinoids. They first appear on the plant as a translucent colour but slowly turn milky white as the plant matures. The opacity indicates the amount of THC in the trichrome. As flowering continues the milky white colour turns to amber as the THC converts into CBD.
 
-More on trichomes at [https://dutch-passion.com/en/blog/what-are-cannabis-trichomes-and-how-do-they-affect-your-smoke-n986#types Dutch Passion]
+More on trichomes at [Dutch Passion](https://dutch-passion.com/en/blog/what-are-cannabis-trichomes-and-how-do-they-affect-your-smoke-n986#types)
 
-<div align#'center'>
-<ul> 
-<li style#"display: inline-block;"> [[File:Interior of glandular trichomes.jpg|thumb|none|300px]] </li>
-<li style#"display: inline-block;"> [[File:Close up trichomes.png|thumb|none|400px]] </li>
-</ul>
-</div>
+<cara>
+    <ul> 
+    <li style#"display: inline-block;"> <img src="/images/Interior_of_glandular_trichomes.jpg" width="325px"/></li>
+    <li style#"display: inline-block;"> <img src="/images/Close_up_trichomes.png" width="325px"/> </li>
+    </ul>
+</cara>
 
 #### Terpenes 
-The organic compounds found in the highest concentration in buds that create the taste and aroma of Cannabis.[[File:Cannabis stigma.png|thumb|180x180px|Stigma held in a pair of forceps]]
+The organic compounds found in the highest concentration in buds that create the taste and aroma of Cannabis.
 #### Stigma
-Hair-like structures that emerge from the bud are often (confusingly) referred to as Pistils. This is most likely because the stigma-possessing female plants are referred to as pistillate, which then became short-hand.<ref>https://weedmaps.com/learn/dictionary/pistil</ref> The colouration of the stigma can provide some insight into the maturity of the plant, as the plant matures, the stigma turns from white to orange.
+<img src="/images/Cannabis_stigma.png" width="325px"/>
+Hair-like structures that emerge from the bud are often (confusingly) referred to as Pistils. This is most likely because the stigma-possessing female plants are referred to as pistillate, which then became short-hand.<ref>https://weedmaps.com/learn/dictionary/pistil</ref> The coloration of the stigma can provide some insight into the maturity of the plant, as the plant matures, the stigma turns from white to orange.
 
 #### Bract
-[[File:Calyx Growth.png|thumb]]
+<img src="/images/Calyx_Growth.png" width="325px"/>
 [[File:Bract Anatomy.png|thumb|The bract in detail by Juan Ganjagod|link#Special:FilePath/Bract_Anatomy.png]]
-The first part of the flower that forms, the Bract provides protection for the pistils and stigma and is the most resinous part of the bud. As the plant matures the Bract will swell and engulf more of the stigma. The Bract is often identified as a calyx but the calyx actually resides inside of the bract.<ref>The Nomenclature of Female Flowers, 2017
-
-- https://www.cannabisbusinesstimes.com/article/the-nomenclature-of-female-flowers/</ref>
+The first part of the flower that forms, the Bract provides protection for the pistils and stigma and is the most resinous part of the bud. As the plant matures the Bract will swell and engulf more of the stigma. The Bract is often identified as a calyx but the calyx actually resides inside of the bract.<ref>The Nomenclature of Female Flowers, 2017 - https://www.cannabisbusinesstimes.com/article/the-nomenclature-of-female-flowers/</ref>
 
 ## Roots 
 Unless growing using hydroponics or aeroponics the plant's roots are one part of the plant that is seldom seen. This makes them easy to forget despite their importance to plant health and yields. A strong root system will permeate the entire growth substrate and allow for a high rate of transpiration, and nutrient absorption. If the root system rots then a plant will surely perish.
@@ -75,7 +75,7 @@ The points on the main stem that lateral branches emerge from. In the vegetative
 ## Plant metrics
 
 ### Transpiration rate 
-The rate at which water is being absorbed by the roots and expelled through the leaves via the stomata. The [VPD](/Temperature and Humidity#vpd) of the environment a plant is in determines the maximum rate of transpiration.
+The rate at which water is being absorbed by the roots and expelled through the leaves via the stomata. The [VPD](/Temperature_and_Humidity#vpd) of the environment a plant is in determines the maximum rate of transpiration.
 
 This is a key metric for determining the growth rate of a plant.
 

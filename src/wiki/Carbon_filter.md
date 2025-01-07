@@ -30,7 +30,7 @@ This will work best with a well-calibrated printer, this design includes a lot o
 
 4. Add the case top on top of the motor and screw M2.5 screws through the top into the motor. Make sure the threaded holes on the motor are aligned with the case holes. Screw in the 3 M4 bolts to attach the top to the motor case.
 
-5. Seperately, put the prop adapter through the central hole of the impeller and tighten a nut on the other side.
+5. Separately, put the prop adapter through the central hole of the impeller and tighten a nut on the other side.
 
 6. Put the install spacer around the motor shaft. Then put the impeller onto the shaft on top of the spacer. The spacer will ensure there is clearance between the impeller and case floor. Tighten the grub screws of the prop adapter. This will require an M3 Allen key that is over 60mm long as you will have to reach under the impeller
 
@@ -40,13 +40,13 @@ This will work best with a well-calibrated printer, this design includes a lot o
 
 The fan can easily be mounted with heavy-duty velcro, which makes for easy repairs
 
-## 120mm PC fan conversion kit ##
+## 120mm PC fan conversion kit 
 [[File:Assembled fan with carbon filter.png|thumb|358x358px|Assembled fan]]
 
 [[File:120mm carbon filter exploded.png|thumb|431x431px|Exploded diagram. Parts from Top to bottom: Filter chamber, Filter chamber lid, Filler tool, Screw thread, Fan case top, Fan blades, Fan case bottom]]
 This fan is designed to be 3D printed and used as an exhaust fan with a filter using activated carbon pellets.
 
-#### Steps ####
+#### Steps
 1. Take a standard 120mm PC case fan and remove the power cable from the frame of the fan. Cut the motor out of the frame with snips or a saw. Next, remove the fan blades from the fan hub. You may have to sand down the hub of the fan to remove the stubs of the fan blade.
 
 2. 3D print parts

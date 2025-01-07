@@ -1,13 +1,13 @@
-Nutrients can broadly be categorized by micro or macro and in terms of their mobility; either mobile or immobile. Mobile nutrients are those that the plant can move around to where they are most needed while immobile nutrients cannot be relocated. This mobility of the nutrient affects where [symptoms of deficiency](/Symptoms_of_bad health) (or excess) can occur on a plant. Mobile nutrient deficiencies will appear on older leaves first and vice versa.
+Nutrients can broadly be categorized by micro or macro and in terms of their mobility; either mobile or immobile. Mobile nutrients are those that the plant can move around to where they are most needed while immobile nutrients cannot be relocated. This mobility of the nutrient affects where [symptoms of deficiency](/Symptoms_of_bad_health) (or excess) can occur on a plant. Mobile nutrient deficiencies will appear on older leaves first and vice versa.
 
-## Buying fertilizer ##
+## Buying fertilizer
 Most fertilizers on the market come in 2 categories; general nutrients for the vegetative stage and flowering (or bloom) nutrients for the flowering stage of growth. Vegetative nutrients contain large amounts of Nitrogen and flowering nutrients contain mostly Potassium and Phosphorus. There are also solutions that provide micronutrients, sugars, and acids to boost growth even further. 
 
 An increasingly discussed distinction between fertilizers/additives is the difference between organic and synthetic. This mostly refers to the method of extraction, origin, and form of the nutrients included in the fertilizer. For example, amino acids can be synthesized chemically or they can be provided organically via fish meal. Synthetically derived nutrients tend to be in salt forms. Both organic and synthetic nutrients can be used together, and the decision of whether to use the former or the latter is often decided by an individual's growing arrangement.
 
-## Common Fertilizer Ingredients ##
+## Common Fertilizer Ingredients
 
-### Macro Nutrients ###
+### Macro Nutrients
 Macronutrients are those nutrients that Cannabis requires in large amounts, the three main nutrients are Nitrogen, Phosphorus, and Potassium (often written as NPK). They typically come from the soil and are crucial throughout the plant's lifespan, although in differing ratios.
 
 Vegetating plants require more Nitrogen and less Phosphorus and Potassium, while flowering plants demand much less Nitrogen and much more Phosphorus and Potassium during the flowering stage.
@@ -92,7 +92,7 @@ Enzymes help speed up the breakdown of nutrients and carbohydrates. Adding enzym
 
 A group of enzymes, known as Diastase, can be found in malted barley<ref>Malt extract - https://www.pharmacy180.com/article/malt-extract-337/</ref>.
 
-#### '''Amylase''' ####
+#### Amylase ####
 
 ### Microbes ###
 
@@ -129,30 +129,31 @@ The biochemical sequence depicts the order in which nutrients are required by th
 ## Nutrient antagonism ##
 High concentrations of one nutrient can decrease the bioavailability of another, this is known as nutrient antagonism. For example, high Nitrogen will decrease the availability of Boron. 
 
-[[File:Mulder's_Chart_of_Nutrient_antagonism.png|alt#|center|frameless|589x589px]]
 
-##Deficiencies## 
+<img src="/images/Mulder's_Chart_of_Nutrient_antagonism.png" width="100%">
+
+## Deficiencies## 
 Most deficiencies present as a color change on the leaves, moving from the center outwards or from the edge of the leaf moving inwards. Deficiencies can appear on older leaves first or newer leaves first. Mobile nutrient (such as NPK) deficiencies will show on older leaves first as the plant moves nutrients to the younger leaves. Deficiencies will remain in leaves that have already finished growing even after it is remedied in fresher leaves. This means you must be patient in remedying mobile deficiencies
 
 Nutrients can be added to the growing medium before planting if possible, to avoid deficiency. 
 
-###Nutrient lockout###
+### Nutrient lockout###
 [[File:SoilpHNutrientLockout.png|thumb|400x400px|The availability of nutrients in soil at different pH|center]]
 Nutrient lockout occurs when the pH is too high or too low for the plant to properly absorb nutrients. This leads to a deficit of necessary nutrients for growth and/or survival. A nutrient lockout can also occur when the grow medium accumulates too much salt or other nutrients.
 
 
 [More on ideal pH](/Watering#ph)
-##Pre-mixing nutrients##
+## Pre-mixing nutrients
 If you intend to mix nutrients in water in large quantities and leave it to sit for a period of time one should consider the nutrients used and how they may change over time. When mixing organic nutrients in water they will respire aerobically for a period of time, until they run out of oxygen and then begin to respire anaerobically. This destroys some of the bacteria's capabilities and makes for a less effective feed. The water will begin to smell like a pond or an asshole when the bacteria begin to respire anaerobically which is a surefire way to tell. Synthetically derived nutrients may last longer in water but can also become less effective as some nutrients may combine to create less accessible forms of the nutrient for the plant.
-##Methods of Nutrient delivery ##
-###Via growing medium### 
+## Methods of Nutrient delivery 
+### Via growing medium 
 The most simple method of nutrient delivery is by mixing with the water to be used for watering the cultivar. Take note that the [growing medium](/Growing_mediums) will affect the stability of the pH in the plant's root zone. Organic soils provide more of a pH buffer than hydroponic systems because, in organic soil, there are other organisms that help regulate pH. Even though nutrients have been added to the growing medium they will not be bioavailable to the plant instantly. Other organisms, such as [Mycorrhizal Fungi](/Nutrients#mycorrhizal_fungi) and [Microbes](/Nutrients#microbes), help in the process of breaking down nutrients so that they are useable by the cultivar.
 
-###Foliar Spray###
+### Foliar Spray
 Nutrients can be delivered to the plant when dissolved in water via a fine mist, this is the fastest route of administration. It has been postulated that the size of the droplets has an effect on the efficacy of foliar spray but some studies seem to contradict this<ref>Influence of Droplet Size of Foliar-Applied Nitrogen on Grain Protein Content of Hard Red Winter Wheat 2017 -https://acsess.onlinelibrary.wiley.com/doi/pdf/10.2134/cftm2016.10.0068</ref>. If possible the spray should be applied to the underside of leaves as this is where most stomata reside. Lights should be turned off before foliar spraying to prevent the light from lensing through droplets and burning the leaf surface.
 Foliar spray should not be used to provide emergency nutrients to the plant.
 
-##Sources of nutrients ##
+## Sources of nutrients
 Nutrients can be provided to a cultivar via concentrated liquid solutions, dry amendments, organic materials, and even other organisms living in the growing medium.
 
 If you are trying to provide NPK organically you can check the NPK values of most organic materials at [https://thenutrientcompany.com/blogs/horticulture/npk-value-of-everything-organic-database thenutrientcompany.com]
