@@ -4,6 +4,7 @@ import Navmenu from "./Navmenu"
 import { useOrientation } from "./providers/OrientationProvider";
 import { useState } from "react";
 
+import Analytics from "./components/Analytics";
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
     );
   };
 
+
   const isPortrait = useOrientation();
 
   const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait);
@@ -37,6 +39,7 @@ const App = () => {
   return (
     
       <Router>
+        <Analytics/>
         
         <div style={{display:"flex"}}>
           <nav>

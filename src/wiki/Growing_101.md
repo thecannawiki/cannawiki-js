@@ -11,7 +11,7 @@ The [ideal light intensity](/Light) that should be provided.
 
 The relationship between [temperature and humidity](/Temperature_and_Humidity)
 
-[[Plant training]], the concept of using physical intervention to shape the plant. This is generally done in a way that increases yield.
+[Plant training](/Plant_training), the concept of using physical intervention to shape the plant. This is generally done in a way that increases yield.
 
 [Frequently asked questions](/FAQs)
 

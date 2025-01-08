@@ -1,7 +1,7 @@
 A lot of beginners struggle with under/overwatering, and to add to the confusion, in both cases the plant will wilt. Plants should be watered until there is some drainage from the pot to remove old salts (nutrients) and stagnant air from the soil and ensure the plant is sufficiently watered. Consider using a plant pot saucer or drip tray to easily collect the drained water. Fabric pots provide the best drainage as the fabric is very porous.
 
 
-## Under/over watering symptoms##
+## Under/over watering symptoms ##
 Under-watering causes leaves to wilt due to a loss in rigidity as there is low moisture content. They will feel very thin as a result. Over-watering causes leaves to wilt due to the weight of excess moisture content. Feeling the texture, thickness, weight, and flexibility of the [petiole](/Anatomy_of_Cannabis#petiole) will help you determine if the plant is over or under watered. An under-watered plant will display a complete lack of rigidity in the petiole.
 <div align#'center'><ul> 
 <li style#"display: inline-block;"> <img src='/images/Over-watered.jpg' width='333px' title='Over watered plant'> </li>

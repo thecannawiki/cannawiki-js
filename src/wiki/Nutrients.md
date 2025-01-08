@@ -132,13 +132,14 @@ High concentrations of one nutrient can decrease the bioavailability of another,
 
 <img src="/images/Mulder's_Chart_of_Nutrient_antagonism.png" width="100%">
 
-## Deficiencies## 
+## Deficiencies ## 
 Most deficiencies present as a color change on the leaves, moving from the center outwards or from the edge of the leaf moving inwards. Deficiencies can appear on older leaves first or newer leaves first. Mobile nutrient (such as NPK) deficiencies will show on older leaves first as the plant moves nutrients to the younger leaves. Deficiencies will remain in leaves that have already finished growing even after it is remedied in fresher leaves. This means you must be patient in remedying mobile deficiencies
 
 Nutrients can be added to the growing medium before planting if possible, to avoid deficiency. 
 
-### Nutrient lockout###
+### Nutrient lockout ###
 <img src='/images/SoilpHNutrientLockout.png' width='400px'>
+
 Nutrient lockout occurs when the pH is too high or too low for the plant to properly absorb nutrients. This leads to a deficit of necessary nutrients for growth and/or survival. A nutrient lockout can also occur when the grow medium accumulates too much salt or other nutrients.
 
 
@@ -160,6 +161,3 @@ If you are trying to provide NPK organically you can check the NPK values of mos
 
 ## Flushing ##
 In the last two weeks before harvest, a plant should be fed water with no added nutrients/fertilizer. This is to ensure the cultivar is able to metabolize all nutrients it has absorbed from the soil.<ref>https://www.youtube.com/watch?v#qPh285tuVHw&ab_channel#TheGanjier Simon Hart, The Ganjier @ 13:08</ref> This leads to a smoother smoke containing less damaging compounds. The color of the ash left by burning cannabis can indicate how much fertilizer is present and if the plant was flushed or not. White ash indicates low amounts of excess nutrients left over and black ash indicates high amounts or possibly no flushing period.
-
-##References##
-<references />
