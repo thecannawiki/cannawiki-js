@@ -1,6 +1,6 @@
 There are several insects (as well as other wildlife) a plant can fall victim to when growing outdoors. Here you will find explanations of common pests and methods for repelling them.
 [[File:Appearance of pests on fan leaves.png|thumb]]
-[[File:Spider mites.jpeg|thumb|352x352px|alt#|Spider mites]]
+<img src='/images/Spider_mites.jpeg' width='352px'>
 
 ### Common Insects
 

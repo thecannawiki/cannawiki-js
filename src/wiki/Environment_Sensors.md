@@ -8,14 +8,19 @@ A number of grow controllers based on microcontrollers or linux are available on
 
 ## Humidity and Temperature ##
 There is a wide range of generic [humidity and temperature](/Temperature_and_Humidity) sensors that are cheaply available and provide reasonable accuracy. They generally incorporate a small LCD to display current readings and are widely used during curing as they fit inside most mason jars.  
-<div align#'center'><ul> 
-<li style#"display: inline-block;"> <img src="/images/BME280.png"></img> </li>
-<li style#"display: inline-block;"> [[File:Square sensor.png|thumb|none|217x217px]] </li>
-<li style#"display: inline-block;"> [[File:Round humidity sensor.png|thumb|none|225x225px]] </li>
-</ul>
+
+<div align='center'>
+ </li>
+<img src='/images/Square_sensor.png' width='217px'> </li>
+<img src='/images/Round_humidity_sensor.png' width='225px'> </li>
+
+<p align='center'>Some generic examples</p>
 </div>
-<p align#'center'>Some generic examples</p>More accurate DIY sensors include the BME280 or BME680. 
-[[File:BME280.png|center|thumb|300x300px|BME280]]
+
+<img src="/images/BME280.png" width='220px'></img>
+
+More accurate DIY sensors include the BME280 or BME680.
+
 DHT11 and DHT22 are often used to measure temp and humidity but the accuracy of humidity measurements in these sensors is too low to be useful for cultivation.
 
 ## Light ##
@@ -23,7 +28,7 @@ See [Measuring light intensity](/Light#measuring_light_intensity)
 
 ## Carbon Dioxide (Co2) ##
 Many generic sensors are not accurate for measuring co2 as they also pick up other volatile compounds, however, the SGP30 sensor is accurate for those willing to take the DIY route.
-[[File:Sgp30.png|center|frameless|275x275px|SGP30]]
+<img src='/images/Sgp30.png' width='275px'>
 
 
 ## pH ##

@@ -23,12 +23,13 @@ unit: mols/m<sup>2</sup>
 The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [lighting schedule](/Light#light_schedules) that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
 
 Full light intensity from the sun in summer reaches around 60 DLI<ref>https://www.youtube.com/watch?v#ID9rE5JewVg&t#1170s&ab_channel#ApogeeInstrumentsInc. - Bruce Bugee Grow lighting myths</ref>
-[[File:DLI equation.png|center|thumb|349x349px]]
+<img src='/images/DLI_equation.png' width='349px'>
+
 [DLI calculator](https://www.waveformlighting.com/horticulture/daily-light-integral-dli-calculator)
 
 ## Horticultural light terms
 ### PAR
-<img src="/images/PAR_range.png" width=100%/>
+<img src="/images/PAR_range.png" width="100%"/>
 
 
 PAR stands for Photosynthetic Active Radiation: light within the range of 400 to 700 nanometers that drives photosynthesis. For reference, the human eye can see light between 380 to 750 nm.
@@ -75,7 +76,8 @@ The Maximum PPFD cannabis can tolerate is around 2000 - 2500 μmol/s in perfect 
 Meta-analysis of plant morphology to light intensity.<ref>A meta-analysis of plant responses to light intensity for 70 traits ranging from molecules to whole plant performance (Poorter, 2019) https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15754</ref>
 
 ## Measuring light intensity
-[[File:Relative Spectral Power Distribution for color temp.jpg|thumb|310x310px|An SPD chart of common light spectrums]]
+<img src='/images/Relative_Spectral_Power_Distribution_for_color_temp.jpg' width='310px'>
+
 The amount of photosynthetically reactive light ([PAR](/Light#par)) present can be measured using a  dedicated device known as a Quantum sensor. They are very accurate, however, as most smartphones have a lux meter, a much cheaper alternative is to use a "PPFD meter" app. A lux value can be combined with the grow light's spectral power distribution (SPD) to calculate the amount of PAR radiation. This is necessary because lux meters measure light in the frequency relevant to human vision and not photosynthesis.
 
 Simply put, these apps use the phone's brightness sensor to find a lux value and ask the user to input the frequency of the grow light they are using. Often 3500K or 4000K for "full-spectrum lights", Samsung produces a number of LEDs in this range.

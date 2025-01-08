@@ -1,7 +1,8 @@
 Typically, in indoor grows, the smell produced by a flowering plant is undesirable to have outside of the growing environment, this has spurred the invention of filters utilizing activated carbon to absorb this odor.
 
 ## 385 motor Fan (Beta) ##
-[[File:385 fan.png|thumb|267x267px]]
+<img src='/images/385_fan_v5.png' width='267px'>
+
 This is a centrifugal fan that can be 3D printed and is compatible with the Cannawiki grow controller. A motor driver such as the TB6612FNG is required so that it can be controlled. This fan is designed for the 385 motor to be driven at 12V, but most 385 motors can be run as low as 4.5V. 
 
 This fan is also compatible with the filter below
@@ -41,9 +42,10 @@ This will work best with a well-calibrated printer, this design includes a lot o
 The fan can easily be mounted with heavy-duty velcro, which makes for easy repairs
 
 ## 120mm PC fan conversion kit 
-[[File:Assembled fan with carbon filter.png|thumb|358x358px|Assembled fan]]
+<img src='/images/Assembled_fan_with_carbon_filter.png' width='358px' title='Assembled fan'>
 
-[[File:120mm carbon filter exploded.png|thumb|431x431px|Exploded diagram. Parts from Top to bottom: Filter chamber, Filter chamber lid, Filler tool, Screw thread, Fan case top, Fan blades, Fan case bottom]]
+<img src='/images/120mm_carbon_filter_exploded.png' width='431px' title="Exploded diagram. Parts from Top to bottom: Filter chamber, Filter chamber lid, Filler tool, Screw thread, Fan case top, Fan blades, Fan case bottom">
+
 This fan is designed to be 3D printed and used as an exhaust fan with a filter using activated carbon pellets.
 
 #### Steps

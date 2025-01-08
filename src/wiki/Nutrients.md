@@ -123,7 +123,7 @@ Chelation is the bonding of organic compounds with metal ions, for example, humi
 More on chelation at Maximum yield: [Understanding Chelation in Plants](https://www.maximumyield.com/understanding-chelation-in-plants/2/17808) and [The Chelation Effect: Maximizing Plant Growth](https://www.maximumyield.com/the-chelation-effect/2/1137).
 
 ## The sequence of nutrition ##
-[[File:The biochemical sequence of nutrition in plants.png|center|499x499px|alt#|frameless]]
+<img src='/images/The_biochemical_sequence_of_nutrition_in_plants.png|center' width='499px'>
 The biochemical sequence depicts the order in which nutrients are required by the plant and the interconnections between nutrients.
 
 ## Nutrient antagonism ##
@@ -138,7 +138,7 @@ Most deficiencies present as a color change on the leaves, moving from the cente
 Nutrients can be added to the growing medium before planting if possible, to avoid deficiency. 
 
 ### Nutrient lockout###
-[[File:SoilpHNutrientLockout.png|thumb|400x400px|The availability of nutrients in soil at different pH|center]]
+<img src='/images/SoilpHNutrientLockout.png' width='400px'>
 Nutrient lockout occurs when the pH is too high or too low for the plant to properly absorb nutrients. This leads to a deficit of necessary nutrients for growth and/or survival. A nutrient lockout can also occur when the grow medium accumulates too much salt or other nutrients.
 
 

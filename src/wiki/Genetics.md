@@ -28,7 +28,8 @@ The most notable terpenes used to broadly categorize cannabis are as follows:
 Environmental stress, among other factors, can cause the DNA of a cultivar to be altered causing a variation in its genetics. This can lead the morphology to differ wildly from other plants that began with the same genetics, in other words, the same strain.
 
 #### Whorled Phyllotaxy ####
-[[File:Whorled Phyllotaxy.jpg|thumb|300x300px|Whorled Phyllotaxy]]
+<img src='/images/Whorled_Phyllotaxy.jpg' width='300px'>
+
 This is an alternate arrangement of branching. In Cannabis, [nodes](/Anatomy_of_Cannabis#node) generally have two branches opposite each other on the stem they are growing from. When whorled phyllotaxy occurs 3 branches can grow from the same node.
 
 

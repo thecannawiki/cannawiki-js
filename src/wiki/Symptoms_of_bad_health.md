@@ -33,7 +33,7 @@ The apex of the leaf clawing down is most often a sign of wind burn (airflow bei
 
 ### Root bound ###
 If roots outgrow the pot they are in they become "bound". If this occurs the plant should be moved to a larger medium to continue growing. Constricting the roots will limit the overall size of the plant and may stunt it.
-[[File:Rootbound.jpg|none|thumb|298x298px|Root bound]]
+<img src='/images/Rootbound.jpg' width='298px' title='Root bound'>
 
 ### loss of stem rigidity ###
 This can be a symptom of [under-watering](/Watering#under_over_watering_symptoms)

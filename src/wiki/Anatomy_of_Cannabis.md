@@ -34,7 +34,9 @@ The outer perimeter or edge of a leaf. Cannabis is well recognized due to the di
 Stomata are tiny pores in the plant tissue that allow for [gas exchange](/Plant processes#gas_exchange). The majority can be found on the underside of the leaves but they are also found on the surface of leaves and stems.
 
 ## Buds
-[[File:Bud anatomy.png|thumb|350x350px]]The raceme of the cannabis plant.
+<img src='/images/Bud_anatomy.png' width='350px'>
+
+The raceme of the cannabis plant.
 
 #### Cola
 A cluster of many buds along the stem and its terminal. Colas will appear and become larger throughout the [flowering stage](/Life_Stages#flowering) .
@@ -59,7 +61,9 @@ Hair-like structures that emerge from the bud are often (confusingly) referred t
 
 #### Bract
 <img src="/images/Calyx_Growth.png" width="325px"/>
-[[File:Bract Anatomy.png|thumb|The bract in detail by Juan Ganjagod|link#Special:FilePath/Bract_Anatomy.png]]
+
+<img src="/images/Bract_Anatomy.png" width="325px" title="The bract in detail by Juan Ganjagod"/>
+
 The first part of the flower that forms, the Bract provides protection for the pistils and stigma and is the most resinous part of the bud. As the plant matures the Bract will swell and engulf more of the stigma. The Bract is often identified as a calyx but the calyx actually resides inside of the bract.<ref>The Nomenclature of Female Flowers, 2017 - https://www.cannabisbusinesstimes.com/article/the-nomenclature-of-female-flowers/</ref>
 
 ## Roots 
