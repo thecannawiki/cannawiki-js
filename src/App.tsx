@@ -18,9 +18,11 @@ const App = () => {
     console.log(page_name)
     const filePath = `/wiki/${page_name || "Main_Page"}.md`;
     return( 
-      <div style={markdownPaneStyle}>
-        <h1>{page_name?.replaceAll("_", " ")}</h1>
-        <MarkdownLoader filePath={filePath} />
+      <div style={PageContainer}>
+        <div style={markdownPaneStyle}>
+          <h1>{page_name?.replaceAll("_", " ")}</h1>
+          <MarkdownLoader filePath={filePath} />
+        </div>
       </div>
     );
   };
@@ -30,10 +32,20 @@ const App = () => {
 
   const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait);
 
-
   const markdownPaneStyle = {
+     maxWidth: isPortrait ?"80%" : "1000px",
+     wordWrap: 'break-word',      // Allows words to break onto the next line
+      overflowWrap: 'break-word', // Ensures compatibility across browsers
+      wordBreak: 'break-word',
+  }
+
+  const PageContainer = {
     marginLeft: menuopen? "300px": "60px",
-    maxWidth: isPortrait ?"80%" : "1000px" 
+    // maxWidth: isPortrait ?"80%" : "1000px" 
+    display:"flex",
+    justifyContent: "center", /* Centers horizontally */
+    // alignItems: "center",
+    width: "100%"
   }
 
   return (
@@ -41,7 +53,7 @@ const App = () => {
       <Router>
         <Analytics/>
         
-        <div style={{display:"flex"}}>
+        <div style={{display:"flex", overflowX: "hidden"}}>
           <nav>
             <Navmenu isMenuOpen={menuopen} setMenuOpen={setMenuOpen} />  
           </nav>

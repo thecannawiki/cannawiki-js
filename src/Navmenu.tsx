@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import {Link } from "react-router-dom";
-import "./Navmenu.css"
+import {Link, useLocation } from "react-router-dom";
+// import "./Navmenu.css"
 import React from 'react';
+import { useOrientation } from "./providers/OrientationProvider";
 
 interface props {
     isMenuOpen: boolean;
@@ -17,7 +18,7 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
 
  
     const [files, setFiles] = useState<fileList[]>([]);
-  
+    const isPortrait = useOrientation();
     
 
     useEffect(() => {
@@ -30,6 +31,16 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         }));
         setFiles(fileList);
     }, []);
+
+    const location = useLocation();
+
+    useEffect(() => {
+        const onNavigation = () => {
+            if(isPortrait){setMenuOpen(false);}
+        };
+
+        onNavigation();
+    }, [location]);
 
 
     const menuStyle: React.CSSProperties = {
@@ -46,35 +57,41 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         // background-color: "#333",
         // color: "#fff",
         // overflow-x: "hidden",
-        // transition: "all 0.3s ease",
+        transition: "all 0.3s ease",
         // box-shadow: "2px 0 5px rgba(0, 0, 0, 0.2)"
       };
 
     const menuFooter = {
         flexGrow: 0, /* Keeps the bottom segment at its natural size */
         marginTop: "auto", /* Push the bottom segment to the bottom */
-        marginBottom:"8px"
+        marginBottom:"16px",
+        paddingTop:"8px"
     };
 
 
 return(
-    <div style={menuStyle}>
+    <>
+        <div style={menuStyle}>
 
-        <Link to="/"><img src="/images/CannawikiLogo.png" style={{maxHeight:"100%", maxWidth:"100%"}}/></Link>
+            <Link to="/"><img src="/images/CannawikiLogo.png" style={{marginLeft: "auto", marginRight: "auto", display: "block", width: "80%"}}/></Link>
 
-        <div style={{overflowY: "scroll"}}>
-            {files.map((file: fileList) => { 
-                const name = file.name.replaceAll(".md", "");
-                return(
-                    <div >
-                        <Link to={`/${name}`}>{name.replaceAll("_", " ")}</Link>
-                    </div>
-                )
-            })}
+            <div style={{overflowY: "scroll", width:"100%"}}>
+                {files.map((file: fileList) => { 
+                    const name = file.name.replaceAll(".md", "");
+                    return(
+                        <div >
+                            <Link to={`/${name}`}>{name.replaceAll("_", " ")}</Link>
+                        </div>
+                    )
+                })}
+            </div>
+            {isMenuOpen && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
+            
         </div>
-
-        <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{isMenuOpen ? "close Menu" :"open menu"}</div>
-    </div>
+        {!isMenuOpen &&
+        <div style={{width:20, position:"fixed"}} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Open menu"}</div>
+        }
+    </>
 );
 
 };

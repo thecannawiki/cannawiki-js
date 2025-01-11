@@ -4,7 +4,7 @@ Cannabis can grow in any environment that fulfills the basic requirements of pro
 
 When growing outdoors a key consideration is when to plant seeds for optimum light and temperature conditions. It is best to know the DLI your plant will receive when choosing a location. You can check the DLI for a given longitude and latitude through the year on Suntracker. https://dli.suntrackertech.com/
 ## Indoor 
-While growing indoors it is crucial to monitor and adjust the environment's [temperature and humidity](/Temperature_and_Humidity) as there is no natural mechanism to regulate these factors. Data from [environment sensors](/Environment_Sensors) will give the best indication of if the environment is sufficient but there are also[symptoms of bad environments](/Symptoms_of_bad_environment) that can be helpful in determining sufficiency. 
+While growing indoors it is crucial to monitor and adjust the environment's [temperature and humidity](/Temperature_and_Humidity) as there is no natural mechanism to regulate these factors. Data from [environment sensors](/Environment_Sensors) will give the best indication of if the environment is sufficient but there are also [symptoms of bad environments](/Symptoms_of_bad_environment) that can be helpful in determining sufficiency. 
 
 ### Temperature and humidity 
 
