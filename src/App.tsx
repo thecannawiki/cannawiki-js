@@ -33,14 +33,14 @@ const App = () => {
   const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait);
 
   const markdownPaneStyle: React.CSSProperties = {
-     maxWidth: isPortrait ?"80%" : "1000px",
+     maxWidth: isPortrait ? "99%" : "1000px",
      wordWrap: 'break-word',      // Allows words to break onto the next line
       // overflowWrap: 'break-word', // Ensures compatibility across browsers
       wordBreak: 'break-word',
   }
 
   const PageContainer: React.CSSProperties = {
-    marginLeft: menuopen? "300px": "60px",
+    marginLeft: menuopen? "300px": "46px",
     // maxWidth: isPortrait ?"80%" : "1000px" 
     display:"flex",
     justifyContent: "center", /* Centers horizontally */
