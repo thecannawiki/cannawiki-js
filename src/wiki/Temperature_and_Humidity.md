@@ -22,9 +22,4 @@ VPD can be calculated by using the [Tentens Equation](https://en.wikipedia.org/w
 '''VPD''' = '''vapor pressure in the leaf - vapor pressure of air'''
 
 ## Ideal conditions ##
-The ideal temperature is range is 24°- 28°C<ref>Chandra et al. (2008) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3550641/pdf/12298_2008_Article_27.pdf</ref> while the ideal humidity is 40-60%. Ideal VPD is around 1 kPa <ref>Nadia Sabeh​​, PhD - Vapor Pressure Deficit (VPD) and Cannabis Cultivation -
-
-Future Cannabis Project - https://www.youtube.com/watch?v#a6GUPfepLIc&ab_channel#FutureCannabisProject</ref>. Of course, the exact ideal values differ depending on the current [life stage](/Life_Stages) of the culivar or it's [genetics](/Genetics).
-
-## References ##
-<references/>
+The ideal temperature is range is 24°- 28°C<ref>Chandra et al. (2008) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3550641/pdf/12298_2008_Article_27.pdf</ref> while the ideal humidity is 40-60%. Ideal VPD is around 1 kPa <ref>Nadia Sabeh​​, PhD - Vapor Pressure Deficit (VPD) and Cannabis Cultivation - Future Cannabis Project - https://www.youtube.com/watch?v#a6GUPfepLIc&ab_channel#FutureCannabisProject</ref>. Of course, the exact ideal values differ depending on the current [life stage](/Life_Stages) of the culivar or it's [genetics](/Genetics).

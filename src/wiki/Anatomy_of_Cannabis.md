@@ -31,7 +31,7 @@ The underside of a leaf.
 The outer perimeter or edge of a leaf. Cannabis is well recognized due to the distinctive shape of its leaf margins.
 
 #### Stomata
-Stomata are tiny pores in the plant tissue that allow for [gas exchange](/Plant processes#gas_exchange). The majority can be found on the underside of the leaves but they are also found on the surface of leaves and stems.
+Stomata are tiny pores in the plant tissue that allow for [gas exchange](/Plant_processes#gas_exchange). The majority can be found on the underside of the leaves but they are also found on the surface of leaves and stems.
 
 ## Buds
 <img src='/images/Bud_anatomy.png' width='350px'>
@@ -39,7 +39,7 @@ Stomata are tiny pores in the plant tissue that allow for [gas exchange](/Plant 
 The raceme of the cannabis plant.
 
 #### Cola
-A cluster of many buds along the stem and its terminal. Colas will appear and become larger throughout the [flowering stage](/Life_Stages#flowering) .
+A cluster of many buds along the stem and its terminal. Colas will appear and become larger throughout the [flowering stage](/Life_Stages#flowering).
 
 #### Trichomes
 Trichomes are resin-filled glands that appear on the sugar leaves and buds of Cannabis in the flowering stage. They contain THC, CBD, and other cannabinoids. They first appear on the plant as a translucent colour but slowly turn milky white as the plant matures. The opacity indicates the amount of THC in the trichrome. As flowering continues the milky white colour turns to amber as the THC converts into CBD.

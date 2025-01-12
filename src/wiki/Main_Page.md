@@ -1,7 +1,7 @@
 ## Welcome to the most extensive encyclopedia of cannabis cultivation
 
 
-New to growing [Start Here](/Growing_101)
+New to growing? [Start Here](/Growing_101)
 <br>
 <br>
 [Temperature & Humidity](/Temperature_and_Humidity)
@@ -13,8 +13,11 @@ New to growing [Start Here](/Growing_101)
 [Light](/Light)
 
 
-### Useful links
 
-[Discord](https://discord.gg/gnuNQPZrcV)
+<div class="right" style="flex-direction: column;">
+<h3>Join the discussion</h3>
 
+<a href="https://discord.gg/gnuNQPZrcV">Discord</a>
+
+</div>
 
