@@ -23,7 +23,7 @@ unit: mols/m<sup>2</sup>
 The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [lighting schedule](/Light#light_schedules) that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
 
 Full light intensity from the sun in summer reaches around 60 DLI<ref>https://www.youtube.com/watch?v#ID9rE5JewVg&t#1170s&ab_channel#ApogeeInstrumentsInc. - Bruce Bugee Grow lighting myths</ref>
-<img src='/images/DLI_equation.png' width='349px'>
+<img src='/images/DLI_equation.png' class="full">
 
 [DLI calculator](https://www.waveformlighting.com/horticulture/daily-light-integral-dli-calculator)
 

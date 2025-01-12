@@ -5,14 +5,14 @@ Most abnormalities in leaf color can be found in this article. This covers nutri
 ## By Leaf appearance
 
 ### Fan leaf color ###
-The color and general appearance of [fan leaves](/Anatomy_of_Cannabis#fan_leaves) can provide a lot of information about issues involving nutrients. If the color is uneven it can be a sign of poor health.<div align#'center'>
-<ul> 
-<li style#"display: inline-block;"> [[File:Deficiency and abundance of fertilization elements.jpeg|thumb|none|600px]]</li>
-<li style#"display: inline-block;">[[File:Whole plant nutrient deficiencies and excesses.jpeg|thumb|600px]] </li>
-<li style#"display: inline-block;"> [[File:Nutrient_Disorder_visual_guide.jpg|thumb|none|600px]]</li>
-<li style#"display: inline-block;"> [[File:Deficiencies on fan leaves.png|center|thumb|600px]]</li>
-</ul>
-<p>Fan leaf patterns for diagnosing nutrient issues (click for higher res)</p>
+The color and general appearance of [fan leaves](/Anatomy_of_Cannabis#fan_leaves) can provide a lot of information about issues involving nutrients. If the color is uneven it can be a sign of poor health.
+<div class="center">
+    <img src="/images/Deficiency_and_abundance_of_fertilization_elements.jpeg"/>
+    <img src="/images/Whole_plant_nutrient_deficiencies_and_excesses.jpeg"/>
+    <img src="/images/Nutrient_Disorder_visual_guide.jpg"/>
+    <img src="/images/Deficiencies_on_fan_leaves.png"/>
+ 
+     Fan leaf patterns for diagnosing nutrient issues (click for higher res)
 </div>
 
 
@@ -26,14 +26,16 @@ This can be a sign of both under and over-watering.
 
 ### Claw fan leaves ###
 The apex of the leaf clawing down is most often a sign of wind burn (airflow being too intense) or [nitrogen toxicity](/Diseases#nitrogen_toxicity)
-[[File:Leaf claw2.jpg|alt#|left|thumb]]
+
+<img src="/images/Leaf_claw2.jpg">
 
 
 ## By plant appearance ##
 
 ### Root bound ###
 If roots outgrow the pot they are in they become "bound". If this occurs the plant should be moved to a larger medium to continue growing. Constricting the roots will limit the overall size of the plant and may stunt it.
-<img src='/images/Rootbound.jpg' width='298px' title='Root bound'>
+
+<img src='/images/Rootbound.jpg' class="right" title='Root bound'>
 
 ### loss of stem rigidity ###
 This can be a symptom of [under-watering](/Watering#under_over_watering_symptoms)

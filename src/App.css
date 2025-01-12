@@ -1,6 +1,6 @@
 
 img.full {
-  width: 100% !important; 
+  width: 90% !important; 
   max-width: 800px;
   display: block;
   margin: auto !important;
@@ -11,6 +11,11 @@ img.center {
   margin: auto !important;
 }
 
+img.right {
+  display: block;
+  margin-left: auto !important;
+}
+
 div.center {
   display: flex;
   justify-content: center;
@@ -18,9 +23,16 @@ div.center {
   flex-wrap: wrap;
 }
 
+div.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
 
 .markdownPane a {
-  /* Your styles here */
+  /* break those long ahh links */
   word-wrap: 'break-word'; 
   overflow-wrap: 'break-word';
   word-break: 'break-word';
@@ -28,10 +40,9 @@ div.center {
 }
 
 .markdownPane img {
-  /* max-width: 100%; */
   width: 325px;
   margin: 8px;
-  
+  max-width: 100%;
 }
 
 
