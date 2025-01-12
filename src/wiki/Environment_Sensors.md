@@ -17,7 +17,7 @@ There is a wide range of generic [humidity and temperature](/Temperature_and_Hum
 <p align='center'>Some generic examples</p>
 </div>
 
-<img src="/images/BME280.png" width='220px'></img>
+<img src="/images/BME280.png" class="center" width='220px'></img>
 
 More accurate DIY sensors include the BME280 or BME680.
 
@@ -28,7 +28,7 @@ See [Measuring light intensity](/Light#measuring_light_intensity)
 
 ## Carbon Dioxide (Co2) ##
 Many generic sensors are not accurate for measuring co2 as they also pick up other volatile compounds, however, the SGP30 sensor is accurate for those willing to take the DIY route.
-<img src='/images/Sgp30.png' width='275px'>
+<img src='/images/Sgp30.png' class="center" width='275px'>
 
 
 ## pH ##
