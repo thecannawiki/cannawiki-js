@@ -6,8 +6,8 @@ The topology of a plant is simply a way to describe its shape in 3D space. The n
 
 <div align='center'>
     <ul> 
-        <li style="display: inline-block;"> <img src='/images/Natural_topology.png' width='441px' title='Natural topology (early flowering). The vast majority of strains will naturally grow in this shape.'> </li>
-        <li style="display: inline-block;"><img src='/images/Plant_with_LST_applied.png' width='441px' title='Plant with LST applied to form a horizontal line'/>
+        <li style="display: inline-block;"> <img src='/images/Natural_topology.png' title='Natural topology (early flowering). The vast majority of strains will naturally grow in this shape.'> </li>
+        <li style="display: inline-block;"><img src='/images/Plant_with_LST_applied.png' title='Plant with LST applied to form a horizontal line'/>
     </ul>
 </div>
 
@@ -52,4 +52,6 @@ Removing the growth at the top of a branch. This can be used to create two new h
 Similar to topping but the cut is made slightly higher up the stem. This results in 4 branches growing from the cut.
 
 ### Mainlining ###
-By topping the main stem, one can create a manifold ('Y' shaped stem). This forces the plant to split resources between the remaining branches, creating a more even canopy. This should be done when the plant a) has at least three nodes, b) when it is healthy and c) while it is still vegetating. After creating a manifold, LST should be applied to maintain the shape of the plant.<img src='/images/Tall_fluxing.jpg' width='421px' title='This example shows a manifold in the centre and the stem being kept parallel to the soil by garden wire'>
+By topping the main stem, one can create a manifold ('Y' shaped stem). This forces the plant to split resources between the remaining branches, creating a more even canopy. This should be done when the plant a) has at least three nodes, b) when it is healthy and c) while it is still vegetating. After creating a manifold, LST should be applied to maintain the shape of the plant.
+
+<img src='/images/Tall_fluxing.jpg' width='421px' title='This example shows a manifold in the centre and the stem being kept parallel to the soil by garden wire'>

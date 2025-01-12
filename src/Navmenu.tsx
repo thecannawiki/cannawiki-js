@@ -45,12 +45,12 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
 
     const menuStyle: React.CSSProperties = {
         marginLeft: "12px",
-        position: "fixed",
+        // position: "fixed",
         top: 0,
         left: 0,
         lineHeight: 1.6,
         height: "98vh",
-        width: isMenuOpen ? "280px" : "0px",
+        width: isMenuOpen ? "270px" : "0px",
         // overflowY: "scroll",
         display: "flex",
         flexDirection: "column",
@@ -79,12 +79,13 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
 
 
 return(
-    <>
-        <div style={menuStyle}>
+    <>  <div style={{...menuStyle}} ></div> {/* layout div */}
+        <div style={{...menuStyle, position:"fixed"}}>
+            
 
             <Link to="/"><img src="/images/CannawikiLogo.png" style={headerImage}/></Link>
 
-            <div style={{overflowY: "scroll", width:"100%"}}>
+            <div className="hide-scrollbar" style={{overflowY: "scroll", width:"100%"}}>
                 {files.map((file: fileList) => { 
                     const name = file.name.replaceAll(".md", "");
                     return(
@@ -97,8 +98,9 @@ return(
             {isMenuOpen && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
             
         </div>
+        
         {!isMenuOpen &&
-        <div style={{width:20, position:"fixed"}} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Open menu"}</div>
+        <div style={{width:20, position:"fixed", top:"20px", marginLeft:"-4px"}} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Open menu"}</div>
         }
     </>
 );

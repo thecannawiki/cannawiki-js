@@ -3,7 +3,7 @@ import MarkdownLoader from "./components/MarkdownLoader"
 import Navmenu from "./Navmenu"
 import { useOrientation } from "./providers/OrientationProvider";
 import { useState } from "react";
-
+import "./App.css"
 import Analytics from "./components/Analytics";
 
 
@@ -19,8 +19,8 @@ const App = () => {
     const filePath = `/wiki/${page_name || "Main_Page"}.md`;
     return( 
       <div style={PageContainer}>
-        <div style={markdownPaneStyle}>
-          <h1>{page_name?.replaceAll("_", " ")}</h1>
+        <div style={markdownPaneStyle} className="markdownPane">
+          <h1 style={{textAlign:"center"}}>{page_name?.replaceAll("_", " ")}</h1>
           <MarkdownLoader filePath={filePath} />
         </div>
       </div>
@@ -33,14 +33,19 @@ const App = () => {
   const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait);
 
   const markdownPaneStyle: React.CSSProperties = {
-     maxWidth: isPortrait ? "99%" : "1000px",
-     wordWrap: 'break-word',      // Allows words to break onto the next line
-      // overflowWrap: 'break-word', // Ensures compatibility across browsers
-      wordBreak: 'break-word',
+     maxWidth: "1000px",
+     minWidth: "200px",
+    //  wordWrap: 'break-word',      // Allows words to break onto the next line
+    //   // overflowWrap: 'break-word', // Ensures compatibility across browsers
+    //   wordBreak: 'break-word',
+    marginLeft: menuopen? "12px": "40px",
+    marginRight: "40px",
+    // overflowY: "scroll",
   }
 
   const PageContainer: React.CSSProperties = {
-    marginLeft: menuopen? "300px": "46px",
+    // marginLeft: menuopen? "300px": "46px",
+    // marginRight: "8px",
     // maxWidth: isPortrait ?"80%" : "1000px" 
     display:"flex",
     justifyContent: "center", /* Centers horizontally */

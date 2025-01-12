@@ -29,7 +29,7 @@ Full light intensity from the sun in summer reaches around 60 DLI<ref>https://ww
 
 ## Horticultural light terms
 ### PAR
-<img src="/images/PAR_range.png" width="100%"/>
+<img src="/images/PAR_range.png" class="full" width="100%"/>
 
 
 PAR stands for Photosynthetic Active Radiation: light within the range of 400 to 700 nanometers that drives photosynthesis. For reference, the human eye can see light between 380 to 750 nm.
@@ -59,7 +59,7 @@ Ideal intensity is around 1000 - 2000 μmol/s. 40 DLI is a good target although 
 
 Generally the maximum light intensity a plant can tolerate becomes limited by other conditions such as CO2 level or nutrient deficiency. Note that light intensity is proportional to the rate of [transpiration](/Plant_processes#transpiration), meaning higher light intensity can raise the [humidity](/Temperature_and_Humidity) of the environment as more water exits the plant. This creates another potential limitation to the maximum light that can be applied; the grower's ability to control the temperature and humidity.
 
-### Optimum light intensity###
+### Optimum light intensity ###
 In this instance, "optimum light intensity" refers to the amount of light that provides the maximum yield from the cultivar.
 
 The threshold for optimal growth and photosynthesis, from the vegetative stage, is a DLI of 65 moles.<ref> Daily Light Integral DLI Relation To Cannabis Yield (Meta-analysis, Matthew Debacco, 2021) https://www.youtube.com/watch?v#au7G-oVDeKg</ref>
@@ -76,7 +76,7 @@ The Maximum PPFD cannabis can tolerate is around 2000 - 2500 μmol/s in perfect 
 Meta-analysis of plant morphology to light intensity.<ref>A meta-analysis of plant responses to light intensity for 70 traits ranging from molecules to whole plant performance (Poorter, 2019) https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15754</ref>
 
 ## Measuring light intensity
-<img src='/images/Relative_Spectral_Power_Distribution_for_color_temp.jpg' width='310px'>
+<img src='/images/Relative_Spectral_Power_Distribution_for_color_temp.jpg' class="full">
 
 The amount of photosynthetically reactive light ([PAR](/Light#par)) present can be measured using a  dedicated device known as a Quantum sensor. They are very accurate, however, as most smartphones have a lux meter, a much cheaper alternative is to use a "PPFD meter" app. A lux value can be combined with the grow light's spectral power distribution (SPD) to calculate the amount of PAR radiation. This is necessary because lux meters measure light in the frequency relevant to human vision and not photosynthesis.
 

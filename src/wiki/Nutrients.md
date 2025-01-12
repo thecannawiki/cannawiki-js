@@ -123,14 +123,15 @@ Chelation is the bonding of organic compounds with metal ions, for example, humi
 More on chelation at Maximum yield: [Understanding Chelation in Plants](https://www.maximumyield.com/understanding-chelation-in-plants/2/17808) and [The Chelation Effect: Maximizing Plant Growth](https://www.maximumyield.com/the-chelation-effect/2/1137).
 
 ## The sequence of nutrition ##
-<img src='/images/The_biochemical_sequence_of_nutrition_in_plants.png|center' width='499px'>
+<img src='/images/The_biochemical_sequence_of_nutrition_in_plants.png' class='full'>
+
 The biochemical sequence depicts the order in which nutrients are required by the plant and the interconnections between nutrients.
 
 ## Nutrient antagonism ##
 High concentrations of one nutrient can decrease the bioavailability of another, this is known as nutrient antagonism. For example, high Nitrogen will decrease the availability of Boron. 
 
 
-<img src="/images/Mulder's_Chart_of_Nutrient_antagonism.png" width="100%">
+<img src="/images/Mulder's_Chart_of_Nutrient_antagonism.png" class="full">
 
 ## Deficiencies ## 
 Most deficiencies present as a color change on the leaves, moving from the center outwards or from the edge of the leaf moving inwards. Deficiencies can appear on older leaves first or newer leaves first. Mobile nutrient (such as NPK) deficiencies will show on older leaves first as the plant moves nutrients to the younger leaves. Deficiencies will remain in leaves that have already finished growing even after it is remedied in fresher leaves. This means you must be patient in remedying mobile deficiencies
@@ -138,7 +139,7 @@ Most deficiencies present as a color change on the leaves, moving from the cente
 Nutrients can be added to the growing medium before planting if possible, to avoid deficiency. 
 
 ### Nutrient lockout ###
-<img src='/images/SoilpHNutrientLockout.png' width='400px'>
+<img src='/images/SoilpHNutrientLockout.png' class='full'>
 
 Nutrient lockout occurs when the pH is too high or too low for the plant to properly absorb nutrients. This leads to a deficit of necessary nutrients for growth and/or survival. A nutrient lockout can also occur when the grow medium accumulates too much salt or other nutrients.
 

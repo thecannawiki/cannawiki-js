@@ -46,24 +46,22 @@ Trichomes are resin-filled glands that appear on the sugar leaves and buds of Ca
 
 More on trichomes at [Dutch Passion](https://dutch-passion.com/en/blog/what-are-cannabis-trichomes-and-how-do-they-affect-your-smoke-n986#types)
 
-<cara>
-    <ul> 
-    <li style#"display: inline-block;"> <img src="/images/Interior_of_glandular_trichomes.jpg" width="325px"/></li>
-    <li style#"display: inline-block;"> <img src="/images/Close_up_trichomes.png" width="325px"/> </li>
-    </ul>
-</cara>
+
+<img src="/images/Interior_of_glandular_trichomes.jpg" width="325px"/>
+<img src="/images/Close_up_trichomes.png" width="325px"/> 
+
 
 #### Terpenes 
 The organic compounds found in the highest concentration in buds that create the taste and aroma of Cannabis.
 #### Stigma
-<img src="/images/Cannabis_stigma.png" width="325px"/>
+<img src="/images/Cannabis_stigma.png"/>
 
 Hair-like structures that emerge from the bud are often (confusingly) referred to as Pistils. This is most likely because the stigma-possessing female plants are referred to as pistillate, which then became short-hand.<ref>https://weedmaps.com/learn/dictionary/pistil</ref> The coloration of the stigma can provide some insight into the maturity of the plant, as the plant matures, the stigma turns from white to orange.
 
 #### Bract
-<img src="/images/Calyx_Growth.png" width="325px"/>
-
 <img src="/images/Bract_Anatomy.png" width="325px" title="The bract in detail by Juan Ganjagod"/>
+
+<img src="/images/Calyx_Growth.png" width="325px"/>
 
 The first part of the flower that forms, the Bract provides protection for the pistils and stigma and is the most resinous part of the bud. As the plant matures the Bract will swell and engulf more of the stigma. The Bract is often identified as a calyx but the calyx actually resides inside of the bract.<ref>The Nomenclature of Female Flowers, 2017 - https://www.cannabisbusinesstimes.com/article/the-nomenclature-of-female-flowers/</ref>
 
