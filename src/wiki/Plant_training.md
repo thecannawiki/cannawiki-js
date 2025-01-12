@@ -1,15 +1,13 @@
 The main concept of training a plant is to shape the canopy and stems in a way that will maximize yield. For example, without training, the upper canopy will naturally put the lower canopy in shade. Via training it is possible to force lower branches to grow away from more dense areas to receive more [light](/Light) and [airflow](/Plant_processes#gas_exchange); this allows the plant to be more open, giving each branch more growing room and a chance to branch further.
 
 ## Topology ##
-The topology of a plant is simply a way to describe its shape in 3D space. The natural topology for most strains of cannabis is to grow straight up and produce a single large cola. This is determined somewhat by the branching behavior which changes at different life stages<ref>Architecture and Florogenesis in Female Cannabis sativa 2019 
- - http://dx.doi.org/10.3389/fpls.2019.00350</ref> By applying plant training techniques the topology can be made drastically different from the natural behavior.
+The topology of a plant is simply a way to describe its shape in 3D space. The natural topology for most strains of cannabis is to grow straight up and produce a single large cola. This is determined somewhat by the branching behavior which changes at different life stages<ref>Architecture and Florogenesis in Female Cannabis sativa 2019 - http://dx.doi.org/10.3389/fpls.2019.00350</ref> By applying plant training techniques the topology can be made drastically different from the natural behavior.
 
-<div align='center'>
-    <ul> 
-        <li style="display: inline-block;"> <img src='/images/Natural_topology.png' title='Natural topology (early flowering). The vast majority of strains will naturally grow in this shape.'> </li>
-        <li style="display: inline-block;"><img src='/images/Plant_with_LST_applied.png' title='Plant with LST applied to form a horizontal line'/>
-    </ul>
-</div>
+<div class="center">
+<img src='/images/Natural_topology.png' title='Natural topology (early flowering). The vast majority of strains will naturally grow in this shape.'> 
+<img src='/images/Plant_with_LST_applied.png' title='Plant with LST applied to form a horizontal line'/>
+  </div>
+
 
 ## Low-Stress Techniques (LST) ##
 Some forms of LST can be applied as soon as the plant has one node, as this is when it is flexible and not brittle. Things like pinning or tieing down stems.  One of the most common goals when employing LST is to make the main stem grow sideways so that most of the branches aren't in the shadow of the main canopy, as they would be if the canopy was directly above. LST can be applied throughout the plant's entire lifespan. It may be necessary to adjust your LST every day or every two days when the plant is growing quickly.
@@ -21,11 +19,7 @@ This is the most basic form of LST and usually consists of holding a stem down w
 ### Fluxxing ###
 Fluxxing is a method of using metal wire (or paper clips) to pin the stem down as it grows. This greatly reduces the height of the plant by training branches to grow laterally. This method is better suited to more compact mediums like soil, as pins require some friction to stay in place. Pinning should start as soon as there is a long enough stem to pin. You can grow a seedling in low light to increase the stem stretching in the seedling phase. This can increase the inter-nodal distance, giving your branches more space later on in flowering. If branches are pinned tightly, pins will have to be removed after the plant has adjusted so that they do not constrict or cut into growing stems.
 
-<div align#'center'><ul> 
-<li style#"display: inline-block;"> [[File:LST-pinning-down.png|thumb|none|300px|Here, the plant is kept low to the soil with blue paper clips. See how the clips can be used to twist the main stem as it grows so that all nodes can emerge parallel to the soil]] </li>
-<li style#"display: inline-block;">  </li>
-</ul>
-</div>
+<img src="/images/LST-pinning-down.png" class="center" title="Here, the plant is kept low to the soil with blue paper clips. See how the clips can be used to twist the main stem as it grows so that all nodes can emerge parallel to the soil"/>
 
 ### Ponytailing ###
 Ponytailing is the process of tying leaves up in a bunch together to remove the shade they create. This also leads to the ponytailed stem receiving less light and stretching more as a result. This can be done with small cable ties or paper clips at any point in the plant's life.
@@ -48,7 +42,8 @@ A method of planting a large number of plants so that there is a high density of
 Removing the growth at the top of a branch. This can be used to create two new heads at the top of the branch.
 
 ### Fimming ###
-[[File:Fimming topping.jpeg|thumb|Fimming]]
+<img src="/images/Fimming_topping.jpeg" />
+
 Similar to topping but the cut is made slightly higher up the stem. This results in 4 branches growing from the cut.
 
 ### Mainlining ###

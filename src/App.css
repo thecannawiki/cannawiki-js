@@ -14,7 +14,8 @@ img.center {
 div.center {
   display: flex;
   justify-content: center;
-  align:center;
+  align-items:center;
+  flex-wrap: wrap;
 }
 
 

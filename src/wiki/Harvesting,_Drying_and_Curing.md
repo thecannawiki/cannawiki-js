@@ -9,12 +9,9 @@ Buds are generally hung to dry in a warm dry location after trimming. The [tempe
 Note: It is not recommended to smoke under-dried weed as it can induce a headache.
 ### Drying setup examples
 
-<div align#'center'>
-<ul> 
-<li style#"display: inline-block;"> [[File:Drying-in-closet-after-harvest.jpg|thumb|none|300px]] </li>
-<li style#"display: inline-block;"> [[File:Hanging_by_a_peg.jpg|thumb|none|300px]] </li>
-<li style#"display: inline-block;"> [[File:Cannabis_drying_on_screen.jpg|thumb|none|300px]] </li>
-</ul>
+<div class='center'>
+    <img src="/images/Drying-in-closet-after-harvest.jpg">
+    <img src="/images/Cannabis_drying_on_screen.jpg"/>
 </div>
 
 ## Curing 

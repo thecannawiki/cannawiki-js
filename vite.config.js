@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+import ogPlugin from 'vite-plugin-open-graph';
 
 export default defineConfig({
   plugins: [
@@ -12,7 +13,7 @@ export default defineConfig({
       ],
     }),
     ViteImageOptimizer({
-      png: { quality: 80 },
+      png: { quality: 75 },
       jpeg: { quality: 75 },
       webp: { quality: 80 },
       avif: { quality: 70 },
@@ -25,6 +26,13 @@ export default defineConfig({
       includePublic: true,
       logStats:true
     }),
+    ogPlugin({
+      basic: {
+        url: 'https://cannawiki.net',
+        title: 'Cannawiki',
+        image: 'https://cannawiki.net/images/CannwikiLogo.png',
+      }
+    })
   ],
   assetsInclude: ['**/*.md']
 });

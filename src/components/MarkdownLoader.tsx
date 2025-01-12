@@ -20,22 +20,7 @@ const components = {
   a: ({href, children}: aProps) => <Link to={href}>{children}</Link>,
 }
 
-// remark plugin to add a custom tag to the AST
-// function htmlDirectives() {
-//   return transform
 
-//   function transform(tree) {
-//     visit(tree, ['textDirective', 'leafDirective', 'containerDirective'], ondirective)
-//   }
-
-//   function ondirective(node) {
-//     let data = node.data || (node.data = {})
-//     let hast = h(node.name, node.attributes)
-
-//     data.hName = hast.tagname
-//     data.hProperties = hast.properties
-//   }
-// }
 
 const MarkdownLoader = ({ filePath } :props) => {
   const [content, setContent] = useState("");
