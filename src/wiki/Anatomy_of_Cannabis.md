@@ -57,6 +57,7 @@ More on trichomes at [Dutch Passion](https://dutch-passion.com/en/blog/what-are-
 The organic compounds found in the highest concentration in buds that create the taste and aroma of Cannabis.
 #### Stigma
 <img src="/images/Cannabis_stigma.png" width="325px"/>
+
 Hair-like structures that emerge from the bud are often (confusingly) referred to as Pistils. This is most likely because the stigma-possessing female plants are referred to as pistillate, which then became short-hand.<ref>https://weedmaps.com/learn/dictionary/pistil</ref> The coloration of the stigma can provide some insight into the maturity of the plant, as the plant matures, the stigma turns from white to orange.
 
 #### Bract

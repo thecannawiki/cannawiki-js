@@ -68,12 +68,21 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         paddingTop:"8px"
     };
 
+    const headerImage = {
+        marginLeft: "auto", 
+        marginRight: "auto", 
+        display: "block", 
+        width: "60%", 
+        marginBottom:"8px",
+        marginTop:"8px"
+    }
+
 
 return(
     <>
         <div style={menuStyle}>
 
-            <Link to="/"><img src="/images/CannawikiLogo.png" style={{marginLeft: "auto", marginRight: "auto", display: "block", width: "80%"}}/></Link>
+            <Link to="/"><img src="/images/CannawikiLogo.png" style={headerImage}/></Link>
 
             <div style={{overflowY: "scroll", width:"100%"}}>
                 {files.map((file: fileList) => { 
