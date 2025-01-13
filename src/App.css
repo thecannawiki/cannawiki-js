@@ -1,7 +1,7 @@
 
 img.full {
   width: 90% !important; 
-  max-width: 800px;
+  max-width: 700px !important; 
   display: block;
   margin: auto !important;
 }
@@ -43,8 +43,13 @@ div.right {
   width: 325px;
   margin: 8px;
   max-width: 100%;
+  transition: all 0.3s ease;
 }
 
+.markdownPane img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
 
 .hide-scrollbar {
