@@ -16,6 +16,7 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         name:string
     }
 
+    const FILENAMES_TO_IGNORE= ["Home"];
  
     const [files, setFiles] = useState<fileList[]>([]);
     const isPortrait = useOrientation();
@@ -88,6 +89,8 @@ return(
             <div className="hide-scrollbar" style={{overflowY: "scroll", width:"100%"}}>
                 {files.map((file: fileList) => { 
                     const name = file.name.replaceAll(".md", "");
+                    const should_ignore = FILENAMES_TO_IGNORE.includes(name);
+                    if(should_ignore){return(<></>);}
                     return(
                         <div >
                             <Link to={`/${name}`}>{name.replaceAll("_", " ")}</Link>

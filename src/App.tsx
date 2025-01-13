@@ -16,7 +16,7 @@ const App = () => {
     const { page } = useParams();
     const page_name = page?.replaceAll("/wiki/index.php","")
     console.log(page_name)
-    const filePath = `/wiki/${page_name || "Main_Page"}.md`;
+    const filePath = `/wiki/${page_name || "Home"}.md`;
     return( 
       <div style={PageContainer}>
         <div style={markdownPaneStyle} className="markdownPane">
