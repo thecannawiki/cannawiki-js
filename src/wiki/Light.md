@@ -109,6 +109,3 @@ Adding far-red light can increase cannabis yield by an average of 20%<ref>Fluenc
 
 see also:
 How Lighting Affects Cannabis Cultivation - Cannabis Grow Lights<ref>https://www.youtube.com/watch?v=tKzmx6XDOkE&t=235s&ab_channel=CannabisTech</ref>
-
-## References ##
-<references/>

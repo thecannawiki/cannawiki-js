@@ -14,6 +14,3 @@ If roots are exposed to too high humidity they can begin to rot and become damag
 
 ### Nitrogen toxicity
 Too much nitrogen will result in deep green leaves. The apex of the fan leaves can also "claw" downwards.
-
-## References ##
-<references/>

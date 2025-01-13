@@ -41,8 +41,3 @@ Often mistaken for Polyploidy. This is the development of flat elongated stems. 
 Modern genetics has given us cannabis with a [wide variety of leaf apperances](https://dutch-passion.com/en/blog/understanding-and-using-cannabis-leaves-n985)
 * Lowryder. The ruderalis strain that all auto-flowering strains descend from.
 * Ducksfoot
-
-
-
-
-## References ##

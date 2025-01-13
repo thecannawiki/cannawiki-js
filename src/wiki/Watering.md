@@ -31,7 +31,3 @@ When growing in soil, the soil should be left to dry before watering. Allowing t
 <img src='/images/WaterStake.jpg' width='282px'>
 
 A form of automatic watering that allows the plant to “drink” water through a straw. Ideal if you need to leave a plant unattended for a few days.
-
-
-## References ##
-<references />

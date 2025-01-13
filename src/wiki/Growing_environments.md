@@ -36,5 +36,3 @@ To increase Co<sub>2</sub> concentration to a high level in the grow environment
 ### Spacebucket
 An ultra simplistic design often utilizing plastic buckets.
 https://spacebuckets.com/template
-
-## References 

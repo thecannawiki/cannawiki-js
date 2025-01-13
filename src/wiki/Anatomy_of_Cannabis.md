@@ -87,5 +87,3 @@ Distance between [nodes](/Anatomy_of_Cannabis#node) on the main stem.
 
 ### Stem diameter 
 This refers to the diameter of the main stem. It has been shown that stem diameter is positively correlated with weight yield.
-
-## References ##

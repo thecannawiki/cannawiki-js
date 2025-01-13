@@ -46,8 +46,6 @@ const MarkdownLoader = ({ filePath }:props) => {
   };
 
 
-
-
   const RefComponent = ({children}: refTagProds) => {
     let link="";
     let textContent: string = "";
@@ -66,14 +64,51 @@ const MarkdownLoader = ({ filePath }:props) => {
     
     // @ts-ignore
     const count = refDict[textContent];
-  
-    return (
-      // @ts-expect-error
-      <Link to={link} title={textContent}><sup>[{count}]</sup></Link>
-    );
+    if(count){
+      return (
+        // @ts-expect-error
+        <Link to={link} title={textContent}><sup>[{count}]</sup></Link>
+      );
+    }
+    
+    return(<></>);
     
   }
 
+  const RefListComponent = () => {
+
+    const extractLink = (text) =>{
+      const urlRegex = /(https?:\/\/[^\s]+)/g; // Matches URLs starting with http:// or https://
+      const matches = text.match(urlRegex); // Finds all matches in the string
+      return matches ? matches[0] : null; // Returns the first match or null if no match
+    }
+
+    if(Object.keys(refDict).length>0){
+      return(
+        <div style={{marginTop:"60px"}}>
+          <h2>References</h2>
+          <ol>
+            {Object.entries(refDict).map(([text]) => { 
+              const link = extractLink(text)
+              let refText = text.replaceAll(link,"");
+              if(refText.length<1){
+                refText = text
+              }
+              return(
+                  <a href={link}>
+                    <li style={{marginBottom:"16px"}}>
+                        {refText}
+                    </li>
+                  </a>
+              )
+            })}
+          </ol>
+        </div>
+      );
+    } else {
+      return(<></>);
+    }
+  }
 
   useEffect(()=>{
     parseRefs(content);
@@ -102,17 +137,7 @@ const MarkdownLoader = ({ filePath }:props) => {
   return (
     <>
     <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as any, rehypeSlug]} >{content}</ReactMarkdown>
-    
-
-    
-        {/* {Object.entries(refDict).map(([text, order]) => { 
-                        // const name = file.name.replaceAll(".md", "");
-                        return(
-                            <div >
-                                {order}{text}
-                            </div>
-                        )
-        })} */}
+    <RefListComponent/>
     </>
   );
 };

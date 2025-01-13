@@ -22,6 +22,3 @@ Once buds are dried they should be stored in an air-tight container preferably g
 The ideal humidity for curing is between 60-65% RH.
 
 The recommended humidity for long-term storage is 62%.
-
-##References##
-<references/>

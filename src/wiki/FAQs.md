@@ -5,4 +5,4 @@ The distance from the light to the plant canopy is a large factor in determining
 
 The light intensity of the relevant frequency for photosynthesis is called [PPFD](/Light) and its unit of intensity is umol/s (Micromols per second). Measuring light intensity (rather than calculating it) makes it much easier to perfect light conditions even in cases where the grow light's efficiency or consumption is unknown.
 
-This question is very common because light manufacturers often suggest distances to use.<references />
+This question is very common because light manufacturers often suggest distances to use.
