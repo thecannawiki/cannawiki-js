@@ -87,9 +87,6 @@ const MarkdownLoader = ({ filePath }:props) => {
             {Object.entries(refDict).map(([text]) => { 
               const link = extractLink(text)
               let refText = text.replaceAll(link,"");
-              if(refText.length<1){
-                refText = text
-              }
               return(
                   
                     <li style={{marginBottom:"16px"}}>
