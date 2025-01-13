@@ -22,7 +22,7 @@ unit: mols/m<sup>2</sup>
 
 The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [lighting schedule](/Light#light_schedules) that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
 
-Full light intensity from the sun in summer reaches around 60 DLI<ref>https://www.youtube.com/watch?v#ID9rE5JewVg&t#1170s&ab_channel#ApogeeInstrumentsInc. - Bruce Bugee Grow lighting myths</ref>
+Full light intensity from the sun in summer reaches around 60 DLI<ref>https://www.youtube.com/watch?v=ID9rE5JewVg&t=1170s&ab_channel=ApogeeInstrumentsInc. - Bruce Bugee Grow lighting myths</ref>
 <img src='/images/DLI_equation.png' class="full">
 
 [DLI calculator](https://www.waveformlighting.com/horticulture/daily-light-integral-dli-calculator)
@@ -50,7 +50,7 @@ Common light schedules include 24/0 (24 hours of light a day), 20/4 (20 hours li
 
 Auto flowers can be grown with lights on 24 hours a day (24/0), but constant light can leave the plant with no time to recover from deficiencies or stress in general. The absence of a dark period can also stave the plant's rhizosphere, negatively affecting growth<ref>Karuna Chourey Ph.D. - Shango Los 2019
 
-https://www.youtube.com/watch?v#u8XNN4V7qsU</ref>. It is a good idea to match the light schedule with the cultivar's [circadian rhythm](/Plant_processes#circadian_rhythm);  Many growers recommend 20/4 or 22/2.
+https://www.youtube.com/watch?v=u8XNN4V7qsU</ref>. It is a good idea to match the light schedule with the cultivar's [circadian rhythm](/Plant_processes#circadian_rhythm);  Many growers recommend 20/4 or 22/2.
 
 ## Ideal light conditions
 Cannabis can tolerate an extreme light intensity. Many growers limit light levels early in the plants life but this is not nessesary<ref>Best Grow Lighting for Cannabis with Dr Bruce Bugbee | Far red ePAR - https://youtu.be/VvBTsl_gScw?si#4kS8z9cSu9hprAMu&t#2771</ref>. 
@@ -62,7 +62,7 @@ Generally the maximum light intensity a plant can tolerate becomes limited by ot
 ### Optimum light intensity ###
 In this instance, "optimum light intensity" refers to the amount of light that provides the maximum yield from the cultivar.
 
-The threshold for optimal growth and photosynthesis, from the vegetative stage, is a DLI of 65 moles.<ref> Daily Light Integral DLI Relation To Cannabis Yield (Meta-analysis, Matthew Debacco, 2021) https://www.youtube.com/watch?v#au7G-oVDeKg</ref>
+The threshold for optimal growth and photosynthesis, from the vegetative stage, is a DLI of 65 moles.<ref> Daily Light Integral DLI Relation To Cannabis Yield (Meta-analysis, Matthew Debacco, 2021) https://www.youtube.com/watch?v=au7G-oVDeKg</ref>
 
 Yield appears to be linear with PPFD to around 2000 μmol/s<ref>Cannabis Yield, Potency, and Leaf Photosynthesis Respond Differently to Increasing Light Levels in an Indoor Environment (Rodriguez-Morrison, 2021) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8144505/</ref><ref>High Light Intensities Can Be Used to Grow Healthy and Robust Cannabis Plants During the Vegetative Stage of Indoor Production (Moher, 2021) https://www.preprints.org/manuscript/202104.0417/v1</ref>. Above 500 μmol/s supplemental co<sub>2</sub> is advised to make optimum use of the light.<ref>Fluence Cannabis Cultivation Guide, 2020 - https://fluence.science/guides/cannabis-cultivation-guide/</ref>
 
@@ -90,7 +90,7 @@ A competent online implementation exists at [waveformlighting](https://www.wavef
 The color of light is dependent on the frequency of the light. see also [Electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). Blue/purple light used to be standard in Cannabis growing but is slowly being replaced by "full-spectrum" lights. The light spectrum applied to a plant can affect its morphology and cannabinoid content. <ref>Magagnini 2018, The Effect of Light Spectrum on the Morphology and Cannabinoid Content of Cannabis sativa L -http://dx.doi.org/10.1159/000489030</ref>
 
 ### High-frequency light
-Approximately 3% of the light radiation from the sun is ultraviolet; in the range of 100-400 nm. The light is the ratio of 1:30 UVB to UVA, and all UVC is absorbed by the atmosphere, particularly the Ozone layer. UV light rays can damage plants and stress them, triggering the creation of more cannabinoids such as THC, CBD, and CBG<ref>What light spectrum does weed need to grow? - Growing Cannabis 201: Advanced Grow Tips | Indica Institute - https://www.youtube.com/watch?v#NY0bB_Jmt5E</ref><ref>Pate, David W. (1983). "Possible role of ultraviolet radiation in evolution of Cannabis chemotypes" doi:10.1007/BF02904200</ref>. It is common to find LED boards that include UV LEDs.
+Approximately 3% of the light radiation from the sun is ultraviolet; in the range of 100-400 nm. The light is the ratio of 1:30 UVB to UVA, and all UVC is absorbed by the atmosphere, particularly the Ozone layer. UV light rays can damage plants and stress them, triggering the creation of more cannabinoids such as THC, CBD, and CBG<ref>What light spectrum does weed need to grow? - Growing Cannabis 201: Advanced Grow Tips | Indica Institute - https://www.youtube.com/watch?v=NY0bB_Jmt5E</ref><ref>Pate, David W. (1983). "Possible role of ultraviolet radiation in evolution of Cannabis chemotypes" doi:10.1007/BF02904200</ref>. It is common to find LED boards that include UV LEDs.
 
 ####  UV A (315-400 nm)
 
@@ -101,14 +101,14 @@ Approximately 3% of the light radiation from the sun is ultraviolet; in the rang
 ### Low-frequency light
 Low-frequency light is constituted of red light in the visible spectrum, "far range" and infrared.
 
-Red light promotes cell elongation in plants, in cannabis, this manifests as stretching of the stem. While not visible to the human eye, far-red light is also photosynthetically active<ref>Dr. Bruce Bugbee (2019) - https://www.youtube.com/watch?v#sS7aAcacfgk&ab_channel#ApogeeInstrumentsInc.</ref>
+Red light promotes cell elongation in plants, in cannabis, this manifests as stretching of the stem. While not visible to the human eye, far-red light is also photosynthetically active<ref>Dr. Bruce Bugbee (2019) - https://www.youtube.com/watch?v=sS7aAcacfgk&ab_channel=ApogeeInstrumentsInc.</ref>
 
 Adding far-red light can increase cannabis yield by an average of 20%<ref>Fluence science - https://fluence.science/broad-spectrum-leds-cannabis/</ref>
 
 
 
 see also:
-How Lighting Affects Cannabis Cultivation - Cannabis Grow Lights<ref>https://www.youtube.com/watch?v#tKzmx6XDOkE&t#235s&ab_channel#CannabisTech</ref>
+How Lighting Affects Cannabis Cultivation - Cannabis Grow Lights<ref>https://www.youtube.com/watch?v=tKzmx6XDOkE&t=235s&ab_channel=CannabisTech</ref>
 
 ## References ##
 <references/>
