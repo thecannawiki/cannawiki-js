@@ -36,7 +36,7 @@ const App = () => {
     maxWidth: "1000px",
     minWidth: "200px",
     marginLeft: menuopen? "12px": "40px",
-    marginRight: "40px",
+    marginRight: "16px",
   }
 
   const PageContainer: React.CSSProperties = {
