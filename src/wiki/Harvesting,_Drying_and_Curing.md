@@ -6,6 +6,9 @@ Trimming is the process of removing fan leaves and [sugar leaves](/Anatomy_of_Ca
 ## Drying
 Buds are generally hung to dry in a warm dry location after trimming. The [temperature and humidity](/Temperature_and_Humidity) of the drying space will affect how long the buds take to dry. In the process of drying biological processes continue inside of the buds and complex carbohydrates and chlorophyll are converted into simple carbohydrates such as glucose. Drying slowly is preferable as it ensures the maximum breakdown of sugars and also that the inside of the bud is as dry as the outside. Buds should be left to dry until the stems bend but are somewhat firm when pressure is applied, then they should be stored in air-tight glass jars for curing. If the air humidity in the jar is over 70%, the buds are not yet dry enough to be stored for curing. Leaving the jar lid open can help lower air humidity until it is below 70% when closed.
 
+### Ideal drying conditions
+20-25C, 55-60% for 10-14 days<ref>Commercial grower survey, Tom Starley, growsensor.co, 2021 https://www.growsensor.co/post/drying-curing-cannabis-how-best-growers-do-it</ref>
+
 Note: It is not recommended to smoke under-dried weed as it can induce a headache.
 ### Drying setup examples
 

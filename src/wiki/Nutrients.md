@@ -13,29 +13,13 @@ Macronutrients are those nutrients that Cannabis requires in large amounts, the 
 Vegetating plants require more Nitrogen and less Phosphorus and Potassium, while flowering plants demand much less Nitrogen and much more Phosphorus and Potassium during the flowering stage.
 A rough guide NPK ratio:
 
-{| class#"wikitable"
-|+NPK ratio by life stage
-|-
-|Stage
-|N
-|P
-|K
-|-
-|Vegetative stage
-|3
-|1
-|2
-|-
-|Flowering stage
-|1
-|1
-|2
-|-
-|Final Flowering Stage
-|0
-|1
-|2
-|}
+| stage| NPK ratio |
+| -------- | ------- |
+| Vegatitive  | 3:1:2  | 
+| Flowering | 1:1:2  | 
+| Final flowering | 0:1:2   
+
+
 It's worth noting that the NPK ratio stated on a bottle of fertilizer does not reveal anything about the absolute amount of Nitrogen, for example, in the product.
 
 #### Nitrogen ####

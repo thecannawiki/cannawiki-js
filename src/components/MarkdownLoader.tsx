@@ -3,7 +3,6 @@ import React, { useState, useEffect, ReactElement } from "react";
 import ReactMarkdown, { Components } from "react-markdown";
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw";
-// import { Link } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link';
 import rehypeSlug from 'rehype-slug';
 
@@ -40,8 +39,6 @@ const MarkdownLoader = ({ filePath }:props) => {
       result[refText] = order; // Store text as key and order as value
       order++;
     }
-
-    console.log(result);
     setRefDict(result); // Update the state with the parsed dictionary
   };
 
@@ -76,7 +73,6 @@ const MarkdownLoader = ({ filePath }:props) => {
   }
 
   const RefListComponent = () => {
-
     const extractLink = (text) =>{
       const urlRegex = /(https?:\/\/[^\s]+)/g; // Matches URLs starting with http:// or https://
       const matches = text.match(urlRegex); // Finds all matches in the string
@@ -95,11 +91,11 @@ const MarkdownLoader = ({ filePath }:props) => {
                 refText = text
               }
               return(
-                  <a href={link}>
+                  
                     <li style={{marginBottom:"16px"}}>
-                        {refText}
+                        {`${refText} `}<a href={link}>{link}</a>
                     </li>
-                  </a>
+                  
               )
             })}
           </ol>

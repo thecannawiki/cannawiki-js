@@ -14,7 +14,7 @@ Some forms of LST can be applied as soon as the plant has one node, as this is w
 
 ### Tying branches ###
 This is the most basic form of LST and usually consists of holding a stem down with Plant wire (a metal wire coated in rubber) attached to the plant's pot; generally, this requires the grower to make holes in the side of the pot. Plant wire can also be used to move branches by tying them to other branches when the plant is more mature. String can also be used to restrain branches but very thin threads may cut into the flesh of the branch.
-[[File:Tying to the pot.png|center|thumb|Holes have been drilled in the sides of the pot to tie branches to]]
+<img src='/images/Tying_to_the_pot.png' title="Holes have been drilled in the sides of the pot to tie branches to">
 
 ### Fluxxing ###
 Fluxxing is a method of using metal wire (or paper clips) to pin the stem down as it grows. This greatly reduces the height of the plant by training branches to grow laterally. This method is better suited to more compact mediums like soil, as pins require some friction to stay in place. Pinning should start as soon as there is a long enough stem to pin. You can grow a seedling in low light to increase the stem stretching in the seedling phase. This can increase the inter-nodal distance, giving your branches more space later on in flowering. If branches are pinned tightly, pins will have to be removed after the plant has adjusted so that they do not constrict or cut into growing stems.
