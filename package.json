@@ -7,12 +7,13 @@
     "npm": ">=20"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "node server",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "hastscript": "^9.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -25,10 +26,12 @@
     "remark-directive": "^3.0.0",
     "remark-gfm": "^4.0.0",
     "vite-plugin-open-graph": "^2.0.6",
+    "vite-plugin-ssr": "^0.4.142",
     "vite-plugin-static-copy": "^2.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/express": "^5.0.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@types/react-router-hash-link": "^2.4.9",

@@ -26,13 +26,13 @@ export default defineConfig({
       includePublic: true,
       logStats:true
     }),
-    ogPlugin({
-      basic: {
-        url: 'https://cannawiki.net',
-        title: 'Cannawiki',
-        image: 'https://cannawiki.net/images/CannwikiLogo.png',
-      }
-    })
+    // ogPlugin({
+    //   basic: {
+    //     url: 'https://cannawiki.net',
+    //     title: 'Cannawiki',
+    //     image: 'https://cannawiki.net/images/CannwikiLogo.png',
+    //   }
+    // })
   ],
   assetsInclude: ['**/*.md']
 });
