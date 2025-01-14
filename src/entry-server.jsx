@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const getDesc = (url) => {
+
   try{
     let template = fs.readFileSync(
       path.resolve(__dirname, `wiki${url}.md`),
@@ -15,7 +16,9 @@ const getDesc = (url) => {
     )
     return template;
   }catch{
+    return "cannawiki"
   }
+
 }
 
 export function render(url, context) {
