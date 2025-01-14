@@ -14,7 +14,7 @@ Vegetating plants require more Nitrogen and less Phosphorus and Potassium, while
 A rough guide NPK ratio:
 
 | stage| NPK ratio |
-| -------- | ------- |
+| :-------- | -------: |
 | Vegatitive  | 3:1:2  | 
 | Flowering | 1:1:2  | 
 | Final flowering | 0:1:2   

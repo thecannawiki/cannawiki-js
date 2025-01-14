@@ -22,6 +22,6 @@ Curing is an essential part of producing marijuana that is smooth to smoke and h
 
 Once buds are dried they should be stored in an air-tight container preferably glass and "burped" (left open for 15 minutes) every day for a week or two, and then burped approximately once a week. Burping the jars, or in other words, replacing the air inside is required to regulate the humidity and remove organic compounds that build up in the air. 
 
-The ideal humidity for curing is between 60-65% RH.
+The ideal humidity for curing is between 60-65% RH.<ref>Commercial grower survey, Tom Starley, growsensor.co, 2021 https://www.growsensor.co/post/drying-curing-cannabis-how-best-growers-do-it</ref>
 
 The recommended humidity for long-term storage is 62%.

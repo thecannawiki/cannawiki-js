@@ -36,8 +36,10 @@ const MarkdownLoader = ({ filePath }:props) => {
     while ((match = refPattern.exec(htmlString)) !== null) {
       const refText = match[1]; // Text inside <ref>...</ref>
       // @ts-ignore
-      result[refText] = order; // Store text as key and order as value
-      order++;
+      if(!(Object.prototype.hasOwnProperty.call(result, refText))){
+        result[refText] = order; // Store text as key and order as value
+        order++;
+      }
     }
     setRefDict(result); // Update the state with the parsed dictionary
   };

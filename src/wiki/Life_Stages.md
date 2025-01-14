@@ -6,7 +6,7 @@ Before a seed is [germinated](/Seeds#germination_methods) it is alive but dorman
 ## Vegetative
 In this stage, the plant grows the most and will be the most resilient to [High and Low-stress training](/Plant_training).
 
-During the vegetative stage, pre-flowers will appear that can be used to identify the sex of the plant. If white pistils are seen emerging from the [calyx](/Anatomy_of_Cannabis#calyx) the plant is female, if the plant develops clusters of balls resembling grapes it is a male.
+During the vegetative stage, pre-flowers will appear that can be used to identify the sex of the plant. If white pistils are seen emerging from the [bract](/Anatomy_of_Cannabis#bract) the plant is female, if the plant develops clusters of balls resembling grapes it is a male. See [sex](/Seeds#sex)
 
 Ideal humidity: 40-70% RH
 
