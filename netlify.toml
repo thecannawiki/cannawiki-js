@@ -3,4 +3,4 @@ publish = "dist/client/"
 command = "npm run build"
 
 [functions]
-directory = "functions/"
+directory = "src/functions"
