@@ -1,3 +1,9 @@
+[[redirects]]
+  force = true
+  from = "/ssr/*"
+  status = 200
+  to = "/.netlify/functions/index/:splat"
+
 [build]
 command = "npm run build"
 
