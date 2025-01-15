@@ -7,9 +7,6 @@ import "./App.css"
 import Analytics from "./components/Analytics";
 
 
-
-
-
 const App = () => {
 
   const WikiPage = () => {
@@ -64,7 +61,6 @@ const App = () => {
         </div>
 
       </Router>
-
   );
 };
 
