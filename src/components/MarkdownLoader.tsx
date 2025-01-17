@@ -143,7 +143,7 @@ const MarkdownLoader = ({ filePath }:props) => {
     <>
     <Helmet>
         <meta charSet="utf-8" />
-        <title>{page_name}</title>
+        <title>{page_name !== "Home" ? page_name : "Cannawiki"}</title>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content={page_name}/>
         <meta property="og:description" content={`${content.slice(0, 200)}...`}/>
