@@ -147,7 +147,7 @@ const MarkdownLoader = ({ filePath }:props) => {
         <meta property="og:type" content="website"/>
         <meta property="og:title" content={page_name}/>
         <meta property="og:description" content={`${content.slice(0, 200).replace(/<\/?[^>]+(>|$)/g, "")}...`}/>
-        <meta property="og:image" content={`https://cannawiki.net${extractFirstImgSrc(content)}` || "https://cannawiki.net/images/CannawikiLogo.png"}/>
+        <meta property="og:image" content={extractFirstImgSrc(content)? `https://cannawiki.net${extractFirstImgSrc(content)}` : "https://cannawiki.net/images/CannawikiLogo.png"}/>
     </Helmet>
     <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as any, rehypeSlug]} >{content}</ReactMarkdown>
     <RefListComponent/>
