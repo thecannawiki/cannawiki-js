@@ -26,9 +26,9 @@ export function render(url, context) {
     <StaticRouter location={url} context={context}>
       {/* <App /> */}
       <head>
-        <meta property="og:title" content={`${url}`} />
+        {/* <meta property="og:title" content={`${url}`} />
         <meta property="og:site_name" content="Cannawiki"></meta>
-        <meta property="og:description" content={getDesc(url)}></meta>
+        <meta property="og:description" content={getDesc(url)}></meta> */}
 
       </head>
     </StaticRouter>

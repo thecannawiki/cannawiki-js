@@ -34,8 +34,9 @@ This is an alternate arrangement of branching. In Cannabis, [nodes](/Anatomy_of_
 
 
 #### Fasciation ####
-<img src='/images/Fasciation_cola.png' title="Fasciated cola">
-Often mistaken for Polyploidy. This is the development of flat elongated stems. [Colas](Anatomy_of_Cannabis#cola) with fasciation may have multiple buds at the top. Colas on fasciated stems will have more leaves than regular colas and reduced trichrome count.
+<img src='/images/Fasciation-cola.png' title="Fasciated cola">
+
+Often mistaken for Polyploidy. This is the development of flat elongated stems. [Colas](/Anatomy_of_Cannabis#cola) with fasciation may have multiple buds at the top. Colas on fasciated stems will have more leaves than regular colas and reduced trichrome count.
 
 ## Notable strains ##
 Modern genetics has given us cannabis with a [wide variety of leaf apperances](https://dutch-passion.com/en/blog/understanding-and-using-cannabis-leaves-n985)

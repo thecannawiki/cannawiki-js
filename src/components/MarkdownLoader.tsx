@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw";
 import { HashLink as Link } from 'react-router-hash-link';
 import rehypeSlug from 'rehype-slug';
+import { Helmet } from "react-helmet";
 
 interface props {
   filePath: string;
@@ -19,12 +20,21 @@ interface refTagProds {
   children: ReactElement;
 }
 
-
+function extractFirstImgSrc(htmlString: string): string | null {
+    // Regular expression to match the first <img> tag and extract its src attribute
+    const match = htmlString.match(/<img[^>]+src=["'](.*?)["']/i);
+    if (match && match[1]) {
+        return match[1]; // Return the captured src value
+    }
+    return null; // Return null if no match is found
+}
 
 const MarkdownLoader = ({ filePath }:props) => {
 
   const [content, setContent] = useState("");
   const [refDict, setRefDict] = useState({});
+
+  const page_name: string = filePath.split("/").at(-1)?.replaceAll("_", " ").replaceAll(".md","")
   
   const parseRefs = (htmlString: string) => {
     const refPattern = /<ref>(.*?)<\/ref>/g; // Regular expression to match <ref> tags
@@ -131,6 +141,14 @@ const MarkdownLoader = ({ filePath }:props) => {
   // @ts-ignore
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>{page_name}</title>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content={page_name}/>
+        <meta property="og:description" content={`${content.slice(0, 200)}...`}/>
+        <meta property="og:image" content={extractFirstImgSrc(content) || "https://cannawiki.net/images/CannawikiLogo.png"}/>
+    </Helmet>
     <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as any, rehypeSlug]} >{content}</ReactMarkdown>
     <RefListComponent/>
     </>

@@ -46,12 +46,10 @@ const App = () => {
     
       <Router>
         <Analytics/>
-        
         <div style={{display:"flex", overflowX: "hidden"}}>
           <nav>
             <Navmenu isMenuOpen={menuopen} setMenuOpen={setMenuOpen} />  
           </nav>
-
 
           <Routes>
             <Route path="/" element={<WikiPage />} />
