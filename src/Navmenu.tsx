@@ -3,6 +3,7 @@ import {Link, useLocation } from "react-router-dom";
 // import "./Navmenu.css"
 import React from 'react';
 import { useOrientation } from "./providers/OrientationProvider";
+import  BurgerMenu from "./assets/burger-menu-svgrepo-com.svg?react";
 
 interface props {
     isMenuOpen: boolean;
@@ -103,7 +104,12 @@ return(
         </div>
         
         {!isMenuOpen &&
-        <div style={{width:20, position:"fixed", top:"20px", marginLeft:"-4px"}} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Open menu"}</div>
+        <div style={{width:"20px", height:"20px", position:"fixed", top:"20px"}} onClick={()=> {setMenuOpen(!isMenuOpen)}}>
+            {/* <BurgerMenu fill="white"/>
+             */}
+
+             <img src="/images/burger-menu-svgrepo-com.svg"/>
+            </div>
         }
     </>
 );

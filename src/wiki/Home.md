@@ -1,11 +1,10 @@
-## Welcome to the most extensive encyclopedia of cannabis cultivation
-
 <div style="display:flex;
 		 height: 80vh;
 		 min-height:200px;
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: space-evenly;">
+        <h2>Welcome to the most extensive encyclopedia of cannabis cultivation</h2>
     <div style="display:flex;flex-direction:row;align-items: center;    min-height: 200px;">
         <div style="margin-right:8px;">
             <p>New to growing? <a href="/Growing_101">Start Here</a> </p>
