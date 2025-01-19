@@ -52,7 +52,7 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         left: 0,
         lineHeight: 1.6,
         height: "98vh",
-        width: isMenuOpen ? "270px" : "0px",
+        width: isMenuOpen || !isPortrait ? "270px" : "0px",
         // overflowY: "scroll",
         display: "flex",
         flexDirection: "column",
@@ -99,11 +99,11 @@ return(
                     )
                 })}
             </div>
-            {isMenuOpen && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
+            {isMenuOpen && isPortrait && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
             
         </div>
         
-        {!isMenuOpen &&
+        {!isMenuOpen && isPortrait &&
         <div style={{width:"20px", height:"20px", position:"fixed", top:"20px"}} onClick={()=> {setMenuOpen(!isMenuOpen)}}>
             {/* <BurgerMenu fill="white"/>
              */}
