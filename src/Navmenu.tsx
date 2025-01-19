@@ -3,7 +3,7 @@ import {Link, useLocation } from "react-router-dom";
 // import "./Navmenu.css"
 import React from 'react';
 import { useOrientation } from "./providers/OrientationProvider";
-import  BurgerMenu from "./assets/burger-menu-svgrepo-com.svg?react";
+
 
 interface props {
     isMenuOpen: boolean;
