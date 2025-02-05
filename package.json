@@ -29,7 +29,8 @@
     "remark-gfm": "^4.0.0",
     "vite-plugin-open-graph": "^2.0.6",
     "vite-plugin-ssr": "^0.4.142",
-    "vite-plugin-static-copy": "^2.2.0"
+    "vite-plugin-static-copy": "^2.2.0",
+    "vite-raw-plugin": "^1.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -49,6 +50,7 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",
     "vite-plugin-image-optimizer": "^1.1.8",
+    "vite-plugin-svgr": "^4.3.0",
     "xo": "^0"
   }
 }

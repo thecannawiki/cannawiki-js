@@ -50,9 +50,21 @@ More on trichomes at [Dutch Passion](https://dutch-passion.com/en/blog/what-are-
 <img src="/images/Interior_of_glandular_trichomes.jpg" width="325px"/>
 <img src="/images/Close_up_trichomes.png" width="325px"/> 
 
+### Compounds
 
-#### Terpenes 
-The organic compounds found in the highest concentration in buds that create the taste and aroma of Cannabis.
+<img src="/images/secondary_metabolites_in_cannabis.png" class="full" title="https://pubs.acs.org/doi/10.1021/acsomega.3c04496"/>
+
+## Terpenes
+The most notable terpenes used to broadly categorize cannabis are as follows:
+
+* Myrcene
+* Pinene
+* Caryophyllene
+* Limonene
+* Terpinolene
+
+They have some effect on aroma and taste but their influence is still under study. see [Aroma and taste](/Aroma_and_taste)
+
 #### Stigma
 <img src="/images/Cannabis_stigma.png"/>
 

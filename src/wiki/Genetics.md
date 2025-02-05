@@ -13,16 +13,6 @@ A plant's genetics also has a huge impact on the cannabinoid content of the matu
 
 * [List of 1:1 strains on seedfinder.eu](https://en.seedfinder.eu/database/strains/cbd-rich/same-amount-of-thc-and-cbd/)
 
-## Aroma and taste ##
-The aroma and taste of Cannabis is created by the composition of terpenes and other aromatic volatile compound<ref>Minor, Nonterpenoid Volatile Compounds Drive the Aroma Differences of Exotic Cannabis - Oswald et al. 2023 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10601067/</ref>. While terpenes are widely known, there is ongoing research to uncover how these compounds define the aroma profile.
-
-The most notable terpenes used to broadly categorize cannabis are as follows:
-
-* Myrcene
-* Pinene
-* Caryophyllene
-* Limonene
-* Terpinolene
 
 ## Mutations ##
 Environmental stress, among other factors, can cause the DNA of a cultivar to be altered causing a variation in its genetics. This can lead the morphology to differ wildly from other plants that began with the same genetics, in other words, the same strain.

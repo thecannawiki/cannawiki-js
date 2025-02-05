@@ -7,6 +7,7 @@ This is a centrifugal fan that can be 3D printed and is compatible with the Cann
 
 This fan is also compatible with the filter below
 [[File:Exploded diagram V7 fan.png|thumb]]
+<img src='/images/Exploded_diagram_V7_fan.png'>
 
 #### Parts ####
 * 385 Motor

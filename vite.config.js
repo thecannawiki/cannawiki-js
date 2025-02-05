@@ -3,6 +3,8 @@ import react from "@vitejs/plugin-react";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import ogPlugin from 'vite-plugin-open-graph';
+import svgr from "vite-plugin-svgr";
+import markdownRawPlugin from 'vite-raw-plugin'
 
 export default defineConfig({
   plugins: [
@@ -26,13 +28,10 @@ export default defineConfig({
       includePublic: true,
       logStats:true
     }),
-    // ogPlugin({
-    //   basic: {
-    //     url: 'https://cannawiki.net',
-    //     title: 'Cannawiki',
-    //     image: 'https://cannawiki.net/images/CannwikiLogo.png',
-    //   }
-    // })
+    svgr(),
+    markdownRawPlugin({
+      fileRegex: /\.md$/
+    })
   ],
   assetsInclude: ['**/*.md']
 });
