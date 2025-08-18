@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 
 interface props {
     page_name:string;
@@ -12,9 +11,10 @@ const text_style: React.CSSProperties = {
 
 const LastUpdated = ({ page_name, updateTimes }:props) => {
 
-    function formatDate(isoString) {
+    function formatDate(isoString: string) {
         const date = new Date(isoString);
         const now = new Date();
+        // @ts-ignore
         const diffMs = now - date;
         const diffSec = Math.floor(diffMs / 1000);
         const diffMin = Math.floor(diffSec / 60);
@@ -34,18 +34,22 @@ const LastUpdated = ({ page_name, updateTimes }:props) => {
         });
       }
     
-    function findValueByKeyContains(obj, substring) {
+    function findValueByKeyContains(obj:object, substring:string) {
         console.log(substring);
         const key = Object.keys(obj).find(k => k.includes(substring.replace("/wiki/","")));
-        return key ? obj[key] : undefined;
+        if(key == undefined){
+            return ""
+        }
+        // @ts-ignore
+        return key ? obj[key] as string : undefined;
       }
 
       
    
-    // @ts-ignore
+    
     return (
       <div style={{...text_style}}>
-      Last updated: {formatDate(findValueByKeyContains(updateTimes, page_name))}
+      Last updated: {formatDate(findValueByKeyContains(updateTimes, page_name)!)}
       </div>
     );
   };
