@@ -6,9 +6,13 @@ import rehypeRaw from "rehype-raw";
 import { HashLink as Link } from 'react-router-hash-link';
 import rehypeSlug from 'rehype-slug';
 import { Helmet } from "react-helmet";
+import { TextEncrypted } from "./TextEncrypted";
+import LastUpdated from './LastUpdated';
+
 
 interface props {
   filePath: string;
+  updateTimes: object;
 }
 
 interface aProps {
@@ -20,6 +24,11 @@ interface refTagProds {
   children: ReactElement;
 }
 
+interface decryptTagProps {
+  children: string;
+  interval: int;
+}
+
 function extractFirstImgSrc(htmlString: string): string | null {
     // Regular expression to match the first <img> tag and extract its src attribute
     const match = htmlString.match(/<img[^>]+src=["'](.*?)["']/i);
@@ -29,7 +38,7 @@ function extractFirstImgSrc(htmlString: string): string | null {
     return null; // Return null if no match is found
 }
 
-const MarkdownLoader = ({ filePath }:props) => {
+const MarkdownLoader = ({ filePath, updateTimes }:props) => {
 
   const [content, setContent] = useState("");
   const [refDict, setRefDict] = useState({});
@@ -120,14 +129,38 @@ const MarkdownLoader = ({ filePath }:props) => {
   },[content])
   
   useEffect(() => {
+    
+    // const path = filePath.slice(5).replaceAll(".md",""); 
+
+
+    // async function loadFile() {
+    //   try {
+      
+    //     // const final_path = `./${path}.md`;
+        
+    //     const module = await import(`..${path}.md`);
+    //     setContent(module);
+    //     console.log(module.default)
+    //   } catch (err) {
+    //     setContent(`# Error\nFile not found: ${path}`);
+    //   }
+    // }
+
+    // loadFile();
+
+
+
+
+
     fetch(filePath)
-      .then((response) => {
-        console.log(response)
-        if (!response.ok) throw new Error("Markdown file not found.");
-        return response.text();
-      })
-      .then(setContent)
-      .catch((err) => setContent(`# Error\n${err.message}`));
+    .then((response) => {
+      console.log(response)
+      if (!response.ok) throw new Error("Markdown file not found.");
+      return response.text();
+    })
+    .then(setContent)
+    .catch((err) => setContent(`# Error\n${err.message}`));
+
   }, [filePath]);
   
 
@@ -135,6 +168,7 @@ const MarkdownLoader = ({ filePath }:props) => {
   const components: Components = {
     a: ({href, children}: aProps) => <Link to={href}>{children}</Link>,
     ref: ({children}: refTagProds) => <RefComponent children={children}/>,
+    decrypt: ({children, interval}: decryptTagProps) => <TextEncrypted text={children} interval={interval}/>
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -151,6 +185,10 @@ const MarkdownLoader = ({ filePath }:props) => {
     </Helmet>
     <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as any, rehypeSlug]} >{content}</ReactMarkdown>
     <RefListComponent/>
+    
+    {page_name!=="Home" && 
+    <LastUpdated page_name={filePath} updateTimes={updateTimes}/>
+    }
     </>
   );
 };

@@ -2,12 +2,26 @@ import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-
 import MarkdownLoader from "./components/MarkdownLoader"
 import Navmenu from "./Navmenu"
 import { useOrientation } from "./providers/OrientationProvider";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css"
 import Analytics from "./components/Analytics";
 
 
 const App = () => {
+  const [times, setTimes] = useState({});
+
+  useEffect(() => {
+    fetch("/file-timestamps.json") // file.json should be in your `public/` folder
+      .then((res) => {
+        console.log(res)
+        if (!res.ok) {
+          throw new Error("Failed to fetch JSON file");
+        }
+        return res.json();
+      })
+      .then((json)=>{setTimes(json);console.log(json);})
+      .catch((err)=> {console.log(err)});
+  }, []);
 
   const WikiPage = () => {
     const { page } = useParams();
@@ -18,7 +32,7 @@ const App = () => {
       <div style={PageContainer}>
         <div style={markdownPaneStyle} className="markdownPane">
           <h1 style={{textAlign:"center"}}>{page_name?.replaceAll("_", " ")}</h1>
-          <MarkdownLoader filePath={filePath} />
+          <MarkdownLoader filePath={filePath} updateTimes={times}/>
         </div>
       </div>
     );
@@ -56,9 +70,11 @@ const App = () => {
             <Route path="/:page" element={<WikiPage />} />
             <Route path="/wiki/index.php/:page" element={<WikiPage />} />
           </Routes>
+         
         </div>
-
+        
       </Router>
+      
   );
 };
 
