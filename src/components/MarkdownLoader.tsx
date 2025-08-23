@@ -177,7 +177,7 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
 
     {loaded && <>
       {!loadError ? <h1 style={{textAlign:"center"}}>{page_name?.replaceAll("_", " ")}</h1> : <h1>404</h1>}
-      <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as any, rehypeSlug]} >{content}</ReactMarkdown>
+      <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as PluggableList, rehypeSlug]} >{content}</ReactMarkdown>
       <RefListComponent/>
       
       {page_name!=="Home" && !loadError && 

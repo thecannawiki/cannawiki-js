@@ -1,4 +1,3 @@
-
 interface props {
     page_name:string;
     updateTimes: object;
@@ -43,8 +42,6 @@ const LastUpdated = ({ page_name, updateTimes }:props) => {
         // @ts-ignore
         return key ? obj[key] as string : undefined;
       }
-
-      
    
     
     return (
