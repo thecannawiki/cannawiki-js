@@ -42,6 +42,8 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
 
   const [content, setContent] = useState("");
   const [refDict, setRefDict] = useState({});
+  const [loadError, setLoadError] = useState(false);
+  const [loaded, setLoaded] = useState(false);
 
   const page_name: string = filePath.split("/").at(-1)?.replaceAll("_", " ").replaceAll(".md","")
   
@@ -129,36 +131,25 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
   },[content])
   
   useEffect(() => {
-    
-    // const path = filePath.slice(5).replaceAll(".md",""); 
-
-
-    // async function loadFile() {
-    //   try {
-      
-    //     // const final_path = `./${path}.md`;
-        
-    //     const module = await import(`..${path}.md`);
-    //     setContent(module);
-    //     console.log(module.default)
-    //   } catch (err) {
-    //     setContent(`# Error\nFile not found: ${path}`);
-    //   }
-    // }
-
-    // loadFile();
-
-
-
-
-
+    setLoaded(false);
     fetch(filePath)
     .then((response) => {
       console.log(response)
-      if (!response.ok) throw new Error("Markdown file not found.");
-      return response.text();
+      if (response.ok) return response.text();
+
+      setLoadError(true);
     })
-    .then(setContent)
+    .then((content) => {
+      if(content?.includes("</html>")){
+        setLoadError(true);
+        setContent("Page not found");
+        return
+      }
+      setContent(content);
+      setLoadError(false);
+      
+    })
+    .finally(setLoaded(true))
     .catch((err) => setContent(`# Error\n${err.message}`));
 
   }, [filePath]);
@@ -183,11 +174,16 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
         <meta property="og:description" content={`${content.slice(0, 200).replace(/<\/?[^>]+(>|$)/g, "")}...`}/>
         <meta property="og:image" content={extractFirstImgSrc(content)? `https://cannawiki.net${extractFirstImgSrc(content)}` : "https://cannawiki.net/images/CannawikiLogo.png"}/>
     </Helmet>
-    <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as any, rehypeSlug]} >{content}</ReactMarkdown>
-    <RefListComponent/>
-    
-    {page_name!=="Home" && 
-    <LastUpdated page_name={filePath} updateTimes={updateTimes}/>
+
+    {loaded && <>
+      {!loadError ? <h1 style={{textAlign:"center"}}>{page_name?.replaceAll("_", " ")}</h1> : <h1>404</h1>}
+      <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as any, rehypeSlug]} >{content}</ReactMarkdown>
+      <RefListComponent/>
+      
+      {page_name!=="Home" && !loadError && 
+      <LastUpdated page_name={filePath} updateTimes={updateTimes}/>
+      }
+    </> 
     }
     </>
   );

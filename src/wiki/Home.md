@@ -6,7 +6,7 @@
         justify-content: space-evenly;">
         <div style="display:flex;justify-content: center;flex-direction: column;">
             <div style="height:100px;">
-                <h2 style="margin:40px;width:80%;"><decrypt interval=30>Welcome to the most extensive encyclopedia of cannabis cultivation</decrypt></h2>
+                <h2 style="margin:40px;width:80%;">Welcome to the most extensive encyclopedia of cannabis cultivation</h2>
             </div>
             <div style="width:1000px"> </div>
         </div>

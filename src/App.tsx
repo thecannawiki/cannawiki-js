@@ -31,7 +31,6 @@ const App = () => {
     return( 
       <div style={PageContainer}>
         <div style={markdownPaneStyle} className="markdownPane">
-          <h1 style={{textAlign:"center"}}>{page_name?.replaceAll("_", " ")}</h1>
           <MarkdownLoader filePath={filePath} updateTimes={times}/>
         </div>
       </div>
