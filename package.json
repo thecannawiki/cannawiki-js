@@ -7,8 +7,7 @@
     "npm": ">=20"
   },
   "scripts": {
-    "dev": "node server",
-    "prebuild": "node scripts/get_timestamps.js",
+    "dev": "vite dev",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
