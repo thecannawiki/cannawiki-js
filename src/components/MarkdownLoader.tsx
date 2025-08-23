@@ -162,6 +162,14 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
     decrypt: ({children, interval}: decryptTagProps) => <TextEncrypted text={children} interval={interval}/>
   }
 
+  function displayPageTitle() {
+    if(page_name!=="Home"){
+      return <h1 style={{textAlign:"center"}}>{page_name?.replaceAll("_", " ")}</h1>
+    }
+    
+    return;
+  }
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   // @ts-ignore
   return (
@@ -176,7 +184,7 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
     </Helmet>
 
     {loaded && <>
-      {!loadError ? <h1 style={{textAlign:"center"}}>{page_name?.replaceAll("_", " ")}</h1> : <h1>404</h1>}
+      {!loadError ? displayPageTitle() : <h1>404</h1>}
       <ReactMarkdown components={components} remarkPlugins={[remarkGfm]} rehypePlugins={[[rehypeRaw] as PluggableList, rehypeSlug]} >{content}</ReactMarkdown>
       <RefListComponent/>
       

@@ -5,12 +5,12 @@
         flex-direction: column;
         justify-content: space-evenly;">
         <div style="display:flex;justify-content: center;flex-direction: column;">
-            <div style="height:100px;">
+            <div style="margin-bottom: 80px;">
                 <h2 style="margin:40px;width:80%;">Welcome to the most extensive encyclopedia of cannabis cultivation</h2>
             </div>
             <div style="width:1000px"> </div>
         </div>
-    <div style="display:flex;flex-direction:row;align-items: center;    min-height: 200px;">
+    <div style="display:flex;flex-direction:row;align-items: center;    min-height: 200px; ">
         <div style="margin-right:8px;">
             <p>New to growing? <a href="/Growing_101">Start Here</a> </p>
             <br>
