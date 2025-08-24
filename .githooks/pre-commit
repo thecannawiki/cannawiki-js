@@ -1,0 +1,4 @@
+#!/bin/sh
+
+node scripts/get_timestamps.js
+git add public/file-timestamps.json

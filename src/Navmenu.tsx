@@ -92,6 +92,7 @@ return(
 
             <div className="hide-scrollbar" style={{overflowY: "scroll", width:"100%"}}>
                 {files.map((file: fileList) => { 
+                    if(!file.name.includes(".md")){return(<></>);}
                     const name = file.name.replaceAll(".md", "");
                     const should_ignore = FILENAMES_TO_IGNORE.includes(name);
                     if(should_ignore){return(<></>);}

@@ -5,6 +5,7 @@ Before a seed is [germinated](/Seeds#germination-methods) it is alive but "dorma
 
 ## Seedling
 Once the radicle has emerged from the shell it will attempt to create a root. The seed will then shed the seed casing and use the Cotyledons to collect enough energy to grow the first real leaves. Generally the radicle will grow upwards at first and then make a U-turn and grow downwards into the growing medium. This allows the root/stem to then straighten out lifting the head of plant out of the soil and helping to shed the casing.
+
 <img src="/images/emergence-to-seedling.png" class="full"/>
 
 ## Vegetative
