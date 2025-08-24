@@ -10,7 +10,7 @@ This fan is also compatible with the filter below
 #### Parts
 * 385 Motor
 * [Motor case](/images/V6_385_Motor_case.3mf) (3D printed)
-* [Case top](/images/V5_385_case_top.3mf) (3D printed)
+* [Case top](/images/V7_385_case_top.3mf) (3D printed)
 * [Install spacer](/images/V5_385_install_spacer.3mf) (3D printed)
 * [Impeller](/images/V5_385_impeller.3mf) (3D printed)
 * [Motor mount](/images/V5_385_motor_mount.3mf) (3D printed)
