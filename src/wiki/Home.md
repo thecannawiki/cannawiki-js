@@ -1,18 +1,19 @@
 <div style="display:flex;
-		 height: 80vh;
+		 height: 100vh;
 		 min-height:200px;
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: space-evenly;">
         <div style="display:flex;justify-content: center;flex-direction: column;">
             <div style="margin-bottom: 80px;">
-                <h2 style="margin:40px;width:80%;">Welcome to the most extensive encyclopedia of cannabis cultivation</h2>
+                <h2 style="margin:40px;width:82%;">Welcome to the most extensive encyclopedia of cannabis cultivation</h2>
             </div>
             <div style="width:1000px"> </div>
         </div>
     <div style="display:flex;flex-direction:row;align-items: center;    min-height: 200px; ">
         <div style="margin-right:8px;">
-            <p>New to growing? <a href="/Growing_101">Start Here</a> </p>
+            <p>New to growing? <br>
+            <a href="/Growing_101">Start Here</a> </p>
             <br>
             <p><a href="/Temperature_and_Humidity">Temperature & Humidity</a> </p>
             <p><a href="/Nutrients">Nutrients</a></p>
@@ -21,7 +22,7 @@
         </div>
         <img src="/images/chemdawgyfrostpic.png" class="noZoom right" style="max-width:40%;object-fit: cover;object-position:top;margin:0px;height:100%;">
     </div>
-    <div class="right" style="flex-direction: column;">
+    <div class="right" style="flex-direction: column;margin-top:100px;">
         <h3>Join the discussion</h3>
         <a href="https://discord.gg/gnuNQPZrcV">
         <img class="noZoom right"; style="margin:0px;" src="https://discordapp.com/api/guilds/805142315684724786/widget.png?style=banner3" alt="Discord Banner 3"/></a>

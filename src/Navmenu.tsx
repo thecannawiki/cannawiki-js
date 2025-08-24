@@ -36,13 +36,17 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
 
     const location = useLocation();
 
-    useEffect(() => {
-        const onNavigation = () => {
-            if(isPortrait){setMenuOpen(false);}
-        };
+    // useEffect(() => {
+    //     const onNavigation = () => {
+    //         if(isPortrait){setMenuOpen(false);}
+    //     };
 
-        onNavigation();
-    }, [location]);
+    //     onNavigation();
+    // }, [location]);
+
+    useEffect(() => {
+        setMenuOpen(!isPortrait && window.innerWidth > 850)
+    }, [isPortrait, window.innerWidth]);
 
 
     const menuStyle: React.CSSProperties = {
@@ -52,7 +56,7 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         left: 0,
         lineHeight: 1.6,
         height: "98vh",
-        width: isMenuOpen || !isPortrait ? "270px" : "0px",
+        width: isMenuOpen ? "270px" : "0px",
         // overflowY: "scroll",
         display: "flex",
         flexDirection: "column",
@@ -99,11 +103,11 @@ return(
                     )
                 })}
             </div>
-            {isMenuOpen && isPortrait && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
+            {isMenuOpen && (isPortrait || window.innerWidth<850) && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
             
         </div>
         
-        {!isMenuOpen && isPortrait &&
+        {!isMenuOpen &&
         <div style={{width:"20px", height:"20px", position:"fixed", top:"20px"}} onClick={()=> {setMenuOpen(!isMenuOpen)}}>
             {/* <BurgerMenu fill="white"/>
              */}

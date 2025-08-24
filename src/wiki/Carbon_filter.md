@@ -1,34 +1,32 @@
 Typically, in indoor grows, the smell produced by a flowering plant is undesirable to have outside of the growing environment, this has spurred the invention of filters utilizing activated carbon to absorb this odor.
 
-## 385 motor Fan (Beta) ##
-<img src='/images/385_fan_v5.png' width='267px'>
-
+## 385 motor Fan ##
 This is a centrifugal fan that can be 3D printed and is compatible with the Cannawiki grow controller. A motor driver such as the TB6612FNG is required so that it can be controlled. This fan is designed for the 385 motor to be driven at 12V, but most 385 motors can be run as low as 4.5V. 
 
 This fan is also compatible with the filter below
-[[File:Exploded diagram V7 fan.png|thumb]]
+
 <img src='/images/Exploded_diagram_V7_fan.png'>
 
-#### Parts ####
+#### Parts
 * 385 Motor
-* [[:File:V6 385 Motor case.3mf|Motor case]] (3D printed)
-* [[:File:385 case bottom V7.3mf|Case top]] (3D printed)
-* [[:File:Install spacer.3mf|Install spacer]] (3D printed)
-* [[:File:V5 385 impeller.3mf|Impeller]] (3D printed)
-* [[:File:V5 385 motor mount.3mf|Motor mount]] (3D printed)
+* [Motor case](/images/V6_385_Motor_case.3mf) (3D printed)
+* [Case top](/images/V5_385_case_top.3mf) (3D printed)
+* [Install spacer](/images/V5_385_install_spacer.3mf) (3D printed)
+* [Impeller](/images/V5_385_impeller.3mf) (3D printed)
+* [Motor mount](/images/V5_385_motor_mount.3mf) (3D printed)
 * 2.3mm grub screw prop adapter
 * x3 M4 bolts
 * x2 M2.5x3mm bolts
 * 12v female barrel jack
 
-#### Build steps: ####
+#### Build steps:
 This will work best with a well-calibrated printer, this design includes a lot of press fits. Some parts may require sanding after printing to fit correctly.
 
 1. 3D Print all parts.
 
 2. Solder wires onto the 385 motor if it doesn't already have them. 
 
-3. Insert the motor into the Motor case feeding the wires back into the case through the slit. The wires can exit anyside of the case from here
+3. Insert the motor into the Motor case feeding the wires back into the case through the slit. The wires can exit any side of the case from here
 
 4. Add the case top on top of the motor and screw M2.5 screws through the top into the motor. Make sure the threaded holes on the motor are aligned with the case holes. Screw in the 3 M4 bolts to attach the top to the motor case.
 
@@ -40,7 +38,7 @@ This will work best with a well-calibrated printer, this design includes a lot o
 
 8. Solder barrel jack socket to the wires
 
-The fan can easily be mounted with heavy-duty velcro, which makes for easy repairs
+The fan can easily be mounted with heavy-duty Velcro, which makes for easy repairs
 
 ## 120mm PC fan conversion kit 
 <img src='/images/Assembled_fan_with_carbon_filter.png' width='358px' title='Assembled fan'>
@@ -54,18 +52,18 @@ This fan is designed to be 3D printed and used as an exhaust fan with a filter u
 
 2. 3D print parts
 
-* [https://cannawiki.net/wiki/images/c/cb/Filter_chamberv2.3mf Filter chamber]
-* [https://cannawiki.net/wiki/images/2/2f/Filter_chamber_lid.3mf Filter chamber lid] (print on 0.1 layer height)
-* [https://cannawiki.net/wiki/images/6/69/Filter_filler.3mf Filler tool] (optional, to make filling the chamber easier)
-* [https://cannawiki.net/wiki/images/4/4b/Screw_thread.3mf Screw thread]
-* [https://cannawiki.net/wiki/images/7/7d/Fan_case_top.3mf Fan case top]
-* [https://cannawiki.net/wiki/images/5/53/Fan_blades.3mf Fan blades]
-* [https://cannawiki.net/wiki/images/c/ce/Fan_case_bottom.3mf Fan case bottom]
+* [https://cannawiki.net/images/Filter_chamberv2.3mf Filter chamber]
+* [https://cannawiki.net/images/Filter_chamber_lid.3mf Filter chamber lid] (print on 0.1 layer height)
+* [https://cannawiki.net/images/Filter_filler.3mf Filler tool] (optional, to make filling the chamber easier)
+* [https://cannawiki.net/images/Screw_thread.3mf Screw thread]
+* [https://cannawiki.net/images/Fan_case_top.3mf Fan case top]
+* [https://cannawiki.net/images/Fan_blades.3mf Fan blades]
+* [https://cannawiki.net/images/Fan_case_bottom.3mf Fan case bottom]
 
 
 3. Glue the screw thread to the case top model so that it aligns with the hole and leave it to dry.
 
-4. Glue the motor from the fan in the center of the fan case bottom. The stubs around the center should help to line it up. The cable should exit the fan case from the bottom.
+4. Glue the motor from the fan in the centre of the fan case bottom. The stubs around the centre should help to line it up. The cable should exit the fan case from the bottom.
 
 5. Glue or press fit the fan blades onto the hub. Make sure the old fan blades are really removed from the hub, sanding will help.
 

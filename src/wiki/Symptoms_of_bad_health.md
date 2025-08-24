@@ -11,6 +11,8 @@ The color and general appearance of [fan leaves](/Anatomy_of_Cannabis#fan_leaves
     <img src="/images/Whole_plant_nutrient_deficiencies_and_excesses.jpeg"/>
     <img src="/images/Nutrient_Disorder_visual_guide.jpg"/>
     <img src="/images/Deficiencies_on_fan_leaves.png"/>
+    <img src="/images/Visual_tissue_assessment_1_of_2.png"/>
+    <img src="/images/Visual_tissue_assessment_2_of_2.png"/>
  
      Fan leaf patterns for diagnosing nutrient issues (click for higher res)
 </div>
@@ -39,5 +41,3 @@ If roots outgrow the pot they are in they become "bound". If this occurs the pla
 
 ### loss of stem rigidity ###
 This can be a symptom of [under-watering](/Watering#under_over_watering_symptoms)
-
-### Purple stems ###

@@ -40,10 +40,24 @@ const App = () => {
 
   const isPortrait = useOrientation();
 
-  const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait);
+  const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait && window.innerWidth > 850); // TODO check also monitor width > 1024 b4 opening menu
+
+  const maxContentWidth = () => {
+
+    const width = window.innerWidth;
+
+    if(width >= 1440){
+      return "1000px";
+    }
+    if(width >= 768){
+      return "660px";
+    }
+
+    return "500px"
+  }
 
   const markdownPaneStyle: React.CSSProperties = {
-    maxWidth: "1000px",
+    maxWidth: maxContentWidth(),
     minWidth: "200px",
     marginLeft: menuopen? "12px": "40px",
     marginRight: "16px",
