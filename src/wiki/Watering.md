@@ -14,7 +14,7 @@ The ideal pH of the water applied should be between 6.2 and 6.7. Note to also me
 
 It's a good idea to check your tap water with a digital pH meter as it will vary depending on your geographical location. If water is too alkaline (pH too high) a few drops of lemon juice can be added. To increase pH you can add dolomite lime.
 
-[More on nutrient lockout](/Nutrients#nutrient_lockout)
+[More on nutrient lockout](/Nutrients#nutrient-lockout)
 
 ## Dissolved solids / Nutrients ##
 Water naturally comes into contact with minerals and metals which leads to some dissolved content. This is typically what affects the pH of the water and is referred to as "soft" or "hard" water. The mineral content of water can affect the growth of the cultivar both positively and negatively, depending on what is present. 

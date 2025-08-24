@@ -10,6 +10,8 @@ import Analytics from "./components/Analytics";
 const App = () => {
   const [times, setTimes] = useState({});
 
+
+
   useEffect(() => {
     fetch("/file-timestamps.json") // file.json should be in your `public/` folder
       .then((res) => {
@@ -22,6 +24,8 @@ const App = () => {
       .then((json)=>{setTimes(json);console.log(json);})
       .catch((err)=> {console.log(err)});
   }, []);
+
+
 
   const WikiPage = () => {
     const { page } = useParams();

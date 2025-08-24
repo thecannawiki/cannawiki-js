@@ -21,7 +21,7 @@ Generally speaking, the easiest way to raise the growing environment temperature
 Temperature can be lowered by increasing the rate of airflow from inside to outside the growing environment, in other words, increasing ventilation. The light being used may also be adding to the temperature so decreasing its intensity, where possible, will lower the temperature.
 
 ### Adding extra Co<sub>2</sub> 
-Very high levels of Co<sub>2</sub> (>1,000ppm) can induce headaches and sleepiness<ref>https://www.kane.co.uk/knowledge-centre/what-are-safe-levels-of-co-and-co2-in-rooms</ref> so be sure to buy a [sensor](/Environment_Sensors#carbon_dioxide) to ensure you are exposed to safe levels.
+Very high levels of Co<sub>2</sub> (>1,000ppm) can induce headaches and sleepiness<ref>https://www.kane.co.uk/knowledge-centre/what-are-safe-levels-of-co-and-co2-in-rooms</ref> so be sure to buy a [sensor](/Environment_Sensors#carbon-dioxide) to ensure you are exposed to safe levels.
 
 To increase Co<sub>2</sub> concentration to a high level in the grow environment the enclosure must be sealed to prevent the gas from escaping. Ventilation must also be reduced or disabled. There are two main methods of adding Co<sub>2</sub>: using a tank with regulator and tubing into the grow space or using a chemical reaction that produces Co<sub>2</sub>. A cheap reaction that can be used is a mixture of 2:1 water to sugar with a tablespoon of instant yeast. The rate of Co2 production will depend on the temperature.
 

@@ -1,5 +1,5 @@
 <div style="display:flex;
-		 height: 100vh;
+		 height: 95vh;
 		 min-height:200px;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -17,7 +17,7 @@
             <br>
             <p><a href="/Temperature_and_Humidity">Temperature & Humidity</a> </p>
             <p><a href="/Nutrients">Nutrients</a></p>
-            <p><a href="/Symptoms_of_bad_health#by_leaf_appearance">Identifying issues by leaf appearance</a></p>
+            <p><a href="/Symptoms_of_bad_health#by-leaf-appearance">Identifying issues by leaf appearance</a></p>
             <p> <a href="/Light">Light</a> </p>
         </div>
         <img src="/images/chemdawgyfrostpic.png" class="noZoom right" style="max-width:40%;object-fit: cover;object-position:top;margin:0px;height:100%;">

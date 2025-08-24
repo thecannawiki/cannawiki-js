@@ -31,7 +31,7 @@ The underside of a leaf.
 The outer perimeter or edge of a leaf. Cannabis is well recognized due to the distinctive shape of its leaf margins.
 
 #### Stomata
-Stomata are tiny pores in the plant tissue that allow for [gas exchange](/Plant_processes#gas_exchange). The majority can be found on the underside of the leaves but they are also found on the surface of leaves and stems.
+Stomata are tiny pores in the plant tissue that allow for [gas exchange](/Plant_processes#gas-exchange). The majority can be found on the underside of the leaves but they are also found on the surface of leaves and stems.
 
 ## Buds
 <img src='/images/Bud_anatomy.png' width='350px'>

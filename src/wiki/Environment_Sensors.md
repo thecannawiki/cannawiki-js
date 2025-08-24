@@ -24,7 +24,7 @@ More accurate DIY sensors include the BME280 or BME680.
 DHT11 and DHT22 are often used to measure temp and humidity but the accuracy of humidity measurements in these sensors is too low to be useful for cultivation.
 
 ## Light ##
-See [Measuring light intensity](/Light#measuring_light_intensity)
+See [Measuring light intensity](/Light#measuring-light-intensity)
 
 ## Carbon Dioxide (Co2) ##
 Many generic sensors are not accurate for measuring co2 as they also pick up other volatile compounds, however, the SGP30 sensor is accurate for those willing to take the DIY route.
@@ -32,7 +32,7 @@ Many generic sensors are not accurate for measuring co2 as they also pick up oth
 
 
 ## pH ##
-When mixing concentrated liquid nutrients with water it's important to ensure the nutrient mix has the correct pH before applying it to the cultivar so that it can make use of the nutrients (see: nutrient lockout). There is no shortage of generic digital meters to choose from, however, many cheap digital meters are inaccurate and more prone to drift over time. A digital meter should be recalibrated every few months using a buffer solution depending on how heavy the use is. The [grow medium](/Growing_mediums) being used will determine the margin for error for the applied pH in regards to preventing [nutrient lockout.](/Nutrients#nutrient_lockout)
+When mixing concentrated liquid nutrients with water it's important to ensure the nutrient mix has the correct pH before applying it to the cultivar so that it can make use of the nutrients (see: nutrient lockout). There is no shortage of generic digital meters to choose from, however, many cheap digital meters are inaccurate and more prone to drift over time. A digital meter should be recalibrated every few months using a buffer solution depending on how heavy the use is. The [grow medium](/Growing_mediums) being used will determine the margin for error for the applied pH in regards to preventing [nutrient lockout.](/Nutrients#nutrient-lockout)
 
 ## Total dissolved solids (TDS) ##
 A digital TDS meter can tell you how many dissolved solids such as minerals or nutrients are in your water. This can help make sure the right amount of nutrients are provided to the plant

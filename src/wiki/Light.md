@@ -6,7 +6,7 @@ There are many different metrics that can be used to measure the intensity and q
 ### Intensity 
 unit: μmol/s
 
-Light intensity is quantified by the number of photons produced per second. Because the number of photons is so large they are measured in micro-moles (µmol). One µmol is actually 602 quadrillion photons. See: [Measuring light intensity](/Light#measuring_light_intensity)
+Light intensity is quantified by the number of photons produced per second. Because the number of photons is so large they are measured in micro-moles (µmol). One µmol is actually 602 quadrillion photons. See: [Measuring light intensity](/Light#measuring-light-intensity)
 
 ### Photosynthetic Photon Flux Density (PPFD)
 unit: μmol/m<sup>2</sup>/s. 
@@ -20,7 +20,7 @@ The light intensity a horticultural light produces per Joule of power it uses. A
 ### DLI (Daily light Integral)
 unit: mols/m<sup>2</sup>
 
-The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [lighting schedule](/Light#light_schedules) that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
+The amount of light energy in the PAR range a plant is receiving every 24 hours. For example, if you used a light with a PPFD of 500μmol/m<sup>2</sup>/s on a 20/4 [lighting schedule](/Light#light-schedules) that would result in a DLI of 43.20 mols. DLI is generally the most useful metric of light intensity the plant is exposed to as it takes the light schedule into account.
 
 Full light intensity from the sun in summer reaches around 60 DLI<ref>https://www.youtube.com/watch?v=ID9rE5JewVg&t=1170s&ab_channel=ApogeeInstrumentsInc. - Bruce Bugee Grow lighting myths</ref>
 <img src='/images/DLI_equation.png' class="full">
@@ -50,7 +50,7 @@ Common light schedules include 24/0 (24 hours of light a day), 20/4 (20 hours li
 
 Auto flowers can be grown with lights on 24 hours a day (24/0), but constant light can leave the plant with no time to recover from deficiencies or stress in general. The absence of a dark period can also stave the plant's rhizosphere, negatively affecting growth<ref>Karuna Chourey Ph.D. - Shango Los 2019
 
-https://www.youtube.com/watch?v=u8XNN4V7qsU</ref>. It is a good idea to match the light schedule with the cultivar's [circadian rhythm](/Plant_processes#circadian_rhythm);  Many growers recommend 20/4 or 22/2.
+https://www.youtube.com/watch?v=u8XNN4V7qsU</ref>. It is a good idea to match the light schedule with the cultivar's [circadian rhythm](/Plant_processes#circadian-rhythm);  Many growers recommend 20/4 or 22/2.
 
 ## Ideal light conditions
 Cannabis can tolerate an extreme light intensity. Many growers limit light levels early in the plants life but this is not nessesary<ref>Best Grow Lighting for Cannabis with Dr Bruce Bugbee | Far red ePAR - https://youtu.be/VvBTsl_gScw?si#4kS8z9cSu9hprAMu&t#2771</ref>. 

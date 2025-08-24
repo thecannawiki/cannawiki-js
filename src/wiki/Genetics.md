@@ -6,7 +6,7 @@ Two categories are used to define how cannabis plants enter the flowering stage:
 Autoflowering plants naturally have a short life span of around 80-90 days, in this time (given good conditions) the plant will go through the cannabis [life stages](/Life_Stages). Autoflowers don't rely on light schedule to flower so they can be exposed to higher [DLIs](/Light#dli).  After harvesting it is not possible to re-vegetate the plant again.
 
 ### Photoflower ###
-Photoflowering plants rely on photoperiod indicators to "decide" when to enter flowering. Indoors this is usually controlled by changing the [light schedule](/Light#light_schedules) to include a dark period.
+Photoflowering plants rely on photoperiod indicators to "decide" when to enter flowering. Indoors this is usually controlled by changing the [light schedule](/Light#light-schedules) to include a dark period.
 
 ## Cannabinoid content ##
 A plant's genetics also has a huge impact on the cannabinoid content of the mature plant. Different strains have been bred to achieve a high THC content, no THC content, or even a 1:1 ratio of CBD to THC. There are many strains today that exceed 20% as a result of breeding for this characteristic.

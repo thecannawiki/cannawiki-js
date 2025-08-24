@@ -5,7 +5,7 @@ Most abnormalities in leaf color can be found in this article. This covers nutri
 ## By Leaf appearance
 
 ### Fan leaf color ###
-The color and general appearance of [fan leaves](/Anatomy_of_Cannabis#fan_leaves) can provide a lot of information about issues involving nutrients. If the color is uneven it can be a sign of poor health.
+The color and general appearance of [fan leaves](/Anatomy_of_Cannabis#fan-leaves) can provide a lot of information about issues involving nutrients. If the color is uneven it can be a sign of poor health.
 <div class="center">
     <img src="/images/Deficiency_and_abundance_of_fertilization_elements.jpeg"/>
     <img src="/images/Whole_plant_nutrient_deficiencies_and_excesses.jpeg"/>
@@ -27,7 +27,7 @@ The fan leaves will also show signs of any nutrient burn taking place. Nutrient 
 This can be a sign of both under and over-watering.
 
 ### Claw fan leaves ###
-The apex of the leaf clawing down is most often a sign of wind burn (airflow being too intense) or [nitrogen toxicity](/Diseases#nitrogen_toxicity)
+The apex of the leaf clawing down is most often a sign of wind burn (airflow being too intense) or [nitrogen toxicity](/Diseases#nitrogen-toxicity)
 
 <img src="/images/Leaf_claw2.jpg">
 
@@ -40,4 +40,4 @@ If roots outgrow the pot they are in they become "bound". If this occurs the pla
 <img src='/images/Rootbound.jpg' class="right" title='Root bound'>
 
 ### loss of stem rigidity ###
-This can be a symptom of [under-watering](/Watering#under_over_watering_symptoms)
+This can be a symptom of [under-watering](/Watering#under-over-watering-symptoms)

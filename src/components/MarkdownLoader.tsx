@@ -8,7 +8,7 @@ import rehypeSlug from 'rehype-slug';
 import { Helmet } from "react-helmet";
 import { TextEncrypted } from "./TextEncrypted";
 import LastUpdated from './LastUpdated';
-
+import { useLocation, useNavigationType } from "react-router-dom";
 
 interface props {
   filePath: string;
@@ -44,8 +44,17 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
   const [refDict, setRefDict] = useState({});
   const [loadError, setLoadError] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const { pathname, hash } = useLocation();
+  const navigationType = useNavigationType(); // "PUSH" | "POP" | "REPLACE"
 
   const page_name: string = filePath.split("/").at(-1)?.replaceAll("_", " ").replaceAll(".md","")
+
+  useEffect(() => {
+    // Only scroll if it's a fresh navigation (click, link, etc.)
+    if (navigationType === "PUSH" && !hash) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [pathname, hash, navigationType]);
   
   const parseRefs = (htmlString: string) => {
     const refPattern = /<ref>(.*?)<\/ref>/g; // Regular expression to match <ref> tags
