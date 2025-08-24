@@ -34,7 +34,6 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         setFiles(fileList);
     }, []);
 
-    const location = useLocation();
 
     // useEffect(() => {
     //     const onNavigation = () => {
