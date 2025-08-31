@@ -38,7 +38,7 @@ Cannabis also obtains Oxygen, Carbon, and Hydrogen from water and air.
 Micronutrients are the elements that are needed in much smaller quantities than macronutrients, however, this does not make them any less important. 
 
 #### Silica ####
-Silicon dioxide or "Silica" can increase stem diameter and boost chlorophyll production.<ref>https://www.maximumyield.com/simply-silica/2/1077</ref> Found in Diatomaceous earth.
+Silicon dioxide or "Silica" boosts chlorophyll production and can contribute to more dense buds.<ref>https://www.maximumyield.com/simply-silica/2/1077</ref> Found in Diatomaceous earth.
 
 #### Magnesium ####
 A mobile nutrient required for the creation of chlorophyll in a plant, a requirement of [Photosynthesis](/Plant_processes#photosynthesis).

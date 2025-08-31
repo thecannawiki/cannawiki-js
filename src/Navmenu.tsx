@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {Link} from "react-router-dom";
 // import "./Navmenu.css"
 import React from 'react';
@@ -12,6 +12,8 @@ interface props {
 
 const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
 
+    const sidebarRef = useRef(null);
+
     interface fileList {
         path:string,
         name:string
@@ -21,6 +23,17 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
  
     const [files, setFiles] = useState<fileList[]>([]);
     const isPortrait = useOrientation();
+
+    const IsScreenBigEnoughToKeepMenuOpen = !(isPortrait || window.innerWidth<976);
+
+    const menuItemOnClick =() => {
+
+        if(!IsScreenBigEnoughToKeepMenuOpen){
+            setMenuOpen(false);
+        }
+
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
     
 
     useEffect(() => {
@@ -33,6 +46,27 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
         }));
         setFiles(fileList);
     }, []);
+
+    useEffect(() => {
+        function handleClickOutside(event) {
+          // If click is outside of the sidebar, trigger onClose
+          if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+            if(!IsScreenBigEnoughToKeepMenuOpen){
+                setMenuOpen(false);
+            }
+          }
+        }
+    
+        if (isMenuOpen) {
+          document.addEventListener("mousedown", handleClickOutside);
+        } else {
+          document.removeEventListener("mousedown", handleClickOutside);
+        }
+    
+        return () => {
+          document.removeEventListener("mousedown", handleClickOutside);
+        };
+      }, [isMenuOpen]);
 
 
     // useEffect(() => {
@@ -84,7 +118,7 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
 
 
 return(
-    <>  <div style={{...menuStyle}} ></div> {/* layout div */}
+    <>  <div ref={sidebarRef} style={{...menuStyle}} ></div> {/* layout div */}
         <div style={{...menuStyle, position:"fixed"}}>
             
 
@@ -98,12 +132,12 @@ return(
                     if(should_ignore){return(<></>);}
                     return(
                         <div >
-                            <Link to={`/${name}`}>{name.replaceAll("_", " ")}</Link>
+                            <Link to={`/${name}`} onClick={menuItemOnClick}>{name.replaceAll("_", " ")}</Link>
                         </div>
                     )
                 })}
             </div>
-            {isMenuOpen && (isPortrait || window.innerWidth<850) && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
+            {isMenuOpen && !IsScreenBigEnoughToKeepMenuOpen && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
             
         </div>
         

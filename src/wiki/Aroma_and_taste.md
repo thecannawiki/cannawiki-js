@@ -9,7 +9,10 @@ https://www.researchgate.net/publication/380338355_The_influence_of_drying_and_s
 
 ## Defining aromas
 Recent research on defining aromas<ref>https://www.businesswire.com/news/home/20231004787760/en/Abstrax-Discovers-New-Exotic-Flavor-Compounds-and-Cannabis-Hidden-Flavor-Spectrum-Beyond-Terpenes-to-a-World-of-Sweet-Savory-Citrus-and-Fruity-Flavorants businesswire - Abstrax flavour map 2023</ref>
+
 <img src="images\Abstrax-Exotic-Cannabis-Aroma-Spectrum.jpg" class="full">
+
+
 <img src="images\Abstrax-Exotic-Cannabis-Flavorants-Table.jpg" class="full">
 
 
