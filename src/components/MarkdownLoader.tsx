@@ -48,16 +48,6 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
   const navigationType = useNavigationType(); // "PUSH" | "POP" | "REPLACE"
 
   const page_name: string = filePath.split("/").at(-1)?.replaceAll("_", " ").replaceAll(".md","")
-
-  // useEffect(() => {
-  //   // Only scroll if it's a fresh navigation (click, link, etc.)
-  //   console.log(pathname);
-  //   console.log(hash);
-  //   console.log(navigationType);
-  //   if (navigationType === "PUSH" && !hash) {
-  //     window.scrollTo({ top: 0, behavior: "smooth" });
-  //   }
-  // }, [pathname, hash, navigationType]);
   
   const parseRefs = (htmlString: string) => {
     const refPattern = /<ref>(.*?)<\/ref>/g; // Regular expression to match <ref> tags

@@ -34,7 +34,6 @@ const LastUpdated = ({ page_name, updateTimes }:props) => {
       }
     
     function findValueByKeyContains(obj:object, substring:string) {
-        console.log(substring);
         const key = Object.keys(obj).find(k => k.includes(substring.replace("/wiki/","")));
         if(key == undefined){
             return ""

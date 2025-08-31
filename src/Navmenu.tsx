@@ -12,7 +12,7 @@ interface props {
 
 const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
 
-    const sidebarRef = useRef(null);
+    const sidebarRef = useRef<HTMLInputElement>(null);
 
     interface fileList {
         path:string,
@@ -48,9 +48,9 @@ const Navmenu = ({isMenuOpen, setMenuOpen}: props) => {
     }, []);
 
     useEffect(() => {
-        function handleClickOutside(event) {
+        function handleClickOutside(event: MouseEvent) {
           // If click is outside of the sidebar, trigger onClose
-          if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
+          if (sidebarRef.current && !sidebarRef.current.contains(event.target as Node)) {
             if(!IsScreenBigEnoughToKeepMenuOpen){
                 setMenuOpen(false);
             }
