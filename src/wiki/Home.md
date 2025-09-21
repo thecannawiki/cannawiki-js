@@ -20,7 +20,7 @@
             <p><a href="/Symptoms_of_bad_health#by-leaf-appearance">Identifying issues by leaf appearance</a></p>
             <p> <a href="/Light">Light</a> </p>
         </div>
-        <img src="/images/chemdawgyfrostpic.png" class="noZoom right" style="max-width:40%;object-fit: cover;object-position:top;margin:0px;height:100%;">
+        <img src="/images/chemdawgyfrostpic.jpg" class="noZoom right" style="max-width:40%;object-fit: cover;object-position:top;margin:0px;height:100%;">
     </div>
     <div class="right" style="flex-direction: column;margin-top:100px;">
         <h3>Join the discussion</h3>
