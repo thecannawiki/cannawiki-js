@@ -9,6 +9,7 @@ import { Helmet } from "react-helmet";
 import { TextEncrypted } from "./TextEncrypted";
 import LastUpdated from './LastUpdated';
 import { useLocation, useNavigationType } from "react-router-dom";
+import ClickableImage from "./ClickableImage";
 
 interface props {
   filePath: string;
@@ -18,6 +19,12 @@ interface props {
 interface aProps {
   href: string;
   children: never;
+}
+
+interface imgProps {
+  src: string;
+  class: string;
+  title: string;
 }
 
 interface refTagProds {
@@ -161,7 +168,17 @@ const MarkdownLoader = ({ filePath, updateTimes }:props) => {
   const components: Components = {
     a: ({href, children}: aProps) => <Link to={href}>{children}</Link>,
     ref: ({children}: refTagProds) => <RefComponent children={children}/>,
-    decrypt: ({children, interval}: decryptTagProps) => <TextEncrypted text={children} interval={interval}/>
+    decrypt: ({children, interval}: decryptTagProps) => <TextEncrypted text={children} interval={interval}/>,
+    img: ({ node, ...props }) => {
+      // @ts-expect-error: react-markdown passes `class` from raw HTML
+      const cls = props.class || props.className;
+      return (
+        <ClickableImage
+          {...props}
+          className={cls}
+        />
+      );
+    },
   }
 
   function displayPageTitle() {
