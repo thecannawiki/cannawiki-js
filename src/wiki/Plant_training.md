@@ -8,6 +8,9 @@ The topology of a plant is simply a way to describe its shape in 3D space. The n
 <img src='/images/Plant_with_LST_applied.png' title='Plant with LST applied to form a horizontal line'/>
   </div>
 
+### Controlling plant height
+The height of a plant is effected by the difference between day and night temperature<ref>Controlling Height with Temperature, 1998 - https://doi.org/10.21273/HORTTECH.8.4.535</ref>. A day temperature that is lower than night temp will reduce plant stretching to produce a smaller plant without negatively effecting yield. This temperature difference is called the DIF and is calculated by subtracting the night temperature from the day temp. e.g 24C day temp - 26C night temp = -2 DIF. -4 to -6 is a practical target to reduce height.
+The negative DIF can also be utilized by a "cold air dump". This is when the temperature is dropped for 2 hours starting an hour before lights turn on. The cold air dump produces most of the effect of an all-night negative DIF.<ref>https://scienceinhydroponics.com/2020/07/keeping-plants-short-using-day-night-temperature-differences-dif.html</ref>
 
 ## Low-Stress Techniques (LST) ##
 Some forms of LST can be applied as soon as the plant has one node, as this is when it is flexible and not brittle. Things like pinning or tieing down stems.  One of the most common goals when employing LST is to make the main stem grow sideways so that most of the branches aren't in the shadow of the main canopy, as they would be if the canopy was directly above. LST can be applied throughout the plant's entire lifespan. It may be necessary to adjust your LST every day or every two days when the plant is growing quickly.

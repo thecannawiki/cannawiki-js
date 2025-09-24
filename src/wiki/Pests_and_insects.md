@@ -10,7 +10,7 @@ If left for too long spider mites will begin producing webs on the leaf surface,
 #### Thrips
 <img src='/images/Thrip_damage.png' title="Thrip damage" >
 
-Thrips are mostly recognizable from the damage they do to leaves.
+Thrips are mostly recognizable from the damage they do to leaves. Sticky traps are highly effective in reducing thrip numbers
 
 #### Aphids
 <img src='/images/Aphids.png' title="Aphids">

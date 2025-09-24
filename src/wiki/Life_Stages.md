@@ -15,6 +15,9 @@ During the vegetative stage, pre-flowers will appear that can be used to identif
 
 Ideal humidity: 40-70% RH
 
+## Early flowering a.k.a "stretch" phase
+Once flowering is induced the plant height will increase rapidly, this is known as the stretch. It will generally last for 3 weeks. If space is limited it can be useful to employ some plant training techniques to control the stretch
+
 ## Flowering
 Once the plant reaches maturity it will stop branching and producing leaves to begin the production of buds. Water consumption will increase at this point. The start of flowering can be identified by the appearance of [stigma](/Anatomy_of_Cannabis#stigma). At this stage, all plant training to shape the canopy should be complete.
 

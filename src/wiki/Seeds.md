@@ -1,8 +1,9 @@
 
-<img src="/images/Seed_growth.png" title="Seed growing tap root and becoming a seedling" class="center">
+
 
 Cannabis seeds are generally a only few millimetres wide and can contain a wide range of genetic information making up the many strains available today. Seeds are generally feminized and remain the most common way to acquire genetics from a breeder.
 
+<img src="/images/Seed_anatomy.jpeg"  class="left">
 
 ## Sex ##
 Seeds that are not already feminized can be either male or female and it's not possible to tell just from their outer appearance. A few weeks into the [vegetative phase](/Life_Stages#vegatitive) plants will start to exhibit physical expressions of sex. Growers who are trying to produce buds need to grow female plants, male cannabis plants are generally reserved for breeding purposes. If a plant is stressed it may display physical characteristics of both male and female plants, this is known as a hermaphrodite.   
@@ -10,6 +11,8 @@ Seeds that are not already feminized can be either male or female and it's not p
 <img src="/images/Cannabis_sex_organs.png" title="From top to bottom: Male organs, female organs"/>
 
 ## Germination
+<img src="/images/Seed_growth.png" title="Seed growing tap root and becoming a seedling" class="center">
+
 Germination is the process of reactivating metabolic machinery in an otherwise [dormant](/Life_Stages#dormant) seed, creating a seedling. There are 2 main steps in germination; Imbibition (the process of the seed absorbing moisture) and Germination (Where the radicle (aka root) protrudes from the seed casing).
 Germination will be fastest between 22°C and 25°C. When sowing into soil the air humidity of the environment should be less than 50% avoid
 
