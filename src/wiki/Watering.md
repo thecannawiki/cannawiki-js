@@ -1,4 +1,4 @@
-A lot of beginners struggle with under/overwatering, and to add to the confusion, in both cases the plant will wilt. Plants should be watered until there is some drainage from the pot to remove old salts (nutrients) and stagnant air from the soil and ensure the plant is sufficiently watered. Consider using a plant pot saucer or drip tray to easily collect the drained water. Fabric pots provide the best drainage as the fabric is very porous.
+A lot of beginners struggle with under/overwatering, and to add to the confusion, in both cases the plant will wilt. Plants should be watered until there is some drainage from the pot to remove old salts (nutrients), pull fresh air into the soil and ensure the plant is sufficiently watered. Consider using a plant pot saucer or drip tray to easily collect the drained water. Fabric pots provide the best drainage as the fabric is porous.
 
 
 ## Under/over watering symptoms ##

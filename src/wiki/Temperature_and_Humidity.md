@@ -15,11 +15,13 @@ An excellent VPD calculator and chart of ideal VPD for each [life stage](/Life_S
 #### Calculating VPD ####
 VPD can be calculated by using the [Tentens Equation](https://en.wikipedia.org/wiki/Tetens_equation) to find the vapor pressure in the leaf and vapor pressure in air, and then subtracting the vapor pressure of air from the vapor pressure of the leaf. e.g.
 
-'''vapor pressure in the leaf''' = 0.61078 * <big>''e''</big><sup>17.27 * T / (T + 237.3)</sup>      Where T is the leaf temperature in Celsius. If leaf temp is unknown air temp can be used.
+vapor pressure in the leaf = 0.61078 * <big>e</big><sup>17.27 * T / (T + 237.3)</sup>    
+Where T is the leaf temperature in Celsius. If leaf temp is unknown air temp can be used.
 
-'''vapor pressure of air''' = RH * 0.61078 * <big>''e''</big><sup>17.27 * T / (T + 237.3)</sup>    Where T is air temperature in celsius and RH is relative humidity.
+vapor pressure of air = RH * 0.61078 * <big>e</big><sup>17.27 * T / (T + 237.3)</sup>    
+Where T is air temperature in Celsius and RH is relative humidity.
 
-'''VPD''' = '''vapor pressure in the leaf - vapor pressure of air'''
+VPD = vapor pressure in the leaf - vapor pressure of air
 
 ## Ideal conditions ##
 The ideal temperature is range is 24°- 28°C<ref>Chandra et al. (2008) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3550641/pdf/12298_2008_Article_27.pdf</ref> while the ideal humidity is 40-60%. Ideal VPD is around 1 kPa <ref>Nadia Sabeh​​, PhD - Vapor Pressure Deficit (VPD) and Cannabis Cultivation - Future Cannabis Project - https://www.youtube.com/watch?v=a6GUPfepLIc&ab_channel=FutureCannabisProject</ref>. Of course, the exact ideal values differ depending on the current [life stage](/Life_Stages) of the cultivar or it's [genetics](/Genetics).
