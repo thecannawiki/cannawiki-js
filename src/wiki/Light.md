@@ -47,6 +47,8 @@ LED drivers can be categorized into constant voltage and constant current, both 
 ## Light schedules
 This refers to how many hours of light a plant is exposed to in a 24-hour period.
 Common light schedules include 24/0 (24 hours of light a day), 20/4 (20 hours light, 4 hours darkness), 18/6 (18 hours light, 6 hours darkness), and 12/12 (12 hours of light, 12 hours of darkness). Typically 12/12 is used when growing photo-flowers as this is very likely to initiate flowering in all strains, however, the light schedule has other effects on the cultivar. One 2023 paper has found that longer light periods can increase yield but decrease THC content.<ref>Peterswald, T.J.; Mieog, J.C.; Azman Halimi, R.; Magner, N.J.; Trebilco, A.; Kretzschmar, T.; Purdy, S.J. Moving Away from 12:12; the Effect of Different Photoperiods on Biomass Yield and Cannabinoids in Medicinal Cannabis. ''Plants'' 2023, ''12'', 1061. https://doi.org/10.3390/plants12051061 </ref>
+Another experiment with 13/11 lighting for flowering shows increased yield at the cost of a longer flowering time
+<ref>Longer Photoperiod Substantially Increases Indoor-Grown Cannabis’ Yield and Quality: A Study of Two High-THC Cultivars Grown under 12 h vs. 13 h Days (2024) https://doi.org/10.3390/plants13030433</ref>
 
 Auto flowers can be grown with lights on 24 hours a day (24/0), but constant light can leave the plant with no time to recover from deficiencies or stress in general. The absence of a dark period can also stave the plant's rhizosphere, negatively affecting growth<ref>Karuna Chourey Ph.D. - Shango Los 2019
 
