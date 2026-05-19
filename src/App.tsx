@@ -1,14 +1,35 @@
-import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useParams} from "react-router-dom";
 import MarkdownLoader from "./components/MarkdownLoader"
 import Navmenu from "./Navmenu"
 import { useOrientation } from "./providers/OrientationProvider";
 import { useEffect, useState } from "react";
 import "./App.css"
 import Analytics from "./components/Analytics";
+import ScrollRestoration from "./components/ScrollRestoration";
+import SearchPage from "./components/SearchPage";
 
 
 const App = () => {
+
+
+  const maxContentWidth = () => {
+    const width = window.innerWidth;
+    if(width >= 1440){
+      return "1000px";
+    }
+    if(width >= 768){
+      return "660px";
+    }
+    return "480px"
+  }
+
+
   const [times, setTimes] = useState({});
+  const [maxContWidth, setMaxContWidth] = useState(maxContentWidth());
+
+  useEffect(() => {
+    setMaxContWidth(maxContentWidth())
+  }, [window.innerWidth]);
 
 
 
@@ -32,7 +53,7 @@ const App = () => {
     const page_name = page?.replaceAll("/wiki/index.php","")
     console.log(page_name)
     const filePath = `/wiki/${page_name || "Home"}.md`;
-    return( 
+    return(
       <div style={PageContainer}>
         <div style={markdownPaneStyle} className="markdownPane">
           <MarkdownLoader filePath={filePath} updateTimes={times}/>
@@ -46,24 +67,12 @@ const App = () => {
 
   const [menuopen, setMenuOpen] = useState<boolean>(!isPortrait && window.innerWidth > 850); // TODO check also monitor width > 1024 b4 opening menu
 
-  const maxContentWidth = () => {
-
-    const width = window.innerWidth;
-
-    if(width >= 1440){
-      return "1000px";
-    }
-    if(width >= 768){
-      return "660px";
-    }
-
-    return "500px"
-  }
+ 
 
   const markdownPaneStyle: React.CSSProperties = {
-    maxWidth: maxContentWidth(),
+    maxWidth: maxContWidth,
     minWidth: "200px",
-    marginLeft: menuopen? "12px": "40px",
+    marginLeft: menuopen? "12px": "28px",
     marginRight: "16px",
   }
 
@@ -76,6 +85,7 @@ const App = () => {
   return (
     
       <Router>
+        <ScrollRestoration />
         <Analytics/>
         <div style={{display:"flex", overflowX: "hidden"}}>
           <nav>
@@ -83,6 +93,7 @@ const App = () => {
           </nav>
 
           <Routes>
+            <Route path="/search" element={<SearchPage />} />
             <Route path="/" element={<WikiPage />} />
             <Route path="/:page" element={<WikiPage />} />
             <Route path="/wiki/index.php/:page" element={<WikiPage />} />

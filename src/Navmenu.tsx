@@ -125,6 +125,9 @@ return(
             <Link to="/"><img src="/images/CannawikiLogo.png" style={headerImage}/></Link>
 
             <div className="hide-scrollbar" style={{overflowY: "scroll", width:"100%"}}>
+                <div>
+                    <Link to="/search" onClick={menuItemOnClick}>Search</Link>
+                </div>
                 {files.map((file: fileList) => { 
                     if(!file.name.includes(".md")){return(<></>);}
                     const name = file.name.replaceAll(".md", "");
@@ -137,7 +140,7 @@ return(
                     )
                 })}
             </div>
-            {isMenuOpen && !IsScreenBigEnoughToKeepMenuOpen && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
+            {isMenuOpen && <div style={menuFooter} onClick={()=> {setMenuOpen(!isMenuOpen)}}>{"Close Menu"}</div>}
             
         </div>
         

@@ -2,3 +2,6 @@
 
 node scripts/get_timestamps.js
 git add public/file-timestamps.json
+
+node scripts/generate-search-index.js
+git add public/search-index.json
