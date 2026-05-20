@@ -65,7 +65,6 @@ Iron supports the function of chloroplasts.
 Chloride refers to Cl<sup>-</sup>, not to be confused with the toxic form chlorine CI. Essential for the proper function of [stomata](/Anatomy_of_Cannabis#stomata).
 
 ### Acids ###
-Acids [chelate](/Nutrients#chelation) other nutrients making them more water-soluble and thus more available to the plant. Humic acid is commonly used to increase the number of nutrients that the cultivar can absorb.
 
 #### Amino Acids ####
 

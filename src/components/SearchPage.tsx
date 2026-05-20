@@ -1,11 +1,18 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
+interface SearchHeading {
+  id: string;
+  offset: number;
+}
 
 interface SearchPageEntry {
   slug: string;
   title: string;
   terms: Record<string, number>;
   text: string;
+  headings?: SearchHeading[];
 }
 
 interface SearchIndex {
@@ -16,6 +23,7 @@ interface SearchIndex {
 interface SearchResult {
   slug: string;
   title: string;
+  headingId: string | null;
   snippet: React.ReactNode;
   score: number;
 }
@@ -29,11 +37,28 @@ function normalizeQuery(raw: string): string[] {
     .filter((t) => t.length >= 2);
 }
 
-function buildSnippet(text: string, matchedTerm: string): React.ReactNode {
+function findNearestHeading(headings: SearchHeading[] | undefined, matchIndex: number): string | null {
+  if (!headings?.length || matchIndex < 0) return null;
+
+  let nearest: SearchHeading | null = null;
+  for (const heading of headings) {
+    if (heading.offset <= matchIndex) {
+      nearest = heading;
+    } else {
+      break;
+    }
+  }
+  return nearest?.id ?? null;
+}
+
+function buildSnippet(text: string, matchedTerm: string): { snippet: React.ReactNode; matchIndex: number } {
   const idx = text.indexOf(matchedTerm);
   if (idx === -1) {
     const preview = text.slice(0, SNIPPET_RADIUS * 2);
-    return preview + (text.length > preview.length ? '…' : '');
+    return {
+      matchIndex: -1,
+      snippet: preview + (text.length > preview.length ? '…' : ''),
+    };
   }
 
   const start = Math.max(0, idx - SNIPPET_RADIUS);
@@ -42,15 +67,18 @@ function buildSnippet(text: string, matchedTerm: string): React.ReactNode {
   const match = text.slice(idx, idx + matchedTerm.length);
   const after = text.slice(idx + matchedTerm.length, end);
 
-  return (
-    <>
-      {start > 0 && '…'}
-      {before}
-      <mark>{match}</mark>
-      {after}
-      {end < text.length && '…'}
-    </>
-  );
+  return {
+    matchIndex: idx,
+    snippet: (
+      <>
+        {start > 0 && '…'}
+        {before}
+        <mark>{match}</mark>
+        {after}
+        {end < text.length && '…'}
+      </>
+    ),
+  };
 }
 
 function searchPages(pages: SearchPageEntry[], queryTokens: string[]): SearchResult[] {
@@ -67,10 +95,14 @@ function searchPages(pages: SearchPageEntry[], queryTokens: string[]): SearchRes
       (page.terms[t] || 0) > (page.terms[best] || 0) ? t : best
     , matchedTerms[0]);
 
+    const { snippet, matchIndex } = buildSnippet(page.text, highlightTerm);
+    const headingId = findNearestHeading(page.headings, matchIndex);
+
     results.push({
       slug: page.slug,
       title: page.title,
-      snippet: buildSnippet(page.text, highlightTerm),
+      headingId,
+      snippet,
       score,
     });
   }
@@ -172,14 +204,19 @@ const SearchPage = () => {
 
       {results.length > 0 && (
         <ul style={resultsListStyle}>
-          {results.map((result) => (
-            <li key={result.slug} style={resultItemStyle}>
+          {results.map((result) => {
+            const to = result.headingId
+              ? `/${result.slug}#${result.headingId}`
+              : `/${result.slug}`;
+            return (
+            <li key={`${result.slug}-${result.headingId ?? 'top'}`} style={resultItemStyle}>
               <h2 style={resultHeadingStyle}>
-                <Link to={`/${result.slug}`}>{result.title}</Link>
+                <HashLink smooth to={to}>{result.title}</HashLink>
               </h2>
               <p style={snippetStyle}>{result.snippet}</p>
             </li>
-          ))}
+            );
+          })}
         </ul>
       )}
     </div>

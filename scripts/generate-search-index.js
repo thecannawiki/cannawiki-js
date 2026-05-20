@@ -1,6 +1,7 @@
 import { readdirSync, readFileSync, writeFileSync } from 'fs';
 import { join, resolve } from 'path';
 import { fileURLToPath } from 'url';
+import GithubSlugger from 'github-slugger';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = resolve(__filename, '..');
@@ -17,8 +18,8 @@ const STOPWORDS = new Set([
   'such', 'only', 'over', 'been', 'being', 'have', 'had', 'do', 'does', 'did',
 ]);
 
-function stripForIndex(raw) {
-  return raw
+function normalizeChunk(chunk) {
+  return chunk
     .replace(/<ref>[\s\S]*?<\/ref>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, ' $1 ')
@@ -28,6 +29,47 @@ function stripForIndex(raw) {
     .replace(/\s+/g, ' ')
     .trim()
     .toLowerCase();
+}
+
+function headingPlainText(raw) {
+  return raw
+    .replace(/<[^>]+>/g, '')
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/[*_~`]/g, '')
+    .replace(/^#+\s*|#+\s*$/g, '')
+    .trim();
+}
+
+function appendText(text, chunk) {
+  const cleaned = normalizeChunk(chunk);
+  if (!cleaned) return text;
+  if (text.length > 0) return `${text} ${cleaned}`;
+  return cleaned;
+}
+
+function parseWikiContent(raw) {
+  const slugger = new GithubSlugger();
+  const headings = [];
+  let text = '';
+
+  for (const line of raw.split('\n')) {
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+    if (headingMatch) {
+      const plain = headingPlainText(headingMatch[2]);
+      if (plain) {
+        headings.push({ id: slugger.slug(plain), offset: text.length });
+        text = appendText(text, plain);
+      }
+      continue;
+    }
+
+    const lineWithoutRefs = line.replace(/<ref>[\s\S]*?<\/ref>/gi, ' ');
+    text = appendText(text, lineWithoutRefs);
+  }
+
+  const tokens = tokenize(text);
+  return { text, headings, terms: buildTermCounts(tokens) };
 }
 
 function tokenize(text) {
@@ -54,19 +96,19 @@ function buildIndex() {
   const pages = files.map((filename) => {
     const slug = filename.replace(/\.md$/, '');
     const raw = readFileSync(join(wikiDir, filename), 'utf8');
-    const text = stripForIndex(raw);
-    const tokens = tokenize(text);
+    const { text, headings, terms } = parseWikiContent(raw);
     return {
       slug,
       title: slugToTitle(slug),
-      terms: buildTermCounts(tokens),
+      terms,
       text,
+      headings,
     };
   });
 
   pages.sort((a, b) => a.title.localeCompare(b.title));
 
-  return { version: 1, pages };
+  return { version: 2, pages };
 }
 
 const index = buildIndex();
