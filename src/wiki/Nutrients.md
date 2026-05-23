@@ -101,7 +101,7 @@ PGRs are a group of hormones that are used to increase the density of buds and r
 A phytohormone found in Alfalfa that acts as a stimulant. It increases the rate of photosynthesis by increasing the production of chlorophyll, and assimilation of CO<sub>2</sub>. It also increases the rate of cell growth and reduces stress.
 
 ## Chelation ##
-Chelation is the bonding of organic compounds with metal ions, for example, humic acid and iron. When chelated, the organic compound encapsulates the metal (an example of a micronutrient) forming a shield that protects it. This not only increases the solubility of the nutrient, and thus absorption in the plant, but it also prevents the metal from being lost through runoff or from oxidating before it reaches the plant. Chelators can even expand the bioavailability of nutrients beyond the typical pH required for absorption.
+Chelation (pronounced key-lay-shun) is the bonding of organic compounds with metal ions, for example, humic acid and iron. When chelated, the organic compound encapsulates the metal (an example of a micronutrient) forming a shield that protects it. This not only increases the solubility of the nutrient, and thus absorption in the plant, but it also prevents the metal from being lost through runoff or from oxidating before it reaches the plant. Chelators can even expand the bioavailability of nutrients beyond the typical pH required for absorption.
 
 More on chelation at Maximum yield: [Understanding Chelation in Plants](https://www.maximumyield.com/understanding-chelation-in-plants/2/17808) and [The Chelation Effect: Maximizing Plant Growth](https://www.maximumyield.com/the-chelation-effect/2/1137).
 
