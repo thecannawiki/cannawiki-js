@@ -17,6 +17,6 @@ Recent research on defining aromas<ref>https://www.businesswire.com/news/home/20
 
 
 ## Aroma creating compounds
-The aroma and taste of Cannabis is created by the composition of terpenes and other aromatic volatile compound<ref>Minor, Nonterpenoid Volatile Compounds Drive the Aroma Differences of Exotic Cannabis - Oswald et al. 2023 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10601067/</ref>
+The aroma and taste of Cannabis is created by the composition of terpenes and other aromatic volatile compounds<ref>Minor, Nonterpenoid Volatile Compounds Drive the Aroma Differences of Exotic Cannabis - Oswald et al. 2023 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10601067/</ref>
 
 Modern research is showing that terpene content is less influential to cannabis aroma that previously thought.

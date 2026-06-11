@@ -20,9 +20,7 @@ It's a good idea to check your tap water with a digital pH meter as it will vary
 Water naturally comes into contact with minerals and metals which leads to some dissolved content. This is typically what affects the pH of the water and is referred to as "soft" or "hard" water. The mineral content of water can affect the growth of the cultivar both positively and negatively, depending on what is present. 
 
 ### Reverse Osmosis water ###
-Some growers don't have access to pure water and use water filtered by reverse osmosis (RO). It is recommended to filter water that has more than 50ppm of any mineral<ref>Marijuana Horticulture Fundamentals: A Comprehensive Guide to Cannabis Cultivation and Hashish Production, ''Kenneth Morrow, K of Trichome Technologies''
-
-ISBN 13: 9781937866358</ref>. This technique of filtering removes almost all contaminants and other particles larger than 0.001 microns. In other words, this removes almost all nutrients from the water. RO water can be purchased or created using specialist hardware.
+Some growers don't have access to pure water and use water filtered by reverse osmosis (RO). It is recommended to filter water that has more than 50ppm of any mineral<ref>Marijuana Horticulture Fundamentals: A Comprehensive Guide to Cannabis Cultivation and Hashish Production, ''Kenneth Morrow, K of Trichome Technologies'' ISBN 13: 9781937866358</ref>. This technique of filtering removes almost all contaminants and other particles larger than 0.001 microns. In other words, this removes almost all nutrients from the water. RO water can be purchased or created using specialist hardware.
 
 ## Wet-Dry Cycle ##
 When growing in soil, the soil should be left to dry before watering. Allowing the soil to dry encourages roots to grow as they search for water and also reduces the chance of [root rot](/Diseases).
