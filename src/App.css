@@ -31,6 +31,34 @@ div.right {
 }
 
 
+.markdownPane h1,
+.markdownPane h2,
+.markdownPane h3,
+.markdownPane h4,
+.markdownPane h5,
+.markdownPane h6 {
+  margin-top: 1.25em;
+  margin-bottom: 0.16em;
+}
+
+.markdownPane h1:first-of-type {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+.markdownPane h2 + p,
+.markdownPane h3 + p,
+.markdownPane h4 + p {
+  margin-top: 0;
+}
+
+.markdownPane h2 + h3,
+.markdownPane h3 + h4,
+.markdownPane h4 + h5,
+.markdownPane h5 + h6 {
+  margin-top: 0.5em;
+}
+
 .markdownPane a {
   /* break those long ahh links */
   word-wrap: 'break-word'; 
